@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.icons724dv2">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/iconofapp"
+        android:label="iCons"
+        android:roundIcon="@mipmap/iconofapp"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.ICons724DV2">
+        <activity android:name=".EmployeeRequests"
+            android:screenOrientation="portrait"></activity>
+        <activity android:name=".EmployeeRentals"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".EmployeeStockList"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".StudentMeetIcons"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".StudentAfterOrder"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".StudentConfirmOrder"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".StudentEquipList"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".StudentCart"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".GeneralInfo"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".AboutIcons"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".EmployeeHomeScreen"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".StudentHomeScreen"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".EmployeeLogin"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".StudentLogin"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".MainActivity"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
