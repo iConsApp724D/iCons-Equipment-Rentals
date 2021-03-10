@@ -13,10 +13,10 @@ public class StudentMeetIcons extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_student_meet_icons);
     }
+
     public void michaelpatchell(View v) {
         //launch a new activity
         Intent O = new Intent(this, michael_patchell.class);
         startActivity(O);
-
     }
 }
