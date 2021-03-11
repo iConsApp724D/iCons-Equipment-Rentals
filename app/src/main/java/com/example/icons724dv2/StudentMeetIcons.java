@@ -18,8 +18,8 @@ public class StudentMeetIcons extends AppCompatActivity {
         //launch a new activity
         Intent O = new Intent(this, michael_patchell.class);
         startActivity(O);
+
+
     }
-// This is a test of the branches merging
-    // I am not sure how this works
 
 }

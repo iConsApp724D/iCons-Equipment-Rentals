@@ -21,16 +21,6 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent" />
 
-    <androidx.recyclerview.widget.RecyclerView
-        android:id="@+id/recyclerView"
-        android:layout_width="323dp"
-        android:layout_height="642dp"
-        android:layout_marginTop="20dp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imageView7"
-        tools:itemCount="12" />
-
     <ImageView
         android:id="@+id/imageView7"
         android:layout_width="208dp"
@@ -40,5 +30,631 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
+
+    <ScrollView
+        android:layout_width="388dp"
+        android:layout_height="539dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/imageViewBP"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    app:srcCompat="@drawable/appicon" />
+
+                <LinearLayout
+                    android:layout_width="258dp"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/textViewBP"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Blank Paper"
+                        android:textColor="#000000"
+                        android:textSize="22sp" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:id="@+id/textViewBPS"
+                            android:layout_width="38dp"
+                            android:layout_height="34dp"
+                            android:layout_weight="1"
+                            android:text="Stock:"
+                            android:textColor="#000000"
+                            android:textSize="18sp" />
+
+                        <Button
+                            android:id="@+id/buttonBP"
+                            android:layout_width="70dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="Add to Cart"
+                            app:backgroundTint="#0B426B " />
+                    </LinearLayout>
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/imageViewHP"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    app:srcCompat="@drawable/appicon" />
+
+                <LinearLayout
+                    android:layout_width="258dp"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/textViewHP"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Hole Puncher"
+                        android:textColor="#000000"
+                        android:textSize="22sp" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:id="@+id/textViewHPS"
+                            android:layout_width="38dp"
+                            android:layout_height="34dp"
+                            android:layout_weight="1"
+                            android:text="Stock:"
+                            android:textColor="#000000"
+                            android:textSize="18sp" />
+
+                        <Button
+                            android:id="@+id/buttonHP"
+                            android:layout_width="70dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="Add to Cart"
+                            app:backgroundTint="#0B426B " />
+                    </LinearLayout>
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/imageViewLG"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    app:srcCompat="@drawable/appicon" />
+
+                <LinearLayout
+                    android:layout_width="258dp"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/textViewLG"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Lab Goggles"
+                        android:textColor="#000000"
+                        android:textSize="22sp" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:id="@+id/textViewLGS"
+                            android:layout_width="38dp"
+                            android:layout_height="34dp"
+                            android:layout_weight="1"
+                            android:text="Stock:"
+                            android:textColor="#000000"
+                            android:textSize="18sp" />
+
+                        <Button
+                            android:id="@+id/buttonLG"
+                            android:layout_width="70dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="Add to Cart"
+                            app:backgroundTint="#0B426B " />
+                    </LinearLayout>
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/imageViewMT"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    app:srcCompat="@drawable/appicon" />
+
+                <LinearLayout
+                    android:layout_width="258dp"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/textViewMT"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Measuring Tape"
+                        android:textColor="#000000"
+                        android:textSize="22sp" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:id="@+id/textViewMTS"
+                            android:layout_width="38dp"
+                            android:layout_height="34dp"
+                            android:layout_weight="1"
+                            android:text="Stock:"
+                            android:textColor="#000000"
+                            android:textSize="18sp" />
+
+                        <Button
+                            android:id="@+id/buttonMT"
+                            android:layout_width="70dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="Add to Cart"
+                            app:backgroundTint="#0B426B " />
+                    </LinearLayout>
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/imageViewP"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    app:srcCompat="@drawable/appicon" />
+
+                <LinearLayout
+                    android:layout_width="258dp"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/textViewP"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Pen"
+                        android:textColor="#000000"
+                        android:textSize="22sp" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:id="@+id/textViewPS"
+                            android:layout_width="38dp"
+                            android:layout_height="34dp"
+                            android:layout_weight="1"
+                            android:text="Stock:"
+                            android:textColor="#000000"
+                            android:textSize="18sp" />
+
+                        <Button
+                            android:id="@+id/buttonP"
+                            android:layout_width="70dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="Add to Cart"
+                            app:backgroundTint="#0B426B " />
+                    </LinearLayout>
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/imageViewSG"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    app:srcCompat="@drawable/appicon" />
+
+                <LinearLayout
+                    android:layout_width="258dp"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/textViewSG"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Safety Goggles"
+                        android:textColor="#000000"
+                        android:textSize="22sp" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:id="@+id/textViewSGS"
+                            android:layout_width="38dp"
+                            android:layout_height="34dp"
+                            android:layout_weight="1"
+                            android:text="Stock:"
+                            android:textColor="#000000"
+                            android:textSize="18sp" />
+
+                        <Button
+                            android:id="@+id/buttonSG"
+                            android:layout_width="70dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="Add to Cart"
+                            app:backgroundTint="#0B426B " />
+                    </LinearLayout>
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/imageViewSCI"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    app:srcCompat="@drawable/appicon" />
+
+                <LinearLayout
+                    android:layout_width="258dp"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/textViewSCI"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Scissors"
+                        android:textColor="#000000"
+                        android:textSize="22sp" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:id="@+id/textViewSCIS"
+                            android:layout_width="38dp"
+                            android:layout_height="34dp"
+                            android:layout_weight="1"
+                            android:text="Stock:"
+                            android:textColor="#000000"
+                            android:textSize="18sp" />
+
+                        <Button
+                            android:id="@+id/buttonSCI"
+                            android:layout_width="70dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="Add to Cart"
+                            app:backgroundTint="#0B426B " />
+                    </LinearLayout>
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/imageViewSTAP"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    app:srcCompat="@drawable/appicon" />
+
+                <LinearLayout
+                    android:layout_width="258dp"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/textViewSTAP"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Stapler"
+                        android:textColor="#000000"
+                        android:textSize="22sp" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:id="@+id/textViewSTAPS"
+                            android:layout_width="38dp"
+                            android:layout_height="34dp"
+                            android:layout_weight="1"
+                            android:text="Stock:"
+                            android:textColor="#000000"
+                            android:textSize="18sp" />
+
+                        <Button
+                            android:id="@+id/buttonSTAP"
+                            android:layout_width="70dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="Add to Cart"
+                            app:backgroundTint="#0B426B " />
+                    </LinearLayout>
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/imageViewSTIC"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    app:srcCompat="@drawable/appicon" />
+
+                <LinearLayout
+                    android:layout_width="258dp"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/textViewSTIC"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Stickers"
+                        android:textColor="#000000"
+                        android:textSize="22sp" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:id="@+id/textViewSTICS"
+                            android:layout_width="38dp"
+                            android:layout_height="34dp"
+                            android:layout_weight="1"
+                            android:text="Stock:"
+                            android:textColor="#000000"
+                            android:textSize="18sp" />
+
+                        <Button
+                            android:id="@+id/buttonSTICK"
+                            android:layout_width="70dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="Add to Cart"
+                            app:backgroundTint="#0B426B " />
+                    </LinearLayout>
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/imageViewTAPE"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    app:srcCompat="@drawable/appicon" />
+
+                <LinearLayout
+                    android:layout_width="258dp"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/textViewTAPE"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Tape"
+                        android:textColor="#000000"
+                        android:textSize="22sp" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:id="@+id/textViewTAPES"
+                            android:layout_width="38dp"
+                            android:layout_height="34dp"
+                            android:layout_weight="1"
+                            android:text="Stock:"
+                            android:textColor="#000000"
+                            android:textSize="18sp" />
+
+                        <Button
+                            android:id="@+id/buttonTAPE"
+                            android:layout_width="70dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="Add to Cart"
+                            app:backgroundTint="#0B426B " />
+                    </LinearLayout>
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/imageViewWBM"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    app:srcCompat="@drawable/appicon" />
+
+                <LinearLayout
+                    android:layout_width="258dp"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/textViewWBM"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="White Board Marker"
+                        android:textColor="#000000"
+                        android:textSize="22sp" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:id="@+id/textViewWBMS"
+                            android:layout_width="38dp"
+                            android:layout_height="34dp"
+                            android:layout_weight="1"
+                            android:text="Stock:"
+                            android:textColor="#000000"
+                            android:textSize="18sp" />
+
+                        <Button
+                            android:id="@+id/buttonWBM"
+                            android:layout_width="70dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="Add to Cart"
+                            app:backgroundTint="#0B426B " />
+                    </LinearLayout>
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/imageViewWO"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    app:srcCompat="@drawable/appicon" />
+
+                <LinearLayout
+                    android:layout_width="258dp"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/textViewWO"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="White Out"
+                        android:textColor="#000000"
+                        android:textSize="22sp" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:id="@+id/textViewWOS"
+                            android:layout_width="38dp"
+                            android:layout_height="34dp"
+                            android:layout_weight="1"
+                            android:text="Stock:"
+                            android:textColor="#000000"
+                            android:textSize="18sp" />
+
+                        <Button
+                            android:id="@+id/buttonWO"
+                            android:layout_width="70dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="Add to Cart"
+                            app:backgroundTint="#0B426B " />
+                    </LinearLayout>
+
+                </LinearLayout>
+
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
 
 </androidx.constraintlayout.widget.ConstraintLayout>

@@ -35,7 +35,7 @@
         android:id="@+id/horizontalScrollView"
         android:layout_width="321dp"
         android:layout_height="124dp"
-        android:layout_marginBottom="364dp"
+        android:layout_marginBottom="372dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent">
