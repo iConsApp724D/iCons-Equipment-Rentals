@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".StudentEquipList">
+    tools:context=".StudentTextbookList">
 
     <com.google.android.material.floatingactionbutton.FloatingActionButton
         android:id="@+id/toCart"
@@ -49,7 +49,7 @@
                 android:orientation="horizontal">
 
                 <ImageView
-                    android:id="@+id/imageViewBP"
+                    android:id="@+id/imageViewAPSC111"
                     android:layout_width="100dp"
                     android:layout_height="100dp"
                     app:srcCompat="@drawable/appicon" />
@@ -60,10 +60,10 @@
                     android:orientation="vertical">
 
                     <TextView
-                        android:id="@+id/textViewBP"
+                        android:id="@+id/textViewAPSC111"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:text="Blank Paper"
+                        android:text="APSC 111"
                         android:textColor="#000000"
                         android:textSize="22sp" />
 
@@ -73,7 +73,7 @@
                         android:orientation="horizontal">
 
                         <TextView
-                            android:id="@+id/textViewBPS"
+                            android:id="@+id/textViewAPSC111S"
                             android:layout_width="38dp"
                             android:layout_height="34dp"
                             android:layout_weight="1"
@@ -82,7 +82,7 @@
                             android:textSize="18sp" />
 
                         <Button
-                            android:id="@+id/buttonBP"
+                            android:id="@+id/buttonAPSC111"
                             android:layout_width="70dp"
                             android:layout_height="wrap_content"
                             android:layout_weight="1"
@@ -100,7 +100,7 @@
                 android:orientation="horizontal">
 
                 <ImageView
-                    android:id="@+id/imageViewHP"
+                    android:id="@+id/imageViewAPSC112"
                     android:layout_width="100dp"
                     android:layout_height="100dp"
                     app:srcCompat="@drawable/appicon" />
@@ -111,10 +111,10 @@
                     android:orientation="vertical">
 
                     <TextView
-                        android:id="@+id/textViewHP"
+                        android:id="@+id/textViewAPSC112"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:text="Hole Puncher"
+                        android:text="APSC 112"
                         android:textColor="#000000"
                         android:textSize="22sp" />
 
@@ -124,7 +124,7 @@
                         android:orientation="horizontal">
 
                         <TextView
-                            android:id="@+id/textViewHPS"
+                            android:id="@+id/textViewAPSC112S"
                             android:layout_width="38dp"
                             android:layout_height="34dp"
                             android:layout_weight="1"
@@ -133,7 +133,7 @@
                             android:textSize="18sp" />
 
                         <Button
-                            android:id="@+id/buttonHP"
+                            android:id="@+id/buttonAPSC112"
                             android:layout_width="70dp"
                             android:layout_height="wrap_content"
                             android:layout_weight="1"
@@ -151,7 +151,7 @@
                 android:orientation="horizontal">
 
                 <ImageView
-                    android:id="@+id/imageViewLG"
+                    android:id="@+id/imageViewCALC6"
                     android:layout_width="100dp"
                     android:layout_height="100dp"
                     app:srcCompat="@drawable/appicon" />
@@ -162,10 +162,10 @@
                     android:orientation="vertical">
 
                     <TextView
-                        android:id="@+id/textViewLG"
+                        android:id="@+id/textViewCALC6"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:text="Lab Goggles"
+                        android:text="Calc 6th ed."
                         android:textColor="#000000"
                         android:textSize="22sp" />
 
@@ -175,7 +175,7 @@
                         android:orientation="horizontal">
 
                         <TextView
-                            android:id="@+id/textViewLGS"
+                            android:id="@+id/textViewCALC6S"
                             android:layout_width="38dp"
                             android:layout_height="34dp"
                             android:layout_weight="1"
@@ -184,7 +184,7 @@
                             android:textSize="18sp" />
 
                         <Button
-                            android:id="@+id/buttonLG"
+                            android:id="@+id/buttonCALC6"
                             android:layout_width="70dp"
                             android:layout_height="wrap_content"
                             android:layout_weight="1"
@@ -202,7 +202,7 @@
                 android:orientation="horizontal">
 
                 <ImageView
-                    android:id="@+id/imageViewMT"
+                    android:id="@+id/imageViewCALC7"
                     android:layout_width="100dp"
                     android:layout_height="100dp"
                     app:srcCompat="@drawable/appicon" />
@@ -213,10 +213,10 @@
                     android:orientation="vertical">
 
                     <TextView
-                        android:id="@+id/textViewMT"
+                        android:id="@+id/textViewCALC7"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:text="Measuring Tape"
+                        android:text="Calc 7th ed."
                         android:textColor="#000000"
                         android:textSize="22sp" />
 
@@ -226,7 +226,7 @@
                         android:orientation="horizontal">
 
                         <TextView
-                            android:id="@+id/textViewMTS"
+                            android:id="@+id/textViewCALC7S"
                             android:layout_width="38dp"
                             android:layout_height="34dp"
                             android:layout_weight="1"
@@ -235,7 +235,58 @@
                             android:textSize="18sp" />
 
                         <Button
-                            android:id="@+id/buttonMT"
+                            android:id="@+id/buttonCALC7"
+                            android:layout_width="70dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="Add to Cart"
+                            app:backgroundTint="#0B426B " />
+                    </LinearLayout>
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="120dp"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/imageViewGEO4"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    app:srcCompat="@drawable/appicon" />
+
+                <LinearLayout
+                    android:layout_width="258dp"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/textViewGEO4"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Earth - Intro to Physical Geology 4th ed."
+                        android:textColor="#000000"
+                        android:textSize="22sp" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:id="@+id/textViewGEO4S"
+                            android:layout_width="38dp"
+                            android:layout_height="34dp"
+                            android:layout_weight="1"
+                            android:text="Stock:"
+                            android:textColor="#000000"
+                            android:textSize="18sp" />
+
+                        <Button
+                            android:id="@+id/buttonGEO4"
                             android:layout_width="70dp"
                             android:layout_height="wrap_content"
                             android:layout_weight="1"
@@ -253,7 +304,7 @@
                 android:orientation="horizontal">
 
                 <ImageView
-                    android:id="@+id/imageViewP"
+                    android:id="@+id/imageViewELEC221"
                     android:layout_width="100dp"
                     android:layout_height="100dp"
                     app:srcCompat="@drawable/appicon" />
@@ -264,10 +315,10 @@
                     android:orientation="vertical">
 
                     <TextView
-                        android:id="@+id/textViewP"
+                        android:id="@+id/textVievELEC221"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:text="Pen"
+                        android:text="ELEC 221"
                         android:textColor="#000000"
                         android:textSize="22sp" />
 
@@ -277,7 +328,7 @@
                         android:orientation="horizontal">
 
                         <TextView
-                            android:id="@+id/textViewPS"
+                            android:id="@+id/textViewELEC221S"
                             android:layout_width="38dp"
                             android:layout_height="34dp"
                             android:layout_weight="1"
@@ -286,7 +337,109 @@
                             android:textSize="18sp" />
 
                         <Button
-                            android:id="@+id/buttonP"
+                            android:id="@+id/buttonELEC221"
+                            android:layout_width="70dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="Add to Cart"
+                            app:backgroundTint="#0B426B " />
+                    </LinearLayout>
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="120dp"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/imageViewEE2"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    app:srcCompat="@drawable/appicon" />
+
+                <LinearLayout
+                    android:layout_width="258dp"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/textViewEE2"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Engineering Economics 2nd ed."
+                        android:textColor="#000000"
+                        android:textSize="22sp" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:id="@+id/textViewEE2S"
+                            android:layout_width="38dp"
+                            android:layout_height="34dp"
+                            android:layout_weight="1"
+                            android:text="Stock:"
+                            android:textColor="#000000"
+                            android:textSize="18sp" />
+
+                        <Button
+                            android:id="@+id/buttonEE2"
+                            android:layout_width="70dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="Add to Cart"
+                            app:backgroundTint="#0B426B " />
+                    </LinearLayout>
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="120dp"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/imageViewEE4"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    app:srcCompat="@drawable/appicon" />
+
+                <LinearLayout
+                    android:layout_width="258dp"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/textViewEE4"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Engineering Economics 4th ed."
+                        android:textColor="#000000"
+                        android:textSize="22sp" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:id="@+id/textViewEE4S"
+                            android:layout_width="38dp"
+                            android:layout_height="34dp"
+                            android:layout_weight="1"
+                            android:text="Stock:"
+                            android:textColor="#000000"
+                            android:textSize="18sp" />
+
+                        <Button
+                            android:id="@+id/buttonEE4"
                             android:layout_width="70dp"
                             android:layout_height="wrap_content"
                             android:layout_weight="1"
@@ -304,7 +457,7 @@
                 android:orientation="horizontal">
 
                 <ImageView
-                    android:id="@+id/imageViewSG"
+                    android:id="@+id/imageViewFLM"
                     android:layout_width="100dp"
                     android:layout_height="100dp"
                     app:srcCompat="@drawable/appicon" />
@@ -315,10 +468,10 @@
                     android:orientation="vertical">
 
                     <TextView
-                        android:id="@+id/textViewSG"
+                        android:id="@+id/textViewFLM"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:text="Safety Goggles"
+                        android:text="Fluid Mechanics"
                         android:textColor="#000000"
                         android:textSize="22sp" />
 
@@ -328,7 +481,7 @@
                         android:orientation="horizontal">
 
                         <TextView
-                            android:id="@+id/textViewSGS"
+                            android:id="@+id/textViewFLMS"
                             android:layout_width="38dp"
                             android:layout_height="34dp"
                             android:layout_weight="1"
@@ -337,7 +490,7 @@
                             android:textSize="18sp" />
 
                         <Button
-                            android:id="@+id/buttonSG"
+                            android:id="@+id/buttonFLM"
                             android:layout_width="70dp"
                             android:layout_height="wrap_content"
                             android:layout_weight="1"
@@ -355,7 +508,7 @@
                 android:orientation="horizontal">
 
                 <ImageView
-                    android:id="@+id/imageViewSCI"
+                    android:id="@+id/imageViewF341"
                     android:layout_width="100dp"
                     android:layout_height="100dp"
                     app:srcCompat="@drawable/appicon" />
@@ -366,10 +519,10 @@
                     android:orientation="vertical">
 
                     <TextView
-                        android:id="@+id/textViewSCI"
+                        android:id="@+id/textViewF341"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:text="Scissors"
+                        android:text="Fluids 341"
                         android:textColor="#000000"
                         android:textSize="22sp" />
 
@@ -379,7 +532,7 @@
                         android:orientation="horizontal">
 
                         <TextView
-                            android:id="@+id/textViewSCIS"
+                            android:id="@+id/textViewF341S"
                             android:layout_width="38dp"
                             android:layout_height="34dp"
                             android:layout_weight="1"
@@ -388,7 +541,264 @@
                             android:textSize="18sp" />
 
                         <Button
-                            android:id="@+id/buttonSCI"
+                            android:id="@+id/buttonF341"
+                            android:layout_width="70dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="Add to Cart"
+                            app:backgroundTint="#0B426B " />
+                    </LinearLayout>
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="120dp"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/imageViewFCA"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    app:srcCompat="@drawable/appicon" />
+
+                <LinearLayout
+                    android:layout_width="258dp"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/textViewFCA"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Fundamentals of Complex Analysis"
+                        android:textColor="#000000"
+                        android:textSize="22sp" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:id="@+id/textViewFCAS"
+                            android:layout_width="38dp"
+                            android:layout_height="34dp"
+                            android:layout_weight="1"
+                            android:text="Stock:"
+                            android:textColor="#000000"
+                            android:textSize="18sp" />
+
+                        <Button
+                            android:id="@+id/buttonFCA"
+                            android:layout_width="70dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="Add to Cart"
+                            app:backgroundTint="#0B426B " />
+                    </LinearLayout>
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="140dp"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/imageViewFET"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    app:srcCompat="@drawable/appicon" />
+
+                <LinearLayout
+                    android:layout_width="258dp"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/textViewFET"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Fundamentals of Engineering Thermodynamics"
+                        android:textColor="#000000"
+                        android:textSize="22sp" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:id="@+id/textViewFETS"
+                            android:layout_width="38dp"
+                            android:layout_height="34dp"
+                            android:layout_weight="1"
+                            android:text="Stock:"
+                            android:textColor="#000000"
+                            android:textSize="18sp" />
+
+                        <Button
+                            android:id="@+id/buttonFET"
+                            android:layout_width="70dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="Add to Cart"
+                            app:backgroundTint="#0B426B " />
+                    </LinearLayout>
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/imageViewCHEM10"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    app:srcCompat="@drawable/appicon" />
+
+                <LinearLayout
+                    android:layout_width="258dp"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/textViewCHEM10"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="General Chem 10th ed."
+                        android:textColor="#000000"
+                        android:textSize="22sp" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:id="@+id/textViewCHEM10S"
+                            android:layout_width="38dp"
+                            android:layout_height="34dp"
+                            android:layout_weight="1"
+                            android:text="Stock:"
+                            android:textColor="#000000"
+                            android:textSize="18sp" />
+
+                        <Button
+                            android:id="@+id/buttonCHEM10"
+                            android:layout_width="70dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="Add to Cart"
+                            app:backgroundTint="#0B426B " />
+                    </LinearLayout>
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="120dp"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/imageViewMM8"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    app:srcCompat="@drawable/appicon" />
+
+                <LinearLayout
+                    android:layout_width="258dp"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/textViewMM8"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Mechanics of Materials 8th ed."
+                        android:textColor="#000000"
+                        android:textSize="22sp" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:id="@+id/textViewMM8S"
+                            android:layout_width="38dp"
+                            android:layout_height="34dp"
+                            android:layout_weight="1"
+                            android:text="Stock:"
+                            android:textColor="#000000"
+                            android:textSize="18sp" />
+
+                        <Button
+                            android:id="@+id/buttonMM8"
+                            android:layout_width="70dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="Add to Cart"
+                            app:backgroundTint="#0B426B " />
+                    </LinearLayout>
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="120dp"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/imageViewMM2"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    app:srcCompat="@drawable/appicon" />
+
+                <LinearLayout
+                    android:layout_width="258dp"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/textViewMM2"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Memory Managment    2nd ed."
+                        android:textColor="#000000"
+                        android:textSize="22sp" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:id="@+id/textViewMM2S"
+                            android:layout_width="38dp"
+                            android:layout_height="34dp"
+                            android:layout_weight="1"
+                            android:text="Stock:"
+                            android:textColor="#000000"
+                            android:textSize="18sp" />
+
+                        <Button
+                            android:id="@+id/buttonMM2"
                             android:layout_width="70dp"
                             android:layout_height="wrap_content"
                             android:layout_weight="1"
@@ -406,7 +816,7 @@
                 android:orientation="horizontal">
 
                 <ImageView
-                    android:id="@+id/imageViewSTAP"
+                    android:id="@+id/imageViewME12"
                     android:layout_width="100dp"
                     android:layout_height="100dp"
                     app:srcCompat="@drawable/appicon" />
@@ -417,10 +827,10 @@
                     android:orientation="vertical">
 
                     <TextView
-                        android:id="@+id/textViewSTAP"
+                        android:id="@+id/textViewME12"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:text="Stapler"
+                        android:text="Microeconomics 12th ed."
                         android:textColor="#000000"
                         android:textSize="22sp" />
 
@@ -430,7 +840,7 @@
                         android:orientation="horizontal">
 
                         <TextView
-                            android:id="@+id/textViewSTAPS"
+                            android:id="@+id/textViewME12S"
                             android:layout_width="38dp"
                             android:layout_height="34dp"
                             android:layout_weight="1"
@@ -439,7 +849,7 @@
                             android:textSize="18sp" />
 
                         <Button
-                            android:id="@+id/buttonSTAP"
+                            android:id="@+id/buttonME12"
                             android:layout_width="70dp"
                             android:layout_height="wrap_content"
                             android:layout_weight="1"
@@ -457,7 +867,7 @@
                 android:orientation="horizontal">
 
                 <ImageView
-                    android:id="@+id/imageViewSTIC"
+                    android:id="@+id/imageViewMG3"
                     android:layout_width="100dp"
                     android:layout_height="100dp"
                     app:srcCompat="@drawable/appicon" />
@@ -468,10 +878,10 @@
                     android:orientation="vertical">
 
                     <TextView
-                        android:id="@+id/textViewSTIC"
+                        android:id="@+id/textViewMG3"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:text="Stickers"
+                        android:text="Modern Graphics 3rd ed."
                         android:textColor="#000000"
                         android:textSize="22sp" />
 
@@ -481,7 +891,7 @@
                         android:orientation="horizontal">
 
                         <TextView
-                            android:id="@+id/textViewSTICS"
+                            android:id="@+id/textViewMG3S"
                             android:layout_width="38dp"
                             android:layout_height="34dp"
                             android:layout_weight="1"
@@ -490,7 +900,7 @@
                             android:textSize="18sp" />
 
                         <Button
-                            android:id="@+id/buttonSTICK"
+                            android:id="@+id/buttonMG3"
                             android:layout_width="70dp"
                             android:layout_height="wrap_content"
                             android:layout_weight="1"
@@ -508,7 +918,7 @@
                 android:orientation="horizontal">
 
                 <ImageView
-                    android:id="@+id/imageViewTAPE"
+                    android:id="@+id/imageViewMG4"
                     android:layout_width="100dp"
                     android:layout_height="100dp"
                     app:srcCompat="@drawable/appicon" />
@@ -519,10 +929,10 @@
                     android:orientation="vertical">
 
                     <TextView
-                        android:id="@+id/textViewTAPE"
+                        android:id="@+id/textViewMG4"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:text="Tape"
+                        android:text="Modern Graphics 4th ed."
                         android:textColor="#000000"
                         android:textSize="22sp" />
 
@@ -532,7 +942,7 @@
                         android:orientation="horizontal">
 
                         <TextView
-                            android:id="@+id/textViewTAPES"
+                            android:id="@+id/textViewMG4S"
                             android:layout_width="38dp"
                             android:layout_height="34dp"
                             android:layout_weight="1"
@@ -541,58 +951,7 @@
                             android:textSize="18sp" />
 
                         <Button
-                            android:id="@+id/buttonTAPE"
-                            android:layout_width="70dp"
-                            android:layout_height="wrap_content"
-                            android:layout_weight="1"
-                            android:text="Add to Cart"
-                            app:backgroundTint="#0B426B " />
-                    </LinearLayout>
-
-                </LinearLayout>
-
-            </LinearLayout>
-
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:orientation="horizontal">
-
-                <ImageView
-                    android:id="@+id/imageViewWBM"
-                    android:layout_width="100dp"
-                    android:layout_height="100dp"
-                    app:srcCompat="@drawable/appicon" />
-
-                <LinearLayout
-                    android:layout_width="258dp"
-                    android:layout_height="match_parent"
-                    android:orientation="vertical">
-
-                    <TextView
-                        android:id="@+id/textViewWBM"
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:text="White Board Marker"
-                        android:textColor="#000000"
-                        android:textSize="22sp" />
-
-                    <LinearLayout
-                        android:layout_width="match_parent"
-                        android:layout_height="match_parent"
-                        android:orientation="horizontal">
-
-                        <TextView
-                            android:id="@+id/textViewWBMS"
-                            android:layout_width="38dp"
-                            android:layout_height="34dp"
-                            android:layout_weight="1"
-                            android:text="Stock:"
-                            android:textColor="#000000"
-                            android:textSize="18sp" />
-
-                        <Button
-                            android:id="@+id/buttonWBM"
+                            android:id="@+id/buttonMG4"
                             android:layout_width="70dp"
                             android:layout_height="wrap_content"
                             android:layout_weight="1"
@@ -610,7 +969,7 @@
                 android:orientation="horizontal">
 
                 <ImageView
-                    android:id="@+id/imageViewWO"
+                    android:id="@+id/imageViewMTHE406"
                     android:layout_width="100dp"
                     android:layout_height="100dp"
                     app:srcCompat="@drawable/appicon" />
@@ -621,10 +980,10 @@
                     android:orientation="vertical">
 
                     <TextView
-                        android:id="@+id/textViewWO"
+                        android:id="@+id/textViewMTHE406"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:text="White Out"
+                        android:text="MTHE 406 Lecture Notes"
                         android:textColor="#000000"
                         android:textSize="22sp" />
 
@@ -634,7 +993,7 @@
                         android:orientation="horizontal">
 
                         <TextView
-                            android:id="@+id/textViewWOS"
+                            android:id="@+id/textViewMTHE406S"
                             android:layout_width="38dp"
                             android:layout_height="34dp"
                             android:layout_weight="1"
@@ -643,7 +1002,7 @@
                             android:textSize="18sp" />
 
                         <Button
-                            android:id="@+id/buttonWO"
+                            android:id="@+id/buttonMTHE406"
                             android:layout_width="70dp"
                             android:layout_height="wrap_content"
                             android:layout_weight="1"
@@ -654,7 +1013,9 @@
                 </LinearLayout>
 
             </LinearLayout>
+
         </LinearLayout>
     </ScrollView>
+
 
 </androidx.constraintlayout.widget.ConstraintLayout>

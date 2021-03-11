@@ -9,7 +9,10 @@
         android:roundIcon="@mipmap/iconofapp"
         android:supportsRtl="true"
         android:theme="@style/Theme.ICons724DV2">
-        <activity android:name=".michael_patchell"></activity>
+        <activity android:name=".StudentCablesChargersList"></activity>
+        <activity android:name=".StudentWorkbookCcList" />
+        <activity android:name=".StudentTextbookList" />
+        <activity android:name=".michael_patchell" />
         <activity
             android:name=".EmployeeRequests"
             android:screenOrientation="portrait" />

@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".StudentEquipList">
+    tools:context=".StudentCablesChargersList">
 
     <com.google.android.material.floatingactionbutton.FloatingActionButton
         android:id="@+id/toCart"
@@ -49,7 +49,7 @@
                 android:orientation="horizontal">
 
                 <ImageView
-                    android:id="@+id/imageViewBP"
+                    android:id="@+id/imageViewACERC"
                     android:layout_width="100dp"
                     android:layout_height="100dp"
                     app:srcCompat="@drawable/appicon" />
@@ -60,10 +60,10 @@
                     android:orientation="vertical">
 
                     <TextView
-                        android:id="@+id/textViewBP"
+                        android:id="@+id/textViewACERC"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:text="Blank Paper"
+                        android:text="Acer Laptop Charger"
                         android:textColor="#000000"
                         android:textSize="22sp" />
 
@@ -73,7 +73,7 @@
                         android:orientation="horizontal">
 
                         <TextView
-                            android:id="@+id/textViewBPS"
+                            android:id="@+id/textViewACERCS"
                             android:layout_width="38dp"
                             android:layout_height="34dp"
                             android:layout_weight="1"
@@ -82,7 +82,7 @@
                             android:textSize="18sp" />
 
                         <Button
-                            android:id="@+id/buttonBP"
+                            android:id="@+id/buttonACERC"
                             android:layout_width="70dp"
                             android:layout_height="wrap_content"
                             android:layout_weight="1"
@@ -100,7 +100,7 @@
                 android:orientation="horizontal">
 
                 <ImageView
-                    android:id="@+id/imageViewHP"
+                    android:id="@+id/imageViewASUSC"
                     android:layout_width="100dp"
                     android:layout_height="100dp"
                     app:srcCompat="@drawable/appicon" />
@@ -111,10 +111,10 @@
                     android:orientation="vertical">
 
                     <TextView
-                        android:id="@+id/textViewHP"
+                        android:id="@+id/textViewASUSC"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:text="Hole Puncher"
+                        android:text="Asus Laptop Charger"
                         android:textColor="#000000"
                         android:textSize="22sp" />
 
@@ -124,7 +124,7 @@
                         android:orientation="horizontal">
 
                         <TextView
-                            android:id="@+id/textViewHPS"
+                            android:id="@+id/textViewASUSCS"
                             android:layout_width="38dp"
                             android:layout_height="34dp"
                             android:layout_weight="1"
@@ -133,7 +133,7 @@
                             android:textSize="18sp" />
 
                         <Button
-                            android:id="@+id/buttonHP"
+                            android:id="@+id/buttonASUSC"
                             android:layout_width="70dp"
                             android:layout_height="wrap_content"
                             android:layout_weight="1"
@@ -151,7 +151,7 @@
                 android:orientation="horizontal">
 
                 <ImageView
-                    android:id="@+id/imageViewLG"
+                    android:id="@+id/imageViewHDMI"
                     android:layout_width="100dp"
                     android:layout_height="100dp"
                     app:srcCompat="@drawable/appicon" />
@@ -162,10 +162,10 @@
                     android:orientation="vertical">
 
                     <TextView
-                        android:id="@+id/textViewLG"
+                        android:id="@+id/textViewHDMI"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:text="Lab Goggles"
+                        android:text="HDMI Cable"
                         android:textColor="#000000"
                         android:textSize="22sp" />
 
@@ -175,7 +175,7 @@
                         android:orientation="horizontal">
 
                         <TextView
-                            android:id="@+id/textViewLGS"
+                            android:id="@+id/textViewHDMIS"
                             android:layout_width="38dp"
                             android:layout_height="34dp"
                             android:layout_weight="1"
@@ -184,7 +184,58 @@
                             android:textSize="18sp" />
 
                         <Button
-                            android:id="@+id/buttonLG"
+                            android:id="@+id/buttonHDMI"
+                            android:layout_width="70dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="Add to Cart"
+                            app:backgroundTint="#0B426B " />
+                    </LinearLayout>
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="120dp"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/imageViewHDTOL"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    app:srcCompat="@drawable/appicon" />
+
+                <LinearLayout
+                    android:layout_width="258dp"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/textViewHDTOL"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="HDMI to Lightning Adaptor"
+                        android:textColor="#000000"
+                        android:textSize="22sp" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:id="@+id/textViewHDTOLS"
+                            android:layout_width="38dp"
+                            android:layout_height="34dp"
+                            android:layout_weight="1"
+                            android:text="Stock:"
+                            android:textColor="#000000"
+                            android:textSize="18sp" />
+
+                        <Button
+                            android:id="@+id/buttonHDTOL"
                             android:layout_width="70dp"
                             android:layout_height="wrap_content"
                             android:layout_weight="1"
@@ -202,7 +253,7 @@
                 android:orientation="horizontal">
 
                 <ImageView
-                    android:id="@+id/imageViewMT"
+                    android:id="@+id/imageViewHDTOUC"
                     android:layout_width="100dp"
                     android:layout_height="100dp"
                     app:srcCompat="@drawable/appicon" />
@@ -213,10 +264,10 @@
                     android:orientation="vertical">
 
                     <TextView
-                        android:id="@+id/textViewMT"
+                        android:id="@+id/textViewHDTOUC"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:text="Measuring Tape"
+                        android:text="HDMI to USB-C Adaptor"
                         android:textColor="#000000"
                         android:textSize="22sp" />
 
@@ -226,7 +277,7 @@
                         android:orientation="horizontal">
 
                         <TextView
-                            android:id="@+id/textViewMTS"
+                            android:id="@+id/textViewHDTOUCS"
                             android:layout_width="38dp"
                             android:layout_height="34dp"
                             android:layout_weight="1"
@@ -235,7 +286,7 @@
                             android:textSize="18sp" />
 
                         <Button
-                            android:id="@+id/buttonMT"
+                            android:id="@+id/buttonHDTOUC"
                             android:layout_width="70dp"
                             android:layout_height="wrap_content"
                             android:layout_weight="1"
@@ -253,7 +304,7 @@
                 android:orientation="horizontal">
 
                 <ImageView
-                    android:id="@+id/imageViewP"
+                    android:id="@+id/imageViewIPC"
                     android:layout_width="100dp"
                     android:layout_height="100dp"
                     app:srcCompat="@drawable/appicon" />
@@ -264,10 +315,10 @@
                     android:orientation="vertical">
 
                     <TextView
-                        android:id="@+id/textViewP"
+                        android:id="@+id/textViewIPC"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:text="Pen"
+                        android:text="iPhone Charger"
                         android:textColor="#000000"
                         android:textSize="22sp" />
 
@@ -277,7 +328,7 @@
                         android:orientation="horizontal">
 
                         <TextView
-                            android:id="@+id/textViewPS"
+                            android:id="@+id/textViewIPCS"
                             android:layout_width="38dp"
                             android:layout_height="34dp"
                             android:layout_weight="1"
@@ -286,7 +337,7 @@
                             android:textSize="18sp" />
 
                         <Button
-                            android:id="@+id/buttonP"
+                            android:id="@+id/buttonIPC"
                             android:layout_width="70dp"
                             android:layout_height="wrap_content"
                             android:layout_weight="1"
@@ -304,7 +355,7 @@
                 android:orientation="horizontal">
 
                 <ImageView
-                    android:id="@+id/imageViewSG"
+                    android:id="@+id/imageViewLENC"
                     android:layout_width="100dp"
                     android:layout_height="100dp"
                     app:srcCompat="@drawable/appicon" />
@@ -315,10 +366,10 @@
                     android:orientation="vertical">
 
                     <TextView
-                        android:id="@+id/textViewSG"
+                        android:id="@+id/textViewLENC"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:text="Safety Goggles"
+                        android:text="Lenovo Laptop Charger"
                         android:textColor="#000000"
                         android:textSize="22sp" />
 
@@ -328,7 +379,7 @@
                         android:orientation="horizontal">
 
                         <TextView
-                            android:id="@+id/textViewSGS"
+                            android:id="@+id/textViewLENCS"
                             android:layout_width="38dp"
                             android:layout_height="34dp"
                             android:layout_weight="1"
@@ -337,7 +388,7 @@
                             android:textSize="18sp" />
 
                         <Button
-                            android:id="@+id/buttonSG"
+                            android:id="@+id/buttonLENC"
                             android:layout_width="70dp"
                             android:layout_height="wrap_content"
                             android:layout_weight="1"
@@ -355,7 +406,7 @@
                 android:orientation="horizontal">
 
                 <ImageView
-                    android:id="@+id/imageViewSCI"
+                    android:id="@+id/imageViewMACC"
                     android:layout_width="100dp"
                     android:layout_height="100dp"
                     app:srcCompat="@drawable/appicon" />
@@ -366,10 +417,10 @@
                     android:orientation="vertical">
 
                     <TextView
-                        android:id="@+id/textViewSCI"
+                        android:id="@+id/textViewMACC"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:text="Scissors"
+                        android:text="Macbook Charger"
                         android:textColor="#000000"
                         android:textSize="22sp" />
 
@@ -379,7 +430,7 @@
                         android:orientation="horizontal">
 
                         <TextView
-                            android:id="@+id/textViewSCIS"
+                            android:id="@+id/textViewMACCS"
                             android:layout_width="38dp"
                             android:layout_height="34dp"
                             android:layout_weight="1"
@@ -388,7 +439,7 @@
                             android:textSize="18sp" />
 
                         <Button
-                            android:id="@+id/buttonSCI"
+                            android:id="@+id/buttonMACC"
                             android:layout_width="70dp"
                             android:layout_height="wrap_content"
                             android:layout_weight="1"
@@ -406,7 +457,7 @@
                 android:orientation="horizontal">
 
                 <ImageView
-                    android:id="@+id/imageViewSTAP"
+                    android:id="@+id/imageViewMICROU"
                     android:layout_width="100dp"
                     android:layout_height="100dp"
                     app:srcCompat="@drawable/appicon" />
@@ -417,10 +468,10 @@
                     android:orientation="vertical">
 
                     <TextView
-                        android:id="@+id/textViewSTAP"
+                        android:id="@+id/textViewMICROU"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:text="Stapler"
+                        android:text="Micro USB Cable"
                         android:textColor="#000000"
                         android:textSize="22sp" />
 
@@ -430,7 +481,7 @@
                         android:orientation="horizontal">
 
                         <TextView
-                            android:id="@+id/textViewSTAPS"
+                            android:id="@+id/textViewMICROUS"
                             android:layout_width="38dp"
                             android:layout_height="34dp"
                             android:layout_weight="1"
@@ -439,7 +490,7 @@
                             android:textSize="18sp" />
 
                         <Button
-                            android:id="@+id/buttonSTAP"
+                            android:id="@+id/buttonMICROU"
                             android:layout_width="70dp"
                             android:layout_height="wrap_content"
                             android:layout_weight="1"
@@ -457,7 +508,7 @@
                 android:orientation="horizontal">
 
                 <ImageView
-                    android:id="@+id/imageViewSTIC"
+                    android:id="@+id/imageViewMOUS"
                     android:layout_width="100dp"
                     android:layout_height="100dp"
                     app:srcCompat="@drawable/appicon" />
@@ -468,10 +519,10 @@
                     android:orientation="vertical">
 
                     <TextView
-                        android:id="@+id/textViewSTIC"
+                        android:id="@+id/textViewMOUS"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:text="Stickers"
+                        android:text="Mouse"
                         android:textColor="#000000"
                         android:textSize="22sp" />
 
@@ -481,7 +532,7 @@
                         android:orientation="horizontal">
 
                         <TextView
-                            android:id="@+id/textViewSTICS"
+                            android:id="@+id/textViewMOUSS"
                             android:layout_width="38dp"
                             android:layout_height="34dp"
                             android:layout_weight="1"
@@ -490,7 +541,7 @@
                             android:textSize="18sp" />
 
                         <Button
-                            android:id="@+id/buttonSTICK"
+                            android:id="@+id/buttonMOUS"
                             android:layout_width="70dp"
                             android:layout_height="wrap_content"
                             android:layout_weight="1"
@@ -508,7 +559,7 @@
                 android:orientation="horizontal">
 
                 <ImageView
-                    android:id="@+id/imageViewTAPE"
+                    android:id="@+id/imageViewUSBC"
                     android:layout_width="100dp"
                     android:layout_height="100dp"
                     app:srcCompat="@drawable/appicon" />
@@ -519,10 +570,10 @@
                     android:orientation="vertical">
 
                     <TextView
-                        android:id="@+id/textViewTAPE"
+                        android:id="@+id/textViewUSBC"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:text="Tape"
+                        android:text="USB-C Cable"
                         android:textColor="#000000"
                         android:textSize="22sp" />
 
@@ -532,7 +583,7 @@
                         android:orientation="horizontal">
 
                         <TextView
-                            android:id="@+id/textViewTAPES"
+                            android:id="@+id/textViewUSBCS"
                             android:layout_width="38dp"
                             android:layout_height="34dp"
                             android:layout_weight="1"
@@ -541,7 +592,58 @@
                             android:textSize="18sp" />
 
                         <Button
-                            android:id="@+id/buttonTAPE"
+                            android:id="@+id/buttonUSBC"
+                            android:layout_width="70dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="Add to Cart"
+                            app:backgroundTint="#0B426B " />
+                    </LinearLayout>
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="120dp"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/imageViewUSBTO35"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    app:srcCompat="@drawable/appicon" />
+
+                <LinearLayout
+                    android:layout_width="258dp"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/textViewUSBTO35"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="USB-C to 3.5mm Headphone Jack"
+                        android:textColor="#000000"
+                        android:textSize="22sp" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:id="@+id/textViewUSBTO35S"
+                            android:layout_width="38dp"
+                            android:layout_height="34dp"
+                            android:layout_weight="1"
+                            android:text="Stock:"
+                            android:textColor="#000000"
+                            android:textSize="18sp" />
+
+                        <Button
+                            android:id="@+id/buttonUSBTO35"
                             android:layout_width="70dp"
                             android:layout_height="wrap_content"
                             android:layout_weight="1"
@@ -559,7 +661,7 @@
                 android:orientation="horizontal">
 
                 <ImageView
-                    android:id="@+id/imageViewWBM"
+                    android:id="@+id/imageViewVGA"
                     android:layout_width="100dp"
                     android:layout_height="100dp"
                     app:srcCompat="@drawable/appicon" />
@@ -570,10 +672,10 @@
                     android:orientation="vertical">
 
                     <TextView
-                        android:id="@+id/textViewWBM"
+                        android:id="@+id/textViewVGA"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:text="White Board Marker"
+                        android:text="VGA Cable"
                         android:textColor="#000000"
                         android:textSize="22sp" />
 
@@ -583,7 +685,7 @@
                         android:orientation="horizontal">
 
                         <TextView
-                            android:id="@+id/textViewWBMS"
+                            android:id="@+id/textViewVGAS"
                             android:layout_width="38dp"
                             android:layout_height="34dp"
                             android:layout_weight="1"
@@ -592,7 +694,58 @@
                             android:textSize="18sp" />
 
                         <Button
-                            android:id="@+id/buttonWBM"
+                            android:id="@+id/buttonVGA"
+                            android:layout_width="70dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="Add to Cart"
+                            app:backgroundTint="#0B426B " />
+                    </LinearLayout>
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/imageViewVGATOHD"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    app:srcCompat="@drawable/appicon" />
+
+                <LinearLayout
+                    android:layout_width="258dp"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/textViewVGATOHD"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="VGA to HDMI Adaptor"
+                        android:textColor="#000000"
+                        android:textSize="22sp" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:id="@+id/textViewVGATOHDS"
+                            android:layout_width="38dp"
+                            android:layout_height="34dp"
+                            android:layout_weight="1"
+                            android:text="Stock:"
+                            android:textColor="#000000"
+                            android:textSize="18sp" />
+
+                        <Button
+                            android:id="@+id/buttonVGATOHD"
                             android:layout_width="70dp"
                             android:layout_height="wrap_content"
                             android:layout_weight="1"
@@ -610,7 +763,7 @@
                 android:orientation="horizontal">
 
                 <ImageView
-                    android:id="@+id/imageViewWO"
+                    android:id="@+id/imageViewVGATOL"
                     android:layout_width="100dp"
                     android:layout_height="100dp"
                     app:srcCompat="@drawable/appicon" />
@@ -621,10 +774,10 @@
                     android:orientation="vertical">
 
                     <TextView
-                        android:id="@+id/textViewWO"
+                        android:id="@+id/textViewVGATOL"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:text="White Out"
+                        android:text="VGA to Lightning Adaptor"
                         android:textColor="#000000"
                         android:textSize="22sp" />
 
@@ -634,7 +787,7 @@
                         android:orientation="horizontal">
 
                         <TextView
-                            android:id="@+id/textViewWOS"
+                            android:id="@+id/textViewVGATOLS"
                             android:layout_width="38dp"
                             android:layout_height="34dp"
                             android:layout_weight="1"
@@ -643,7 +796,7 @@
                             android:textSize="18sp" />
 
                         <Button
-                            android:id="@+id/buttonWO"
+                            android:id="@+id/buttonVGATOL"
                             android:layout_width="70dp"
                             android:layout_height="wrap_content"
                             android:layout_weight="1"
