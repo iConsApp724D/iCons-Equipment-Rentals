@@ -19,7 +19,13 @@ public class StudentMeetIcons extends AppCompatActivity {
         Intent O = new Intent(this, michael_patchell.class);
         startActivity(O);
 
-
     }
 
+    public void launchbiotemplate(View v) {
+        //launch a new activity
+        Intent K = new Intent(this, bios_template.class);
+        startActivity(K);
+
+
+    }
 }
