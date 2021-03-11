@@ -27,7 +27,7 @@ public class StudentHomeScreen extends AppCompatActivity {
     }
 
     public void equipList(View v){
-        Intent c=new Intent(this, StudentEquipList.class);
+        Intent c=new Intent(this, StudentListSeclection.class);
         startActivity(c);
     }
 }

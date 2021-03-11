@@ -9,7 +9,8 @@
         android:roundIcon="@mipmap/iconofapp"
         android:supportsRtl="true"
         android:theme="@style/Theme.ICons724DV2">
-        <activity android:name=".StudentCablesChargersList"></activity>
+        <activity android:name=".StudentListSeclection"></activity>
+        <activity android:name=".StudentCablesChargersList" />
         <activity android:name=".StudentWorkbookCcList" />
         <activity android:name=".StudentTextbookList" />
         <activity android:name=".michael_patchell" />
