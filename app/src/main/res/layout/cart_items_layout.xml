@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_margin="25dp"
+    app:cardElevation="15dp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <Button
+            android:id="@+id/quantityAdd"
+            android:layout_width="45dp"
+            android:layout_height="45dp"
+            android:text="+"
+            android:textSize="16dp"
+            android:layout_alignParentRight="true"
+            android:backgroundTint="@color/navy"
+            android:textStyle="bold"
+            />
+
+        <Button
+            android:id="@+id/quantityLower"
+            android:layout_width="45dp"
+            android:layout_height="45dp"
+            android:text="-"
+            android:textSize="16dp"
+            android:layout_alignRight="@id/quantityAdd"
+            android:layout_marginRight="65dp"
+            android:backgroundTint="@color/navy"
+            android:textStyle="bold"/>
+
+
+
+        <TextView
+            android:id="@+id/textName"
+            android:layout_width="180dp"
+            android:layout_height="wrap_content"
+            android:text="Product Name"
+            android:textColor="@color/black"
+            android:textSize="24dp"/>
+
+        <TextView
+            android:id="@+id/textQuantity"
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:text="Quantity"
+            android:textColor="@color/black"
+            android:textSize="18dp"
+            android:layout_below="@+id/textName"
+            android:layout_marginTop="5dp"/>
+
+
+
+
+
+    </RelativeLayout>
+
+
+
+
+
+</androidx.cardview.widget.CardView>
+    
+   
+
+

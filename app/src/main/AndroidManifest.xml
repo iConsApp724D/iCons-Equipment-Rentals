@@ -9,7 +9,8 @@
         android:roundIcon="@mipmap/iconofapp"
         android:supportsRtl="true"
         android:theme="@style/Theme.ICons724DV2">
-        <activity android:name=".bios_template"></activity>
+        <activity android:name=".StudentCart2"></activity>
+        <activity android:name=".bios_template" />
         <activity
             android:name=".StudentListSeclection"
             android:screenOrientation="portrait" />
