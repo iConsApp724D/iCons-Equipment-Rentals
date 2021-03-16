@@ -47,14 +47,14 @@
 
             <LinearLayout
                 android:layout_width="match_parent"
-                android:layout_height="match_parent"
+                android:layout_height="115dp"
                 android:orientation="horizontal">
 
                 <ImageView
                     android:id="@+id/imageViewBP"
                     android:layout_width="100dp"
                     android:layout_height="100dp"
-                    app:srcCompat="@drawable/appicon" />
+                    app:srcCompat="@drawable/bpaper" />
 
                 <LinearLayout
                     android:layout_width="258dp"
@@ -98,14 +98,14 @@
 
             <LinearLayout
                 android:layout_width="match_parent"
-                android:layout_height="match_parent"
+                android:layout_height="115dp"
                 android:orientation="horizontal">
 
                 <ImageView
                     android:id="@+id/imageViewHP"
                     android:layout_width="100dp"
                     android:layout_height="100dp"
-                    app:srcCompat="@drawable/appicon" />
+                    app:srcCompat="@drawable/holepunch" />
 
                 <LinearLayout
                     android:layout_width="258dp"
@@ -149,14 +149,14 @@
 
             <LinearLayout
                 android:layout_width="match_parent"
-                android:layout_height="match_parent"
+                android:layout_height="115dp"
                 android:orientation="horizontal">
 
                 <ImageView
                     android:id="@+id/imageViewLG"
                     android:layout_width="100dp"
                     android:layout_height="100dp"
-                    app:srcCompat="@drawable/appicon" />
+                    app:srcCompat="@drawable/goggles" />
 
                 <LinearLayout
                     android:layout_width="258dp"
@@ -200,14 +200,14 @@
 
             <LinearLayout
                 android:layout_width="match_parent"
-                android:layout_height="match_parent"
+                android:layout_height="115dp"
                 android:orientation="horizontal">
 
                 <ImageView
                     android:id="@+id/imageViewMT"
                     android:layout_width="100dp"
                     android:layout_height="100dp"
-                    app:srcCompat="@drawable/appicon" />
+                    app:srcCompat="@drawable/measuretape" />
 
                 <LinearLayout
                     android:layout_width="258dp"
@@ -251,14 +251,14 @@
 
             <LinearLayout
                 android:layout_width="match_parent"
-                android:layout_height="match_parent"
+                android:layout_height="115dp"
                 android:orientation="horizontal">
 
                 <ImageView
                     android:id="@+id/imageViewP"
                     android:layout_width="100dp"
                     android:layout_height="100dp"
-                    app:srcCompat="@drawable/appicon" />
+                    app:srcCompat="@drawable/pens" />
 
                 <LinearLayout
                     android:layout_width="258dp"
@@ -302,14 +302,14 @@
 
             <LinearLayout
                 android:layout_width="match_parent"
-                android:layout_height="match_parent"
+                android:layout_height="115dp"
                 android:orientation="horizontal">
 
                 <ImageView
                     android:id="@+id/imageViewSG"
                     android:layout_width="100dp"
                     android:layout_height="100dp"
-                    app:srcCompat="@drawable/appicon" />
+                    app:srcCompat="@drawable/safetyglass" />
 
                 <LinearLayout
                     android:layout_width="258dp"
@@ -353,14 +353,14 @@
 
             <LinearLayout
                 android:layout_width="match_parent"
-                android:layout_height="match_parent"
+                android:layout_height="115dp"
                 android:orientation="horizontal">
 
                 <ImageView
                     android:id="@+id/imageViewSCI"
                     android:layout_width="100dp"
                     android:layout_height="100dp"
-                    app:srcCompat="@drawable/appicon" />
+                    app:srcCompat="@drawable/scissors" />
 
                 <LinearLayout
                     android:layout_width="258dp"
@@ -404,14 +404,14 @@
 
             <LinearLayout
                 android:layout_width="match_parent"
-                android:layout_height="match_parent"
+                android:layout_height="115dp"
                 android:orientation="horizontal">
 
                 <ImageView
                     android:id="@+id/imageViewSTAP"
                     android:layout_width="100dp"
                     android:layout_height="100dp"
-                    app:srcCompat="@drawable/appicon" />
+                    app:srcCompat="@drawable/stapler" />
 
                 <LinearLayout
                     android:layout_width="258dp"
@@ -455,14 +455,14 @@
 
             <LinearLayout
                 android:layout_width="match_parent"
-                android:layout_height="match_parent"
+                android:layout_height="115dp"
                 android:orientation="horizontal">
 
                 <ImageView
                     android:id="@+id/imageViewSTIC"
                     android:layout_width="100dp"
                     android:layout_height="100dp"
-                    app:srcCompat="@drawable/appicon" />
+                    app:srcCompat="@drawable/stickers" />
 
                 <LinearLayout
                     android:layout_width="258dp"
@@ -506,14 +506,14 @@
 
             <LinearLayout
                 android:layout_width="match_parent"
-                android:layout_height="match_parent"
+                android:layout_height="115dp"
                 android:orientation="horizontal">
 
                 <ImageView
                     android:id="@+id/imageViewTAPE"
                     android:layout_width="100dp"
                     android:layout_height="100dp"
-                    app:srcCompat="@drawable/appicon" />
+                    app:srcCompat="@drawable/tape" />
 
                 <LinearLayout
                     android:layout_width="258dp"
@@ -557,14 +557,14 @@
 
             <LinearLayout
                 android:layout_width="match_parent"
-                android:layout_height="match_parent"
+                android:layout_height="115dp"
                 android:orientation="horizontal">
 
                 <ImageView
                     android:id="@+id/imageViewWBM"
                     android:layout_width="100dp"
                     android:layout_height="100dp"
-                    app:srcCompat="@drawable/appicon" />
+                    app:srcCompat="@drawable/dryerase" />
 
                 <LinearLayout
                     android:layout_width="258dp"
@@ -615,7 +615,7 @@
                     android:id="@+id/imageViewWO"
                     android:layout_width="100dp"
                     android:layout_height="100dp"
-                    app:srcCompat="@drawable/appicon" />
+                    app:srcCompat="@drawable/whiteout" />
 
                 <LinearLayout
                     android:layout_width="258dp"

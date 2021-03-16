@@ -47,14 +47,14 @@
 
             <LinearLayout
                 android:layout_width="match_parent"
-                android:layout_height="match_parent"
+                android:layout_height="115dp"
                 android:orientation="horizontal">
 
                 <ImageView
                     android:id="@+id/imageViewACERC"
                     android:layout_width="100dp"
                     android:layout_height="100dp"
-                    app:srcCompat="@drawable/appicon" />
+                    app:srcCompat="@drawable/acercharger" />
 
                 <LinearLayout
                     android:layout_width="258dp"
@@ -98,14 +98,14 @@
 
             <LinearLayout
                 android:layout_width="match_parent"
-                android:layout_height="match_parent"
+                android:layout_height="115dp"
                 android:orientation="horizontal">
 
                 <ImageView
                     android:id="@+id/imageViewASUSC"
                     android:layout_width="100dp"
                     android:layout_height="100dp"
-                    app:srcCompat="@drawable/appicon" />
+                    app:srcCompat="@drawable/asuscharger" />
 
                 <LinearLayout
                     android:layout_width="258dp"
@@ -149,14 +149,14 @@
 
             <LinearLayout
                 android:layout_width="match_parent"
-                android:layout_height="match_parent"
+                android:layout_height="115dp"
                 android:orientation="horizontal">
 
                 <ImageView
                     android:id="@+id/imageViewHDMI"
                     android:layout_width="100dp"
                     android:layout_height="100dp"
-                    app:srcCompat="@drawable/appicon" />
+                    app:srcCompat="@drawable/hdmihdmi" />
 
                 <LinearLayout
                     android:layout_width="258dp"
@@ -207,7 +207,7 @@
                     android:id="@+id/imageViewHDTOL"
                     android:layout_width="100dp"
                     android:layout_height="100dp"
-                    app:srcCompat="@drawable/appicon" />
+                    app:srcCompat="@drawable/hdmilightnight" />
 
                 <LinearLayout
                     android:layout_width="258dp"
@@ -251,14 +251,14 @@
 
             <LinearLayout
                 android:layout_width="match_parent"
-                android:layout_height="match_parent"
+                android:layout_height="115dp"
                 android:orientation="horizontal">
 
                 <ImageView
                     android:id="@+id/imageViewHDTOUC"
                     android:layout_width="100dp"
                     android:layout_height="100dp"
-                    app:srcCompat="@drawable/appicon" />
+                    app:srcCompat="@drawable/hdmiusbc" />
 
                 <LinearLayout
                     android:layout_width="258dp"
@@ -302,14 +302,14 @@
 
             <LinearLayout
                 android:layout_width="match_parent"
-                android:layout_height="match_parent"
+                android:layout_height="115dp"
                 android:orientation="horizontal">
 
                 <ImageView
                     android:id="@+id/imageViewIPC"
                     android:layout_width="100dp"
                     android:layout_height="100dp"
-                    app:srcCompat="@drawable/appicon" />
+                    app:srcCompat="@drawable/lightning" />
 
                 <LinearLayout
                     android:layout_width="258dp"
@@ -353,7 +353,7 @@
 
             <LinearLayout
                 android:layout_width="match_parent"
-                android:layout_height="match_parent"
+                android:layout_height="115dp"
                 android:orientation="horizontal">
 
                 <ImageView
@@ -404,7 +404,7 @@
 
             <LinearLayout
                 android:layout_width="match_parent"
-                android:layout_height="match_parent"
+                android:layout_height="115dp"
                 android:orientation="horizontal">
 
                 <ImageView
@@ -455,14 +455,14 @@
 
             <LinearLayout
                 android:layout_width="match_parent"
-                android:layout_height="match_parent"
+                android:layout_height="115dp"
                 android:orientation="horizontal">
 
                 <ImageView
                     android:id="@+id/imageViewMICROU"
                     android:layout_width="100dp"
                     android:layout_height="100dp"
-                    app:srcCompat="@drawable/appicon" />
+                    app:srcCompat="@drawable/microusb" />
 
                 <LinearLayout
                     android:layout_width="258dp"
@@ -506,14 +506,14 @@
 
             <LinearLayout
                 android:layout_width="match_parent"
-                android:layout_height="match_parent"
+                android:layout_height="115dp"
                 android:orientation="horizontal">
 
                 <ImageView
                     android:id="@+id/imageViewMOUS"
                     android:layout_width="100dp"
                     android:layout_height="100dp"
-                    app:srcCompat="@drawable/appicon" />
+                    app:srcCompat="@drawable/mice" />
 
                 <LinearLayout
                     android:layout_width="258dp"
@@ -557,14 +557,14 @@
 
             <LinearLayout
                 android:layout_width="match_parent"
-                android:layout_height="match_parent"
+                android:layout_height="115dp"
                 android:orientation="horizontal">
 
                 <ImageView
                     android:id="@+id/imageViewUSBC"
                     android:layout_width="100dp"
                     android:layout_height="100dp"
-                    app:srcCompat="@drawable/appicon" />
+                    app:srcCompat="@drawable/usbc" />
 
                 <LinearLayout
                     android:layout_width="258dp"
@@ -615,7 +615,7 @@
                     android:id="@+id/imageViewUSBTO35"
                     android:layout_width="100dp"
                     android:layout_height="100dp"
-                    app:srcCompat="@drawable/appicon" />
+                    app:srcCompat="@drawable/auxtousbc" />
 
                 <LinearLayout
                     android:layout_width="258dp"
@@ -659,14 +659,14 @@
 
             <LinearLayout
                 android:layout_width="match_parent"
-                android:layout_height="match_parent"
+                android:layout_height="115dp"
                 android:orientation="horizontal">
 
                 <ImageView
                     android:id="@+id/imageViewVGA"
                     android:layout_width="100dp"
                     android:layout_height="100dp"
-                    app:srcCompat="@drawable/appicon" />
+                    app:srcCompat="@drawable/vgavga" />
 
                 <LinearLayout
                     android:layout_width="258dp"
@@ -710,14 +710,14 @@
 
             <LinearLayout
                 android:layout_width="match_parent"
-                android:layout_height="match_parent"
+                android:layout_height="115dp"
                 android:orientation="horizontal">
 
                 <ImageView
                     android:id="@+id/imageViewVGATOHD"
                     android:layout_width="100dp"
                     android:layout_height="100dp"
-                    app:srcCompat="@drawable/appicon" />
+                    app:srcCompat="@drawable/vgatohdmi" />
 
                 <LinearLayout
                     android:layout_width="258dp"
@@ -768,7 +768,7 @@
                     android:id="@+id/imageViewVGATOL"
                     android:layout_width="100dp"
                     android:layout_height="100dp"
-                    app:srcCompat="@drawable/appicon" />
+                    app:srcCompat="@drawable/vgalightning" />
 
                 <LinearLayout
                     android:layout_width="258dp"
