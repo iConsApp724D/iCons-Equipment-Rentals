@@ -8,6 +8,10 @@ import android.os.Bundle;
 import android.widget.Button;
 import android.widget.ImageView;
 
+import com.google.firebase.FirebaseApp;
+import com.google.firebase.database.DatabaseReference;
+import com.google.firebase.database.FirebaseDatabase;
+
 public class StudentCart2 extends AppCompatActivity {
 
     private RecyclerView recyclerView;
@@ -29,7 +33,7 @@ public class StudentCart2 extends AppCompatActivity {
 
         confirmOrder = (Button) findViewById(R.id.requestEquip);
         icons = (ImageView) findViewById(R.id.imageView8);
-
-
     }
+
+
 }

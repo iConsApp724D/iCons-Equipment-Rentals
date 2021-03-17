@@ -7,41 +7,20 @@
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:431250709396:android:5fc4a4ff555c13638a4d81",
+        "mobilesdk_app_id": "1:431250709396:android:9ab8df00787c2a458a4d81",
         "android_client_info": {
           "package_name": "com.example.icons724dv2"
         }
       },
       "oauth_client": [
         {
-          "client_id": "431250709396-4tfqkcnqof8i6m2kfeejath4fl3mtikj.apps.googleusercontent.com",
-          "client_type": 3
-        }
-      ],
-      "api_key": [
-        {
-          "current_key": "AIzaSyD0kAQHi17TomGJH7hU3uID5_QOw90pflE"
-        }
-      ],
-      "services": {
-        "appinvite_service": {
-          "other_platform_oauth_client": [
-            {
-              "client_id": "431250709396-4tfqkcnqof8i6m2kfeejath4fl3mtikj.apps.googleusercontent.com",
-              "client_type": 3
-            }
-          ]
-        }
-      }
-    },
-    {
-      "client_info": {
-        "mobilesdk_app_id": "1:431250709396:android:687552ba1d67efc18a4d81",
-        "android_client_info": {
-          "package_name": "iCons.App724D"
-        }
-      },
-      "oauth_client": [
+          "client_id": "431250709396-4bqmr4ki704q3fl1mp8dbclbv9arshjv.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.icons724dv2",
+            "certificate_hash": "0d3d2347b1f8eead987fa3ea7deb439203015a00"
+          }
+        },
         {
           "client_id": "431250709396-4tfqkcnqof8i6m2kfeejath4fl3mtikj.apps.googleusercontent.com",
           "client_type": 3
