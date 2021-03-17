@@ -10,7 +10,7 @@
         android:id="@+id/profile_image"
         android:layout_width="187dp"
         android:layout_height="174dp"
-        android:layout_marginTop="76dp"
+        android:layout_marginTop="50dp"
         android:src="@drawable/michaelportrait"
         app:civ_border_color="#FF000000"
         app:civ_border_width="2dp"
@@ -25,11 +25,11 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="24dp"
         android:layout_marginLeft="24dp"
-        android:layout_marginBottom="416dp"
+        android:layout_marginTop="20dp"
         android:text="Name: Michael Patchell"
         android:textAppearance="@style/TextAppearance.AppCompat.Medium"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintStart_toStartOf="parent" />
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/profile_image" />
 
     <TextView
         android:id="@+id/textView6"
@@ -90,22 +90,24 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.509"
         app:layout_constraintStart_toStartOf="parent" />
-
+<!--
     <Switch
         android:id="@+id/simpleSwitch"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginBottom="120dp"
+        android:layout_marginTop="20dp"
         android:checked="false"
         android:gravity="center"
         android:text="On Shift"
         android:textOff="No"
         android:textOn="Yes"
-        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView9"
         app:showText="true" />
+
+        -->
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>

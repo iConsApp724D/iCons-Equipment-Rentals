@@ -9,7 +9,11 @@
         android:roundIcon="@mipmap/iconofapp"
         android:supportsRtl="true"
         android:theme="@style/Theme.ICons724DV2">
-        <activity android:name=".StudentCart2"></activity>
+        <activity android:name=".EmployeeCablesChargers"></activity>
+        <activity android:name=".EmployeeWorkbookCcList" />
+        <activity android:name=".EmployeeTextbookList" />
+        <activity android:name=".EmployeeListSelection" />
+        <activity android:name=".StudentCart2" />
         <activity android:name=".bios_template" />
         <activity
             android:name=".StudentListSeclection"

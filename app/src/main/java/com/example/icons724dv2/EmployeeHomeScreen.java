@@ -15,7 +15,7 @@ public class EmployeeHomeScreen extends AppCompatActivity {
     }
 
     public void stock(View v){
-        Intent a=new Intent(this,EmployeeStockList.class);
+        Intent a=new Intent(this,EmployeeListSelection.class);
         startActivity(a);
     }
 

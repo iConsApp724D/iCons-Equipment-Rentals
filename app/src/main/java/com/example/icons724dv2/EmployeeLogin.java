@@ -1,23 +1,13 @@
 package com.example.icons724dv2;
 
-import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
 
-import android.app.ProgressDialog;
 import android.content.Intent;
 import android.os.Bundle;
-import android.provider.ContactsContract;
 import android.text.TextUtils;
 import android.view.View;
 import android.widget.EditText;
 import android.widget.Toast;
-
-import com.example.icons724dv2.Model.Users;
-import com.google.firebase.database.DataSnapshot;
-import com.google.firebase.database.DatabaseError;
-import com.google.firebase.database.DatabaseReference;
-import com.google.firebase.database.FirebaseDatabase;
-import com.google.firebase.database.ValueEventListener;
 
 public class EmployeeLogin extends AppCompatActivity {
     EditText user, pass;
@@ -26,7 +16,7 @@ public class EmployeeLogin extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_employee_login);
-        user=(EditText) findViewById(R.id.enterLoginEmail);
+        user=(EditText) findViewById(R.id.enterUsername);
         pass=(EditText) findViewById(R.id.employeePass);
     }
 

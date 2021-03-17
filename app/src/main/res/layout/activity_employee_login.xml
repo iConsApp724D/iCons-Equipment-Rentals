@@ -41,12 +41,12 @@
         tools:visibility="visible" />
 
     <EditText
-        android:id="@+id/enterLoginEmail"
+        android:id="@+id/enterUsername"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="250dp"
         android:ems="10"
-        android:hint="Enter Login Email"
+        android:hint="Enter Username"
         android:inputType="textEmailAddress"
         android:textColorHint="#CC0B426B"
         app:layout_constraintEnd_toEndOf="parent"
@@ -65,6 +65,6 @@
         android:textColorHint="#CC0B426B"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/enterLoginEmail" />
+        app:layout_constraintTop_toBottomOf="@+id/enterUsername" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

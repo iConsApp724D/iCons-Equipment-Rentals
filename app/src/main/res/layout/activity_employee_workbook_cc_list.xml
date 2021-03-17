@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".EmployeeStockList">
+    tools:context=".EmployeeWorkbookCcList">
 
     <ImageView
         android:id="@+id/imageView7"
@@ -16,7 +16,7 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <ScrollView
-        android:id="@+id/scrollView4"
+        android:id="@+id/scrollView2"
         android:layout_width="388dp"
         android:layout_height="539dp"
         android:layout_marginTop="10dp"
@@ -30,16 +30,23 @@
             android:layout_height="wrap_content"
             android:orientation="vertical">
 
+            <ImageView
+                android:id="@+id/imageView10"
+                android:layout_width="match_parent"
+                android:layout_height="35dp"
+                app:srcCompat="@drawable/coursecrams" />
+
+
             <LinearLayout
                 android:layout_width="match_parent"
-                android:layout_height="115dp"
+                android:layout_height="match_parent"
                 android:orientation="horizontal">
 
                 <ImageView
-                    android:id="@+id/imageViewBP"
+                    android:id="@+id/imageView111EXAM"
                     android:layout_width="100dp"
                     android:layout_height="100dp"
-                    app:srcCompat="@drawable/bpaper" />
+                    app:srcCompat="@drawable/appicon" />
 
                 <LinearLayout
                     android:layout_width="258dp"
@@ -47,10 +54,10 @@
                     android:orientation="vertical">
 
                     <TextView
-                        android:id="@+id/textViewBP"
+                        android:id="@+id/textView111EXAM"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:text="Blank Paper"
+                        android:text="APSC 111 Exam"
                         android:textColor="#000000"
                         android:textSize="22sp" />
 
@@ -60,7 +67,7 @@
                         android:orientation="horizontal">
 
                         <TextView
-                            android:id="@+id/textViewBPS"
+                            android:id="@+id/textView111EXAMS"
                             android:layout_width="38dp"
                             android:layout_height="34dp"
                             android:layout_weight="1"
@@ -77,14 +84,14 @@
 
             <LinearLayout
                 android:layout_width="match_parent"
-                android:layout_height="115dp"
+                android:layout_height="match_parent"
                 android:orientation="horizontal">
 
                 <ImageView
-                    android:id="@+id/imageViewHP"
+                    android:id="@+id/imageView112EXAM"
                     android:layout_width="100dp"
                     android:layout_height="100dp"
-                    app:srcCompat="@drawable/holepunch" />
+                    app:srcCompat="@drawable/appicon" />
 
                 <LinearLayout
                     android:layout_width="258dp"
@@ -92,10 +99,10 @@
                     android:orientation="vertical">
 
                     <TextView
-                        android:id="@+id/textViewHP"
+                        android:id="@+id/textView112EXAM"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:text="Hole Puncher"
+                        android:text="APSC 112 Exam"
                         android:textColor="#000000"
                         android:textSize="22sp" />
 
@@ -105,7 +112,7 @@
                         android:orientation="horizontal">
 
                         <TextView
-                            android:id="@+id/textViewHPS"
+                            android:id="@+id/textView112EXAMS"
                             android:layout_width="38dp"
                             android:layout_height="34dp"
                             android:layout_weight="1"
@@ -122,14 +129,14 @@
 
             <LinearLayout
                 android:layout_width="match_parent"
-                android:layout_height="115dp"
+                android:layout_height="match_parent"
                 android:orientation="horizontal">
 
                 <ImageView
-                    android:id="@+id/imageViewLG"
+                    android:id="@+id/imageView131EXAM"
                     android:layout_width="100dp"
                     android:layout_height="100dp"
-                    app:srcCompat="@drawable/goggles" />
+                    app:srcCompat="@drawable/appicon" />
 
                 <LinearLayout
                     android:layout_width="258dp"
@@ -137,10 +144,10 @@
                     android:orientation="vertical">
 
                     <TextView
-                        android:id="@+id/textViewLG"
+                        android:id="@+id/textView131EXAM"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:text="Lab Goggles"
+                        android:text="APSC 131 Exam"
                         android:textColor="#000000"
                         android:textSize="22sp" />
 
@@ -150,7 +157,7 @@
                         android:orientation="horizontal">
 
                         <TextView
-                            android:id="@+id/textViewLGS"
+                            android:id="@+id/textView131EXAMS"
                             android:layout_width="38dp"
                             android:layout_height="34dp"
                             android:layout_weight="1"
@@ -167,14 +174,14 @@
 
             <LinearLayout
                 android:layout_width="match_parent"
-                android:layout_height="115dp"
+                android:layout_height="match_parent"
                 android:orientation="horizontal">
 
                 <ImageView
-                    android:id="@+id/imageViewMT"
+                    android:id="@+id/imageView132EXAM"
                     android:layout_width="100dp"
                     android:layout_height="100dp"
-                    app:srcCompat="@drawable/measuretape" />
+                    app:srcCompat="@drawable/appicon" />
 
                 <LinearLayout
                     android:layout_width="258dp"
@@ -182,10 +189,10 @@
                     android:orientation="vertical">
 
                     <TextView
-                        android:id="@+id/textViewMT"
+                        android:id="@+id/textView132EXAM"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:text="Measuring Tape"
+                        android:text="APSC 131 Exam"
                         android:textColor="#000000"
                         android:textSize="22sp" />
 
@@ -195,7 +202,7 @@
                         android:orientation="horizontal">
 
                         <TextView
-                            android:id="@+id/textViewMTS"
+                            android:id="@+id/textView132EXAMS"
                             android:layout_width="38dp"
                             android:layout_height="34dp"
                             android:layout_weight="1"
@@ -212,14 +219,14 @@
 
             <LinearLayout
                 android:layout_width="match_parent"
-                android:layout_height="115dp"
+                android:layout_height="match_parent"
                 android:orientation="horizontal">
 
                 <ImageView
-                    android:id="@+id/imageViewP"
+                    android:id="@+id/imageView172EXAM"
                     android:layout_width="100dp"
                     android:layout_height="100dp"
-                    app:srcCompat="@drawable/pens" />
+                    app:srcCompat="@drawable/appicon" />
 
                 <LinearLayout
                     android:layout_width="258dp"
@@ -227,10 +234,10 @@
                     android:orientation="vertical">
 
                     <TextView
-                        android:id="@+id/textViewP"
+                        android:id="@+id/textView172EXAM"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:text="Pen"
+                        android:text="APSC 172 Exam"
                         android:textColor="#000000"
                         android:textSize="22sp" />
 
@@ -240,7 +247,7 @@
                         android:orientation="horizontal">
 
                         <TextView
-                            android:id="@+id/textViewPS"
+                            android:id="@+id/textView172EXAMS"
                             android:layout_width="38dp"
                             android:layout_height="34dp"
                             android:layout_weight="1"
@@ -257,14 +264,14 @@
 
             <LinearLayout
                 android:layout_width="match_parent"
-                android:layout_height="115dp"
+                android:layout_height="match_parent"
                 android:orientation="horizontal">
 
                 <ImageView
-                    android:id="@+id/imageViewSG"
+                    android:id="@+id/imageView172MID"
                     android:layout_width="100dp"
                     android:layout_height="100dp"
-                    app:srcCompat="@drawable/safetyglass" />
+                    app:srcCompat="@drawable/appicon" />
 
                 <LinearLayout
                     android:layout_width="258dp"
@@ -272,10 +279,10 @@
                     android:orientation="vertical">
 
                     <TextView
-                        android:id="@+id/textViewSG"
+                        android:id="@+id/textView172MID"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:text="Safety Goggles"
+                        android:text="APSC 172 Midterm"
                         android:textColor="#000000"
                         android:textSize="22sp" />
 
@@ -285,7 +292,7 @@
                         android:orientation="horizontal">
 
                         <TextView
-                            android:id="@+id/textViewSGS"
+                            android:id="@+id/textView172MIDS"
                             android:layout_width="38dp"
                             android:layout_height="34dp"
                             android:layout_weight="1"
@@ -302,14 +309,14 @@
 
             <LinearLayout
                 android:layout_width="match_parent"
-                android:layout_height="115dp"
+                android:layout_height="match_parent"
                 android:orientation="horizontal">
 
                 <ImageView
-                    android:id="@+id/imageViewSCI"
+                    android:id="@+id/imageView174EXAM"
                     android:layout_width="100dp"
                     android:layout_height="100dp"
-                    app:srcCompat="@drawable/scissors" />
+                    app:srcCompat="@drawable/appicon" />
 
                 <LinearLayout
                     android:layout_width="258dp"
@@ -317,10 +324,10 @@
                     android:orientation="vertical">
 
                     <TextView
-                        android:id="@+id/textViewSCI"
+                        android:id="@+id/textView174EXAM"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:text="Scissors"
+                        android:text="APSC 174 Exam"
                         android:textColor="#000000"
                         android:textSize="22sp" />
 
@@ -330,7 +337,7 @@
                         android:orientation="horizontal">
 
                         <TextView
-                            android:id="@+id/textViewSCIS"
+                            android:id="@+id/textView174EXAMS"
                             android:layout_width="38dp"
                             android:layout_height="34dp"
                             android:layout_weight="1"
@@ -347,14 +354,14 @@
 
             <LinearLayout
                 android:layout_width="match_parent"
-                android:layout_height="115dp"
+                android:layout_height="match_parent"
                 android:orientation="horizontal">
 
                 <ImageView
-                    android:id="@+id/imageViewSTAP"
+                    android:id="@+id/imageViewECON110112"
                     android:layout_width="100dp"
                     android:layout_height="100dp"
-                    app:srcCompat="@drawable/stapler" />
+                    app:srcCompat="@drawable/appicon" />
 
                 <LinearLayout
                     android:layout_width="258dp"
@@ -362,10 +369,10 @@
                     android:orientation="vertical">
 
                     <TextView
-                        android:id="@+id/textViewSTAP"
+                        android:id="@+id/textViewECON110112"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:text="Stapler"
+                        android:text="ECON 110/112 Exam"
                         android:textColor="#000000"
                         android:textSize="22sp" />
 
@@ -375,7 +382,59 @@
                         android:orientation="horizontal">
 
                         <TextView
-                            android:id="@+id/textViewSTAPS"
+                            android:id="@+id/textViewECON110112S"
+                            android:layout_width="38dp"
+                            android:layout_height="34dp"
+                            android:layout_weight="1"
+                            android:text="Stock:"
+                            android:textColor="#000000"
+                            android:textSize="18sp" />
+
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <ImageView
+                android:id="@+id/imageView11"
+                android:layout_width="match_parent"
+                android:layout_height="35dp"
+                app:srcCompat="@drawable/workbooks" />
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="120dp"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/imageView1112014"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    app:srcCompat="@drawable/wb11114" />
+
+                <LinearLayout
+                    android:layout_width="258dp"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/textView1112014"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="APSC 111 - 2014 Workbook"
+                        android:textColor="#000000"
+                        android:textSize="22sp" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:id="@+id/textView1112014S"
                             android:layout_width="38dp"
                             android:layout_height="34dp"
                             android:layout_weight="1"
@@ -392,14 +451,14 @@
 
             <LinearLayout
                 android:layout_width="match_parent"
-                android:layout_height="115dp"
+                android:layout_height="120dp"
                 android:orientation="horizontal">
 
                 <ImageView
-                    android:id="@+id/imageViewSTIC"
+                    android:id="@+id/imageView1112015"
                     android:layout_width="100dp"
                     android:layout_height="100dp"
-                    app:srcCompat="@drawable/stickers" />
+                    app:srcCompat="@drawable/wb11115" />
 
                 <LinearLayout
                     android:layout_width="258dp"
@@ -407,10 +466,10 @@
                     android:orientation="vertical">
 
                     <TextView
-                        android:id="@+id/textViewSTIC"
+                        android:id="@+id/textView1112015"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:text="Stickers"
+                        android:text="APSC 111 - 2015 Workbook"
                         android:textColor="#000000"
                         android:textSize="22sp" />
 
@@ -420,7 +479,7 @@
                         android:orientation="horizontal">
 
                         <TextView
-                            android:id="@+id/textViewSTICS"
+                            android:id="@+id/textView1112015S"
                             android:layout_width="38dp"
                             android:layout_height="34dp"
                             android:layout_weight="1"
@@ -437,14 +496,14 @@
 
             <LinearLayout
                 android:layout_width="match_parent"
-                android:layout_height="115dp"
+                android:layout_height="220dp"
                 android:orientation="horizontal">
 
                 <ImageView
-                    android:id="@+id/imageViewTAPE"
+                    android:id="@+id/imageViewMTHE225E"
                     android:layout_width="100dp"
                     android:layout_height="100dp"
-                    app:srcCompat="@drawable/tape" />
+                    app:srcCompat="@drawable/mthe225ewb" />
 
                 <LinearLayout
                     android:layout_width="258dp"
@@ -452,10 +511,10 @@
                     android:orientation="vertical">
 
                     <TextView
-                        android:id="@+id/textViewTAPE"
+                        android:id="@+id/textViewMTHE225E"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:text="Tape"
+                        android:text="Englinks MTHE 225   Exam Workbook"
                         android:textColor="#000000"
                         android:textSize="22sp" />
 
@@ -465,7 +524,7 @@
                         android:orientation="horizontal">
 
                         <TextView
-                            android:id="@+id/textViewTAPES"
+                            android:id="@+id/textViewMTHE225ES"
                             android:layout_width="38dp"
                             android:layout_height="34dp"
                             android:layout_weight="1"
@@ -473,102 +532,12 @@
                             android:textColor="#000000"
                             android:textSize="18sp" />
 
-
                     </LinearLayout>
 
                 </LinearLayout>
 
             </LinearLayout>
 
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="115dp"
-                android:orientation="horizontal">
-
-                <ImageView
-                    android:id="@+id/imageViewWBM"
-                    android:layout_width="100dp"
-                    android:layout_height="100dp"
-                    app:srcCompat="@drawable/dryerase" />
-
-                <LinearLayout
-                    android:layout_width="258dp"
-                    android:layout_height="match_parent"
-                    android:orientation="vertical">
-
-                    <TextView
-                        android:id="@+id/textViewWBM"
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:text="White Board Marker"
-                        android:textColor="#000000"
-                        android:textSize="22sp" />
-
-                    <LinearLayout
-                        android:layout_width="match_parent"
-                        android:layout_height="match_parent"
-                        android:orientation="horizontal">
-
-                        <TextView
-                            android:id="@+id/textViewWBMS"
-                            android:layout_width="38dp"
-                            android:layout_height="34dp"
-                            android:layout_weight="1"
-                            android:text="Stock:"
-                            android:textColor="#000000"
-                            android:textSize="18sp" />
-
-
-                    </LinearLayout>
-
-                </LinearLayout>
-
-            </LinearLayout>
-
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="200dp"
-                android:orientation="horizontal">
-
-                <ImageView
-                    android:id="@+id/imageViewWO"
-                    android:layout_width="100dp"
-                    android:layout_height="100dp"
-                    app:srcCompat="@drawable/whiteout" />
-
-                <LinearLayout
-                    android:layout_width="258dp"
-                    android:layout_height="match_parent"
-                    android:orientation="vertical">
-
-                    <TextView
-                        android:id="@+id/textViewWO"
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:text="White Out"
-                        android:textColor="#000000"
-                        android:textSize="22sp" />
-
-                    <LinearLayout
-                        android:layout_width="match_parent"
-                        android:layout_height="match_parent"
-                        android:orientation="horizontal">
-
-                        <TextView
-                            android:id="@+id/textViewWOS"
-                            android:layout_width="38dp"
-                            android:layout_height="34dp"
-                            android:layout_weight="1"
-                            android:text="Stock:"
-                            android:textColor="#000000"
-                            android:textSize="18sp" />
-
-
-                    </LinearLayout>
-
-                </LinearLayout>
-
-            </LinearLayout>
         </LinearLayout>
     </ScrollView>
 

@@ -29,4 +29,9 @@
     <string name="title_activity_main2">MainActivity</string>
     <string name="title_activity_after_order">afterOrder</string>
 
+    <string name="description1">The iCons operate after ILC administration hours to keep the facility open to students, loan out equipment and promote a positive studying atmosphere.</string>
+    <string name="description2">The iCons are a student service that work in the ILC. The iCons operate after ILC administration hours to keep the facility open to students, loan out equipment, promote a positive studying and learning atmosphere, and act as a resource to students. Feedback is always welcomed and encouraged.</string>
+
 </resources>
+
+
