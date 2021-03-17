@@ -6,7 +6,7 @@
         android:allowBackup="true"
         android:icon="@mipmap/iconofapp"
         android:label="iCons"
-        android:roundIcon="@mipmap/iconofapp"
+        android:roundIcon="@mipmap/ic_launcher"
         android:supportsRtl="true"
         android:theme="@style/Theme.ICons724DV2">
         <activity android:name=".EmployeeCablesChargers"></activity>
