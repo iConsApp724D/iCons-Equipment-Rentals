@@ -32,6 +32,22 @@
     <string name="description1">The iCons operate after ILC administration hours to keep the facility open to students, loan out equipment and promote a positive studying atmosphere.</string>
     <string name="description2">The iCons are a student service that work in the ILC. The iCons operate after ILC administration hours to keep the facility open to students, loan out equipment, promote a positive studying and learning atmosphere, and act as a resource to students. Feedback is always welcomed and encouraged.</string>
 
+
+
+    <string-array name="Rooms">
+        <item>Select Room Number</item>
+        <item>ILC - 1</item>
+        <item>ILC - 2</item>
+        <item>ILC - 3</item>
+        <item>ILC - 4</item>
+        <item>ILC - 5</item>
+        <item>ILC - 6</item>
+        <item>Stirling - 1</item>
+        <item>Stirling - 2</item>
+        <item>Stirling - 3</item>
+        <item>Stirling - 4</item>
+    </string-array>
+
 </resources>
 
 

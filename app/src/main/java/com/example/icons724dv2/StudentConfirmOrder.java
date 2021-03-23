@@ -5,24 +5,32 @@ import androidx.appcompat.app.AppCompatActivity;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
+import android.widget.ArrayAdapter;
 import android.widget.EditText;
+import android.widget.Spinner;
 import android.widget.TextView;
 
 public class StudentConfirmOrder extends AppCompatActivity {
     EditText room;
     String roomNumber;
 
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_student_confirm_order);
-        room=(EditText) findViewById(R.id.enterRoom);
+        //room=(EditText) findViewById(R.id.enterRoom);
         TextView text = (TextView) findViewById(R.id.textName);
         text.setText("Name:     "+StringClass.name1);
 
         TextView text2 = (TextView) findViewById(R.id.textStudentId);
         text2.setText("Student ID:   "+StringClass.studID);
 
+        Spinner roomSelect = (Spinner) findViewById(R.id.spinnerRoom);
+
+        ArrayAdapter<String> adapter=new ArrayAdapter<String>(StudentConfirmOrder.this, android.R.layout.simple_spinner_item, getResources().getStringArray(R.array.Rooms));
+        adapter.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
+        roomSelect.setAdapter(adapter);
     }
 
     public void confirm(View v){

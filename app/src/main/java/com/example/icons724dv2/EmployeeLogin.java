@@ -19,7 +19,6 @@ import com.google.firebase.database.ValueEventListener;
 public class EmployeeLogin extends AppCompatActivity {
     EditText user, pass;
     String username, password;
-    String u,p;
 
     FirebaseDatabase firebaseDatabase;
     DatabaseReference databaseReference;
