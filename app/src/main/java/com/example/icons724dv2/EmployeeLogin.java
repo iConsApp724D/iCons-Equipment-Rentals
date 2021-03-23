@@ -12,39 +12,51 @@ import android.widget.Toast;
 public class EmployeeLogin extends AppCompatActivity {
     EditText user, pass;
     String username, password;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_employee_login);
-        user=(EditText) findViewById(R.id.enterUsername);
-        pass=(EditText) findViewById(R.id.employeePass);
+        user = (EditText) findViewById(R.id.enterUsername);
+        pass = (EditText) findViewById(R.id.employeePass);
     }
 
-    public void employeeHome(View v){
-        login();
-    }
-
-    private void login() {
+    public void employeeHome(View v) {
+        StringClass.employeename = user.getText().toString();
         username=user.getText().toString();
         password=pass.getText().toString();
-
-        if (TextUtils.isEmpty(username)){
-            Toast.makeText(this,"Please enter your username", Toast.LENGTH_SHORT).show();
+        if (username.equals("admin") && password.equals("724")) {
+            Intent a = new Intent(this, EmployeeHomeScreen.class);
+            startActivity(a);
         }
-
-        else if (TextUtils.isEmpty(password)){
-            Toast.makeText(this,"Please enter your password", Toast.LENGTH_SHORT).show();
-        }
-
-        else{
-            if (username.equals("admin") && password.equals("admin"))
-            {
+            else if (username.equals("Drake") && password.equals("724")){
                 Intent a = new Intent(this, EmployeeHomeScreen.class);
                 startActivity(a);
             }
-    }
-
-
 
     }
 }
+   // public void employeeHome(View v){
+      //  login();
+
+
+   // private void login() {
+      //  username=user.getText().toString();
+      //  password=pass.getText().toString();
+
+       // if (TextUtils.isEmpty(username)){
+           // Toast.makeText(this,"Please enter your username", Toast.LENGTH_SHORT).show();
+
+
+        //else if (TextUtils.isEmpty(password)){
+            //Toast.makeText(this,"Please enter your password", Toast.LENGTH_SHORT).show();
+
+
+       // else{
+          //  if (username.equals("admin") && password.equals("admin"))
+
+
+
+
+
+

@@ -28,4 +28,8 @@ public class EmployeeHomeScreen extends AppCompatActivity {
         Intent c=new Intent(this, EmployeeRequests.class);
         startActivity(c);
     }
+    public void onshift(View v){
+        Intent d=new Intent(this, onshiftsignin.class);
+        startActivity(d);
+    }
 }

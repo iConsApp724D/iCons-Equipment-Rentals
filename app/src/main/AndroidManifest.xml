@@ -9,7 +9,8 @@
         android:roundIcon="@mipmap/iconofapp"
         android:supportsRtl="true"
         android:theme="@style/Theme.ICons724DV2">
-        <activity android:name=".EmployeeCablesChargers"></activity>
+        <activity android:name=".onshiftsignin"></activity>
+        <activity android:name=".EmployeeCablesChargers" />
         <activity android:name=".EmployeeWorkbookCcList" />
         <activity android:name=".EmployeeTextbookList" />
         <activity android:name=".EmployeeListSelection" />
