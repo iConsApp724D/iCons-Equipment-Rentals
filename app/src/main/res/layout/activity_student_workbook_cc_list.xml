@@ -225,7 +225,7 @@
                         android:id="@+id/textView132EXAM"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:text="APSC 131 Exam"
+                        android:text="APSC 132 Exam"
                         android:textColor="#000000"
                         android:textSize="22sp" />
 
