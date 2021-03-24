@@ -32,7 +32,7 @@ public class EmployeeLogin extends AppCompatActivity {
 
         firebaseDatabase= FirebaseDatabase.getInstance();
         databaseReference=firebaseDatabase.getReference("Employees");
-        //getdata();
+        boolean online=false;
     }
 
 
@@ -61,6 +61,7 @@ public class EmployeeLogin extends AppCompatActivity {
                         if (password.equals(snapshot.child(username).child("Password").getValue().toString())){
                             Intent a = new Intent(EmployeeLogin.this, EmployeeHomeScreen.class);
                             startActivity(a);
+                            settoOnline();
                         }
                         else{
                             Toast.makeText(EmployeeLogin.this,"Invalid Password", Toast.LENGTH_SHORT).show();
@@ -80,4 +81,10 @@ public class EmployeeLogin extends AppCompatActivity {
         }
 
     }
+
+    private void settoOnline(){
+        databaseReference.child(username).child("Online").setValue(true);
+        StringClass.employeeName=username;
+    }
+
 }

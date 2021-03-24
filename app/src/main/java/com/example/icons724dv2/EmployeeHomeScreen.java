@@ -6,12 +6,21 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 
+import com.google.firebase.database.DatabaseReference;
+import com.google.firebase.database.FirebaseDatabase;
+
 public class EmployeeHomeScreen extends AppCompatActivity {
+
+    FirebaseDatabase firebaseDatabase;
+    DatabaseReference databaseReference;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_employee_home_screen);
+
+        firebaseDatabase= FirebaseDatabase.getInstance();
+        databaseReference=firebaseDatabase.getReference("Employees");
     }
 
     public void stock(View v){
@@ -28,4 +37,9 @@ public class EmployeeHomeScreen extends AppCompatActivity {
         Intent c=new Intent(this, EmployeeRequests.class);
         startActivity(c);
     }
+
+    public void turnOffline(View v){
+        databaseReference.child(StringClass.employeeName).child("Online").setValue(false);
+    }
+
 }

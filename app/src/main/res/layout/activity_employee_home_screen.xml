@@ -10,11 +10,11 @@
         android:id="@+id/button5"
         android:layout_width="180dp"
         android:layout_height="wrap_content"
-        android:layout_marginBottom="120dp"
+        android:layout_marginBottom="23dp"
         android:onClick="requests"
         android:text="@string/requests"
         app:backgroundTint="#0B426B"
-        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintBottom_toTopOf="@+id/employeeOffline"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent" />
 
@@ -51,5 +51,21 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/employeeOffline"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="134dp"
+        android:layout_marginLeft="134dp"
+        android:layout_marginEnd="134dp"
+        android:layout_marginRight="134dp"
+        android:layout_marginBottom="50dp"
+        android:onClick="turnOffline"
+        android:text="Show Offline"
+        app:backgroundTint="#0B426B"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
