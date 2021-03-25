@@ -81,31 +81,17 @@
 
     <Button
         android:id="@+id/button36"
-        android:visibility="gone"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginBottom="44dp"
         android:text="Request Help"
+        app:backgroundTint="#0B426B"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.509"
         app:layout_constraintStart_toStartOf="parent" />
 
-    <Switch
-        android:id="@+id/SimpleSwitch"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginBottom="120dp"
-        android:checked="false"
-        android:gravity="center"
-        android:text="On Shift"
-        android:textOff="No"
-        android:textOn="Yes"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.498"
-        app:layout_constraintStart_toStartOf="parent"
-        app:showText="true" />
+
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>

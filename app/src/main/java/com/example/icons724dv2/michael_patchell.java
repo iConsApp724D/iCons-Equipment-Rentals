@@ -14,20 +14,9 @@ public class michael_patchell extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_michael_patchell);
-        //Switch simpleSwitch = (Switch) findViewById(R.id.simpleSwitch);
         Button requesthelp= (Button)findViewById(R.id.button6);
 
-        /**simpleSwitch.setOnCheckedChangeListener(new CompoundButton.OnCheckedChangeListener() {
-            @Override
-            public void onCheckedChanged(CompoundButton buttonView, boolean isChecked) {
-                if (isChecked) {
-                    requesthelp.setVisibility(View.VISIBLE);
-                }
-                else{
-                    requesthelp.setVisibility(View.GONE);
-                }
-            }
-        });**/
+
 
 
 

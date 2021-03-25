@@ -55,14 +55,16 @@
                     android:id="@+id/imageView19"
                     android:layout_width="130dp"
                     android:layout_height="130dp"
+                    android:visibility="gone"
                     app:srcCompat="@drawable/michaelportrait" />
 
                 <Button
                     android:id="@+id/button2"
                     android:layout_width="match_parent"
                     android:layout_height="55dp"
+                    android:visibility="gone"
                     android:onClick="michaelpatchell"
-                    android:text="M.Patchell Elec"
+                    android:text="M.Patchell Electrical"
                     app:backgroundTint="#0B426B" />
             </LinearLayout>
 
@@ -77,6 +79,7 @@
                     android:id="@+id/imageView21"
                     android:layout_width="130dp"
                     android:layout_height="130dp"
+                    android:visibility="gone"
                     app:srcCompat="@drawable/personsilhouette" />
 
                 <Button
@@ -84,7 +87,8 @@
                     android:layout_width="match_parent"
                     android:layout_height="55dp"
                     android:onClick="launchbiotemplate"
-                    android:text="First Last Discipline"
+                    android:text="Drake Stoll Mechanical"
+                    android:visibility="gone"
                     app:backgroundTint="#0B426B" />
             </LinearLayout>
             <LinearLayout
@@ -97,6 +101,7 @@
                     android:id="@+id/imageView30"
                     android:layout_width="130dp"
                     android:layout_height="130dp"
+                    android:visibility="gone"
                     app:srcCompat="@drawable/personsilhouette" />
 
                 <Button
@@ -104,7 +109,8 @@
                     android:layout_width="match_parent"
                     android:layout_height="55dp"
                     android:onClick="launchbiotemplate"
-                    android:text="First Last Discipline"
+                    android:text="Ryan Baker Comp Eng"
+                    android:visibility="gone"
                     app:backgroundTint="#0B426B" />
             </LinearLayout>
             <LinearLayout
@@ -115,6 +121,7 @@
 
                 <ImageView
                     android:id="@+id/imageView34"
+                    android:visibility="gone"
                     android:layout_width="130dp"
                     android:layout_height="130dp"
                     app:srcCompat="@drawable/personsilhouette" />
@@ -124,7 +131,8 @@
                     android:layout_width="match_parent"
                     android:layout_height="55dp"
                     android:onClick="launchbiotemplate"
-                    android:text="First Last Discipline"
+                    android:visibility="gone"
+                    android:text="Antik Antik Comp Eng"
                     app:backgroundTint="#0B426B" />
             </LinearLayout>
             <LinearLayout
@@ -135,12 +143,14 @@
 
                 <ImageView
                     android:id="@+id/imageView20"
+                    android:visibility="gone"
                     android:layout_width="130dp"
                     android:layout_height="130dp"
                     app:srcCompat="@drawable/personsilhouette" />
 
                 <Button
                     android:id="@+id/button7"
+                    android:visibility="gone"
                     android:layout_width="match_parent"
                     android:layout_height="55dp"
                     android:onClick="launchbiotemplate"
@@ -186,16 +196,18 @@
 
                 <ImageView
                     android:id="@+id/imageView31"
+                    android:visibility="gone"
                     android:layout_width="130dp"
                     android:layout_height="130dp"
                     app:srcCompat="@drawable/personsilhouette" />
 
                 <Button
                     android:id="@+id/button47"
+                    android:visibility="gone"
                     android:layout_width="match_parent"
                     android:layout_height="55dp"
                     android:onClick="launchbiotemplate"
-                    android:text="First Last Eng Phys"
+                    android:text="Tyler Sun Eng Phys"
                     app:backgroundTint="#0B426B" />
             </LinearLayout>
             <LinearLayout
@@ -206,16 +218,18 @@
 
                 <ImageView
                     android:id="@+id/imageView50"
+                    android:visibility="gone"
                     android:layout_width="130dp"
                     android:layout_height="130dp"
                     app:srcCompat="@drawable/personsilhouette" />
 
                 <Button
                     android:id="@+id/button57"
+                    android:visibility="gone"
                     android:layout_width="match_parent"
                     android:layout_height="55dp"
                     android:onClick="launchbiotemplate"
-                    android:text="First Last Eng Phys"
+                    android:text="Deven Vyas Eng Phys"
                     app:backgroundTint="#0B426B" />
             </LinearLayout>
             <LinearLayout
@@ -226,12 +240,14 @@
 
                 <ImageView
                     android:id="@+id/imageView60"
+                    android:visibility="gone"
                     android:layout_width="130dp"
                     android:layout_height="130dp"
                     app:srcCompat="@drawable/personsilhouette" />
 
                 <Button
                     android:id="@+id/button67"
+                    android:visibility="gone"
                     android:layout_width="match_parent"
                     android:layout_height="55dp"
                     android:onClick="launchbiotemplate"
@@ -246,12 +262,14 @@
 
                 <ImageView
                     android:id="@+id/imageView70"
+                    android:visibility="gone"
                     android:layout_width="130dp"
                     android:layout_height="130dp"
                     app:srcCompat="@drawable/personsilhouette" />
 
                 <Button
                     android:id="@+id/button77"
+                    android:visibility="gone"
                     android:layout_width="match_parent"
                     android:layout_height="55dp"
                     android:onClick="launchbiotemplate"
@@ -264,5 +282,18 @@
         </LinearLayout>
 
     </HorizontalScrollView>
+
+    <Button
+        android:id="@+id/button14"
+        android:layout_width="120dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="588dp"
+        android:text="Update"
+        app:backgroundTint="#0B426B"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
 
 </androidx.constraintlayout.widget.ConstraintLayout>
