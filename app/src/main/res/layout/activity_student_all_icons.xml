@@ -77,9 +77,11 @@
 
                         <Button
                             android:id="@+id/buttonMP"
+
                             android:layout_width="20dp"
                             android:layout_height="wrap_content"
                             android:layout_weight="1"
+                            android:onClick="michaelbio"
                             android:text="View Bio"
                             app:backgroundTint="#0B426B " />
                     </LinearLayout>

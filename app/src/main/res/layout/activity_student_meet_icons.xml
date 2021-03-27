@@ -285,10 +285,11 @@
 
     <Button
         android:id="@+id/button14"
-        android:layout_width="120dp"
+        android:layout_width="140dp"
         android:layout_height="60dp"
         android:layout_marginTop="588dp"
-        android:text="Update"
+        android:onClick="viewAllIcons"
+        android:text="View All iCons"
         app:backgroundTint="#0B426B"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.498"

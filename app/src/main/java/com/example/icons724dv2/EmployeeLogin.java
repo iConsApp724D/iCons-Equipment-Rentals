@@ -59,9 +59,10 @@ public class EmployeeLogin extends AppCompatActivity {
                 public void onDataChange(@NonNull DataSnapshot snapshot) {
                     if (snapshot.child(username).exists()){
                         if (password.equals(snapshot.child(username).child("Password").getValue().toString())){
+                            settoOnline();
                             Intent a = new Intent(EmployeeLogin.this, EmployeeHomeScreen.class);
                             startActivity(a);
-                            settoOnline();
+
 
                         }
                         else{
@@ -84,9 +85,10 @@ public class EmployeeLogin extends AppCompatActivity {
     }
 
     private void settoOnline(){
+        finish();
         databaseReference.child(username).child("Online").setValue(true);
         StringClass.employeeName=username;
-        finish();
+
     }
 
 }

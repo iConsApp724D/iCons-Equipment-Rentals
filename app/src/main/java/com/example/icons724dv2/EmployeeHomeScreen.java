@@ -39,7 +39,7 @@ public class EmployeeHomeScreen extends AppCompatActivity {
     }
 
     public void turnOffline(View v){
-        databaseReference.child(StringClass.employeeName).child("Online").setValue("false");
+        databaseReference.child(StringClass.employeeName).child("Online").setValue(false);
     }
 
 }

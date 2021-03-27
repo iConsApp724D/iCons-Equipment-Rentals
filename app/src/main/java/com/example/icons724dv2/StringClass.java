@@ -6,4 +6,6 @@ public class StringClass {
     public static String email;
 
     public static String employeeName;
+
+    public static String employeeBioView;
 }
