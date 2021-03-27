@@ -5,7 +5,7 @@ public class StringClass {
     public static String studID;
     public static String email;
 
-    public static String employeeName;
+    public static String employeeName="none";
 
     public static String employeeBioView;
 }

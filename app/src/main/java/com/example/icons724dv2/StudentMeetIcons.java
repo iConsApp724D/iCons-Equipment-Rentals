@@ -48,12 +48,35 @@ public class StudentMeetIcons extends AppCompatActivity {
         databaseReference.addValueEventListener(new ValueEventListener() {
             @Override
             public void onDataChange(@NonNull DataSnapshot snapshot) {
+                if (snapshot.child("Michael").child("Online").getValue().equals(true)) {
+                    michaelpatchell.setVisibility(View.VISIBLE);
+                    patchellmichael.setVisibility(View.VISIBLE);
+                }
 
                 if (snapshot.child("Ryan").child("Online").getValue().equals(true)){
-                    //.add("Ryan");.
                     ryanbaker.setVisibility(View.VISIBLE);
                     bakerryan.setVisibility(View.VISIBLE);
                 }
+                if (snapshot.child("Drake").child("Online").getValue().equals(true)){
+                    drakestoll.setVisibility(View.VISIBLE);
+                    stolldrake.setVisibility(View.VISIBLE);
+                }
+                if (snapshot.child("Antik").child("Online").getValue().equals(true)){
+                    antik.setVisibility(View.VISIBLE);
+                    antikantik.setVisibility(View.VISIBLE);
+                }
+                if (snapshot.child("Deven").child("Online").getValue().equals(true)){
+                    deven.setVisibility(View.VISIBLE);
+                    vyas.setVisibility(View.VISIBLE);
+                }
+                if (snapshot.child("Tyler").child("Online").getValue().equals(true)){
+                    tyler.setVisibility(View.VISIBLE);
+                    sun.setVisibility(View.VISIBLE);
+                }
+
+
+
+
             }
 
             @Override
@@ -61,39 +84,6 @@ public class StudentMeetIcons extends AppCompatActivity {
                 Toast.makeText(StudentMeetIcons.this,"Failed to get data", Toast.LENGTH_SHORT).show();
             }
         });
-
-
-        if (onlineEmployees.contains("Michael")) {
-            michaelpatchell.setVisibility(View.VISIBLE);
-            patchellmichael.setVisibility(View.VISIBLE);
-        }
-
-
-        if (onlineEmployees.contains("Ryan")){
-            ryanbaker.setVisibility(View.VISIBLE);
-            bakerryan.setVisibility(View.VISIBLE);
-        }
-
-
-        if (StringClass.employeeName.equals("Antik")){
-            antik.setVisibility(View.VISIBLE);
-            antikantik.setVisibility(View.VISIBLE);
-        }
-
-        if (StringClass.employeeName.equals("Tyler")){
-            tyler.setVisibility(View.VISIBLE);
-            sun.setVisibility(View.VISIBLE);
-        }
-
-        if (StringClass.employeeName.equals("Deven")){
-            deven.setVisibility(View.VISIBLE);
-            vyas.setVisibility(View.VISIBLE);
-        }
-
-        if (StringClass.employeeName.equals("Drake")) {
-            drakestoll.setVisibility(View.VISIBLE);
-            stolldrake.setVisibility(View.VISIBLE);
-        }
 
 
 
