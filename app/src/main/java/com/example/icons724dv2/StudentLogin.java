@@ -26,6 +26,7 @@ public class StudentLogin extends AppCompatActivity {
         StringClass.email=studemail.getText().toString();
         Intent a = new Intent(this, StudentHomeScreen.class);
         startActivity(a);
+        finish();
 
 
     }

@@ -12,7 +12,8 @@
         android:roundIcon="@mipmap/ic_launcher"
         android:supportsRtl="true"
         android:theme="@style/Theme.ICons724DV2">
-        <activity android:name=".EmployeeCablesChargers"></activity>
+        <activity android:name=".StudentAllIcons"></activity>
+        <activity android:name=".EmployeeCablesChargers" />
         <activity android:name=".EmployeeWorkbookCcList" />
         <activity android:name=".EmployeeTextbookList" />
         <activity android:name=".EmployeeListSelection" />
