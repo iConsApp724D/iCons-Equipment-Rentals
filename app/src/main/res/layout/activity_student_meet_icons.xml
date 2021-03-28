@@ -86,8 +86,8 @@
                     android:id="@+id/button27"
                     android:layout_width="match_parent"
                     android:layout_height="55dp"
-                    android:onClick="launchbiotemplate"
-                    android:text="Drake Stoll Mechanical"
+                    android:onClick="drakestoll"
+                    android:text="D.Stoll Mech Eng"
                     android:visibility="gone"
                     app:backgroundTint="#0B426B" />
             </LinearLayout>
@@ -108,8 +108,8 @@
                     android:id="@+id/button37"
                     android:layout_width="match_parent"
                     android:layout_height="55dp"
-                    android:onClick="launchbiotemplate"
-                    android:text="Ryan Baker Comp Eng"
+                    android:onClick="ryanbaker"
+                    android:text="R.Baker Comp Eng"
                     android:visibility="gone"
                     app:backgroundTint="#0B426B" />
             </LinearLayout>
@@ -130,9 +130,9 @@
                     android:id="@+id/button34"
                     android:layout_width="match_parent"
                     android:layout_height="55dp"
-                    android:onClick="launchbiotemplate"
+                    android:onClick="antikantik"
                     android:visibility="gone"
-                    android:text="Antik Antik Comp Eng"
+                    android:text="A.Antik Comp Eng"
                     app:backgroundTint="#0B426B" />
             </LinearLayout>
             <LinearLayout
@@ -206,7 +206,7 @@
                     android:visibility="gone"
                     android:layout_width="match_parent"
                     android:layout_height="55dp"
-                    android:onClick="launchbiotemplate"
+                    android:onClick="tylersun"
                     android:text="Tyler Sun Eng Phys"
                     app:backgroundTint="#0B426B" />
             </LinearLayout>
@@ -228,7 +228,7 @@
                     android:visibility="gone"
                     android:layout_width="match_parent"
                     android:layout_height="55dp"
-                    android:onClick="launchbiotemplate"
+                    android:onClick="devenvyas"
                     android:text="Deven Vyas Eng Phys"
                     app:backgroundTint="#0B426B" />
             </LinearLayout>
@@ -250,7 +250,7 @@
                     android:visibility="gone"
                     android:layout_width="match_parent"
                     android:layout_height="55dp"
-                    android:onClick="launchbiotemplate"
+                    android:onClick="devenvyas"
                     android:text="First Last Eng Phys"
                     app:backgroundTint="#0B426B" />
             </LinearLayout>

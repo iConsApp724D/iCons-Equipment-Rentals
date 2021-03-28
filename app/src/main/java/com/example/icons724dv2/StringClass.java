@@ -6,6 +6,5 @@ public class StringClass {
     public static String email;
 
     public static String employeeName="none";
-
     public static String employeeBioView;
 }

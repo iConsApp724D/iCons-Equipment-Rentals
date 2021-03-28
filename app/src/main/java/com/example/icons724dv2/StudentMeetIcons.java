@@ -96,17 +96,48 @@ public class StudentMeetIcons extends AppCompatActivity {
 
 
     public void michaelpatchell(View v) {
-        //launch a new activity
-        Intent O = new Intent(this, michael_patchell.class);
+        StringClass.employeeBioView="Michael";
+        Intent O = new Intent(this, bios_template.class);
         startActivity(O);
+
+    }
+    public void ryanbaker(View v) {
+        StringClass.employeeBioView="Ryan";
+        Intent a = new Intent(this, bios_template.class);
+        startActivity(a);
+
+    }
+    public void drakestoll(View v) {
+        StringClass.employeeBioView="Drake";
+        Intent b = new Intent(this, bios_template.class);
+        startActivity(b);
+
+    }
+    public void antikantik(View v) {
+        StringClass.employeeBioView="Antik";
+        Intent c = new Intent(this, bios_template.class);
+        startActivity(c);
+
+    }
+    public void tylersun(View v) {
+        StringClass.employeeBioView="Tyler";
+        Intent d = new Intent(this, bios_template.class);
+        startActivity(d);
+
+    }
+    public void devenvyas(View v) {
+        StringClass.employeeBioView="Deven";
+        Intent e = new Intent(this, bios_template.class);
+        startActivity(e);
 
     }
 
     public void launchbiotemplate(View v) {
-        //launch a new activity
-        Intent K = new Intent(this, bios_template.class);
-        startActivity(K);
-
-
+        StringClass.employeeBioView="Template";
+        Intent f =new Intent(this,bios_template.class);
+        startActivity(f);
     }
+
+
+
 }

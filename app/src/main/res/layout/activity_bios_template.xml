@@ -31,7 +31,8 @@
         android:textAppearance="@style/TextAppearance.AppCompat.Medium"
         android:textSize="28sp"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/profile_image" />
+        app:layout_constraintTop_toBottomOf="@+id/profile_image"
+        android:gravity="center_horizontal" />
 
     <TextView
         android:id="@+id/textView6"

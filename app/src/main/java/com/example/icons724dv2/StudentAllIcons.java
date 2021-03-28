@@ -20,4 +20,34 @@ public class StudentAllIcons extends AppCompatActivity {
         Intent a=new Intent(this,bios_template.class);
         startActivity(a);
     }
+    public void ryanbio(View v){
+        StringClass.employeeBioView="Ryan";
+        Intent b=new Intent(this,bios_template.class);
+        startActivity(b);
+    }
+    public void drakebio(View v){
+        StringClass.employeeBioView="Drake";
+        Intent c=new Intent(this,bios_template.class);
+        startActivity(c);
+    }
+    public void antikbio(View v){
+        StringClass.employeeBioView="Antik";
+        Intent d=new Intent(this,bios_template.class);
+        startActivity(d);
+    }
+    public void tylerbio(View v){
+        StringClass.employeeBioView="Tyler";
+        Intent e=new Intent(this,bios_template.class);
+        startActivity(e);
+    }
+    public void devenbio(View v){
+        StringClass.employeeBioView="Deven";
+        Intent f=new Intent(this,bios_template.class);
+        startActivity(f);
+    }
+    public void emptybio(View v){
+        StringClass.employeeBioView="Template";
+        Intent g=new Intent(this,bios_template.class);
+        startActivity(g);
+    }
 }

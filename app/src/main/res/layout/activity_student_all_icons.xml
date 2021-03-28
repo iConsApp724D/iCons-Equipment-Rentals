@@ -133,6 +133,7 @@
                             android:layout_width="20dp"
                             android:layout_height="wrap_content"
                             android:layout_weight="1"
+                            android:onClick="ryanbio"
                             android:text="View Bio"
                             app:backgroundTint="#0B426B " />
                     </LinearLayout>
@@ -175,7 +176,7 @@
                             android:layout_width="38dp"
                             android:layout_height="34dp"
                             android:layout_weight="1"
-                            android:text="1st Year"
+                            android:text="Mining"
                             android:textColor="#000000"
                             android:textSize="18sp" />
 
@@ -184,6 +185,7 @@
                             android:layout_width="20dp"
                             android:layout_height="wrap_content"
                             android:layout_weight="1"
+                            android:onClick="antikbio"
                             android:text="View Bio"
                             app:backgroundTint="#0B426B " />
                     </LinearLayout>
@@ -226,7 +228,7 @@
                             android:layout_width="38dp"
                             android:layout_height="34dp"
                             android:layout_weight="1"
-                            android:text="1st Year"
+                            android:text="Mechanical"
                             android:textColor="#000000"
                             android:textSize="18sp" />
 
@@ -235,6 +237,7 @@
                             android:layout_width="20dp"
                             android:layout_height="wrap_content"
                             android:layout_weight="1"
+                            android:onClick="drakebio"
                             android:text="View Bio"
                             app:backgroundTint="#0B426B " />
                     </LinearLayout>
@@ -263,7 +266,7 @@
                         android:id="@+id/textViewEMP"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:text="EMPTY"
+                        android:text="First Last"
                         android:textColor="#000000"
                         android:textSize="22sp" />
 
@@ -277,7 +280,7 @@
                             android:layout_width="38dp"
                             android:layout_height="34dp"
                             android:layout_weight="1"
-                            android:text="EMPTY"
+                            android:text="Discipline"
                             android:textColor="#000000"
                             android:textSize="18sp" />
 
@@ -286,6 +289,7 @@
                             android:layout_width="20dp"
                             android:layout_height="wrap_content"
                             android:layout_weight="1"
+                            android:onClick="emptybio"
                             android:text="View Bio"
                             app:backgroundTint="#0B426B " />
                     </LinearLayout>
@@ -339,7 +343,7 @@
                             android:layout_width="38dp"
                             android:layout_height="34dp"
                             android:layout_weight="1"
-                            android:text="1st Year"
+                            android:text="Eng Phys"
                             android:textColor="#000000"
                             android:textSize="18sp" />
 
@@ -348,6 +352,7 @@
                             android:layout_width="20dp"
                             android:layout_height="wrap_content"
                             android:layout_weight="1"
+                            android:onClick="tylerbio"
                             android:text="View Bio"
                             app:backgroundTint="#0B426B " />
                     </LinearLayout>
@@ -390,7 +395,7 @@
                             android:layout_width="38dp"
                             android:layout_height="34dp"
                             android:layout_weight="1"
-                            android:text="1st Year"
+                            android:text="Eng Phys"
                             android:textColor="#000000"
                             android:textSize="18sp" />
 
@@ -400,6 +405,7 @@
                             android:layout_height="wrap_content"
                             android:layout_weight="1"
                             android:text="View Bio"
+                            android:onClick="devenbio"
                             app:backgroundTint="#0B426B " />
                     </LinearLayout>
 
@@ -427,7 +433,7 @@
                         android:id="@+id/textViewEMP2"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:text="EMPTY"
+                        android:text="First Last"
                         android:textColor="#000000"
                         android:textSize="22sp" />
 
@@ -441,7 +447,7 @@
                             android:layout_width="38dp"
                             android:layout_height="34dp"
                             android:layout_weight="1"
-                            android:text="EMPTY"
+                            android:text="Discipline"
                             android:textColor="#000000"
                             android:textSize="18sp" />
 
@@ -450,6 +456,7 @@
                             android:layout_width="20dp"
                             android:layout_height="wrap_content"
                             android:layout_weight="1"
+                            android:onClick="emptybio"
                             android:text="View Bio"
                             app:backgroundTint="#0B426B " />
                     </LinearLayout>

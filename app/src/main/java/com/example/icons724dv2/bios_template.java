@@ -25,7 +25,6 @@ import com.squareup.picasso.Picasso;
 public class bios_template extends AppCompatActivity {
     FirebaseDatabase firebaseDatabase;
     DatabaseReference databaseReference;
-    FirebaseStorage storage = FirebaseStorage.getInstance();
     String name1;
 
 
@@ -38,10 +37,7 @@ public class bios_template extends AppCompatActivity {
         ImageView photo=(ImageView) findViewById(R.id.profile_image);
         TextView name = (TextView) findViewById(R.id.textView5);
         TextView discipline = (TextView) findViewById(R.id.textView6);
-        TextView year = (TextView) findViewById(R.id.textView7);
-        TextView canhelpwith = (TextView) findViewById(R.id.textView8);
         TextView interests = (TextView) findViewById(R.id.textView9);
-
 
 
 
@@ -52,6 +48,12 @@ public class bios_template extends AppCompatActivity {
                 name.setText(snapshot.child(name1).child("Bio").child("Name").getValue().toString());
                 discipline.setText(snapshot.child(name1).child("Bio").child("Year").getValue().toString()+snapshot.child(name1).child("Bio").child("Discipline").getValue().toString());
                 interests.setText("• Enjoys " +snapshot.child(name1).child("Bio").child("Interests").getValue().toString());
+                if (StringClass.employeeBioView.equals("Michael")){
+                    photo.setImageResource(R.drawable.michaelportrait);
+                }
+                if (StringClass.employeeBioView.equals("Ryan")){
+                    photo.setImageResource(R.drawable.ryanportrait);
+                }
             }
 
             @Override
@@ -63,21 +65,7 @@ public class bios_template extends AppCompatActivity {
 
 
 
-        /*
-        if (StringClass.employeeName.equals("Ryan")) {
-            name.setText("Name: Ryan");
-            discipline.setText("Discipline: Computer Eng");
-            year.setText("Year: Class of 2024");
-            canhelpwith.setText("Can help with MNTC 313");
-            interests.setText("Interests: App development");
 
-        }
-        if (StringClass.employeeName.equals("Drake")) {
-            name.setText("Name: Drake");
-            discipline.setText("Discipline: Computer Eng");
-            year.setText("Year: Class of 2024");
-            canhelpwith.setText("Can help with APSC 112, 174");
-            interests.setText("Interests: Short walks on the beach");*/
 
     }
     }
