@@ -42,14 +42,14 @@ public class EmployeeLogin extends AppCompatActivity {
     }
 
     private void login() {
-        username=user.getText().toString();
-        password=pass.getText().toString();
+        StringClass.employeeName=user.getText().toString();
+        StringClass.employeePass=pass.getText().toString();
 
-        if (TextUtils.isEmpty(username)){
+        if (TextUtils.isEmpty(StringClass.employeeName)){
             Toast.makeText(this,"Please enter your username", Toast.LENGTH_SHORT).show();
         }
 
-        else if (TextUtils.isEmpty(password)){
+        else if (TextUtils.isEmpty(StringClass.employeePass)){
             Toast.makeText(this,"Please enter your password", Toast.LENGTH_SHORT).show();
         }
 
@@ -57,15 +57,16 @@ public class EmployeeLogin extends AppCompatActivity {
             databaseReference.addValueEventListener(new ValueEventListener() {
                 @Override
                 public void onDataChange(@NonNull DataSnapshot snapshot) {
-                    if (snapshot.child(username).exists()){
-                        if (password.equals(snapshot.child(username).child("Password").getValue().toString())){
-                            settoOnline();
+                    if (snapshot.child(StringClass.employeeName).exists()){
+                        if (StringClass.employeePass.equals(snapshot.child(StringClass.employeeName).child("Password").getValue().toString())){
                             Intent a = new Intent(EmployeeLogin.this, EmployeeHomeScreen.class);
                             startActivity(a);
+                            settoOnline();
+
 
 
                         }
-                        else{
+                        else if (StringClass.employeePass!=""){
                             Toast.makeText(EmployeeLogin.this,"Invalid Password", Toast.LENGTH_SHORT).show();
                         }
                     }
@@ -86,9 +87,7 @@ public class EmployeeLogin extends AppCompatActivity {
 
     private void settoOnline(){
         finish();
-        databaseReference.child(username).child("Online").setValue(true);
-        StringClass.employeeName=username;
-
-    }
+        databaseReference.child(StringClass.employeeName).child("Online").setValue(true);
+        }
 
 }
