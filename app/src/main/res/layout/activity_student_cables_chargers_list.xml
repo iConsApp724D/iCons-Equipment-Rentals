@@ -89,6 +89,7 @@
                             android:layout_height="wrap_content"
                             android:layout_weight="1"
                             android:text="Add to Cart"
+                            android:onClick="ACERC"
                             app:backgroundTint="#0B426B " />
                     </LinearLayout>
 
@@ -139,6 +140,7 @@
                             android:layout_width="70dp"
                             android:layout_height="wrap_content"
                             android:layout_weight="1"
+                            android:onClick="ASUSC"
                             android:text="Add to Cart"
                             app:backgroundTint="#0B426B " />
                     </LinearLayout>
@@ -190,6 +192,7 @@
                             android:layout_width="70dp"
                             android:layout_height="wrap_content"
                             android:layout_weight="1"
+                            android:onClick="HDMI"
                             android:text="Add to Cart"
                             app:backgroundTint="#0B426B " />
                     </LinearLayout>
@@ -242,6 +245,7 @@
                             android:layout_height="wrap_content"
                             android:layout_weight="1"
                             android:text="Add to Cart"
+                            android:onClick="HDTOL"
                             app:backgroundTint="#0B426B " />
                     </LinearLayout>
 
@@ -293,6 +297,7 @@
                             android:layout_height="wrap_content"
                             android:layout_weight="1"
                             android:text="Add to Cart"
+                            android:onClick="HDTOUC"
                             app:backgroundTint="#0B426B " />
                     </LinearLayout>
 
@@ -344,6 +349,7 @@
                             android:layout_height="wrap_content"
                             android:layout_weight="1"
                             android:text="Add to Cart"
+                            android:onClick="IPC"
                             app:backgroundTint="#0B426B " />
                     </LinearLayout>
 
@@ -394,6 +400,7 @@
                             android:layout_width="70dp"
                             android:layout_height="wrap_content"
                             android:layout_weight="1"
+                            android:onClick="LENC"
                             android:text="Add to Cart"
                             app:backgroundTint="#0B426B " />
                     </LinearLayout>
@@ -445,6 +452,7 @@
                             android:layout_width="70dp"
                             android:layout_height="wrap_content"
                             android:layout_weight="1"
+                            android:onClick="MACC"
                             android:text="Add to Cart"
                             app:backgroundTint="#0B426B " />
                     </LinearLayout>
@@ -496,6 +504,7 @@
                             android:layout_width="70dp"
                             android:layout_height="wrap_content"
                             android:layout_weight="1"
+                            android:onClick="MICROU"
                             android:text="Add to Cart"
                             app:backgroundTint="#0B426B " />
                     </LinearLayout>
@@ -547,6 +556,7 @@
                             android:layout_width="70dp"
                             android:layout_height="wrap_content"
                             android:layout_weight="1"
+                            android:onClick="MOUS"
                             android:text="Add to Cart"
                             app:backgroundTint="#0B426B " />
                     </LinearLayout>
@@ -599,6 +609,8 @@
                             android:layout_height="wrap_content"
                             android:layout_weight="1"
                             android:text="Add to Cart"
+                            android:onClick="USBC"
+
                             app:backgroundTint="#0B426B " />
                     </LinearLayout>
 
@@ -650,6 +662,8 @@
                             android:layout_height="wrap_content"
                             android:layout_weight="1"
                             android:text="Add to Cart"
+                            android:onClick="USBTO35"
+
                             app:backgroundTint="#0B426B " />
                     </LinearLayout>
 
@@ -701,6 +715,7 @@
                             android:layout_height="wrap_content"
                             android:layout_weight="1"
                             android:text="Add to Cart"
+                            android:onClick="VGA"
                             app:backgroundTint="#0B426B " />
                     </LinearLayout>
 
@@ -752,6 +767,7 @@
                             android:layout_height="wrap_content"
                             android:layout_weight="1"
                             android:text="Add to Cart"
+                            android:onClick="VGATOHD"
                             app:backgroundTint="#0B426B " />
                     </LinearLayout>
 
@@ -803,6 +819,7 @@
                             android:layout_height="wrap_content"
                             android:layout_weight="1"
                             android:text="Add to Cart"
+                            android:onClick="VGATOL"
                             app:backgroundTint="#0B426B " />
                     </LinearLayout>
 

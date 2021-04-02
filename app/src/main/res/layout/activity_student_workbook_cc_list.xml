@@ -52,7 +52,7 @@
                 app:srcCompat="@drawable/coursecrams" />
 
 
-            <LinearLayout
+           <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:orientation="horizontal">
@@ -95,6 +95,7 @@
                             android:layout_width="70dp"
                             android:layout_height="wrap_content"
                             android:layout_weight="1"
+                            android:onClick="CC111"
                             android:text="Add to Cart"
                             app:backgroundTint="#0B426B " />
                     </LinearLayout>
@@ -147,6 +148,7 @@
                             android:layout_height="wrap_content"
                             android:layout_weight="1"
                             android:text="Add to Cart"
+                            android:onClick="CC112"
                             app:backgroundTint="#0B426B " />
                     </LinearLayout>
 
@@ -198,6 +200,7 @@
                             android:layout_height="wrap_content"
                             android:layout_weight="1"
                             android:text="Add to Cart"
+                            android:onClick="CC131"
                             app:backgroundTint="#0B426B " />
                     </LinearLayout>
 
@@ -249,6 +252,7 @@
                             android:layout_height="wrap_content"
                             android:layout_weight="1"
                             android:text="Add to Cart"
+                            android:onClick="CC132"
                             app:backgroundTint="#0B426B " />
                     </LinearLayout>
 
@@ -300,6 +304,7 @@
                             android:layout_height="wrap_content"
                             android:layout_weight="1"
                             android:text="Add to Cart"
+                            android:onClick="CC172"
                             app:backgroundTint="#0B426B " />
                     </LinearLayout>
 
@@ -351,6 +356,7 @@
                             android:layout_height="wrap_content"
                             android:layout_weight="1"
                             android:text="Add to Cart"
+                            android:onClick="M172"
                             app:backgroundTint="#0B426B " />
                     </LinearLayout>
 
@@ -402,6 +408,7 @@
                             android:layout_height="wrap_content"
                             android:layout_weight="1"
                             android:text="Add to Cart"
+                            android:onClick="CC174"
                             app:backgroundTint="#0B426B " />
                     </LinearLayout>
 
@@ -453,6 +460,7 @@
                             android:layout_height="wrap_content"
                             android:layout_weight="1"
                             android:text="Add to Cart"
+                            android:onClick="ECON"
                             app:backgroundTint="#0B426B " />
                     </LinearLayout>
 
@@ -511,6 +519,7 @@
                             android:layout_height="wrap_content"
                             android:layout_weight="1"
                             android:text="Add to Cart"
+                            android:onClick="WB2014"
                             app:backgroundTint="#0B426B " />
                     </LinearLayout>
 
@@ -562,6 +571,7 @@
                             android:layout_height="wrap_content"
                             android:layout_weight="1"
                             android:text="Add to Cart"
+                            android:onClick="WB2015"
                             app:backgroundTint="#0B426B " />
                     </LinearLayout>
 
@@ -613,6 +623,7 @@
                             android:layout_height="wrap_content"
                             android:layout_weight="1"
                             android:text="Add to Cart"
+                            android:onClick="MTHE225"
                             app:backgroundTint="#0B426B " />
                     </LinearLayout>
 

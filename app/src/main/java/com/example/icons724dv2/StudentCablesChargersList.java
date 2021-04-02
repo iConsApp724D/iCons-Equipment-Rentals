@@ -99,4 +99,64 @@ public class StudentCablesChargersList extends AppCompatActivity {
         Intent a = new Intent(this, StudentCart.class);
         startActivity(a);
     }
+
+    public void ACERC(View v){
+        inCart.ACERC = true;
+    }
+    public void ASUSC(View v){
+        inCart.ASUSC = true;
+    }
+    public void HDMI(View v){
+        inCart.HDMI = true;
+    }
+    public void HDTOL(View v){
+        inCart.HDTOL = true;
+    }
+    public void HDTOUC(View v){
+        inCart.HDTOUC = true;
+    }
+    public void IPC(View v){
+        inCart.IPC = true;
+    }
+    public void LENC(View v){
+        inCart.LENC = true;
+    }
+    public void MACC(View v){
+        inCart.MACC = true;
+    }
+    public void MICROU(View v){
+        inCart.MICROU = true;
+    }
+    public void MOUS(View v){
+        inCart.MOUS = true;
+    }
+    public void USBC(View v){
+        inCart.USBC = true;
+    }
+    public void USBTO35(View v){
+        inCart.USBTO35 = true;
+    }
+    public void VGA(View v){
+        inCart.VGA = true;
+    }
+    public void VGATOHD(View v){
+        inCart.VGATOHD = true;
+    }
+    public void VGATOL(View v){
+        inCart.VGATOL = true;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 }

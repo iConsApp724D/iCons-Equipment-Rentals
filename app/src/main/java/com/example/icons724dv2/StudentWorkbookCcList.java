@@ -42,6 +42,8 @@ public class StudentWorkbookCcList extends AppCompatActivity {
         firebaseDatabase= FirebaseDatabase.getInstance();
         databaseReference=firebaseDatabase.getReference("Equipment").child("Workbooks");
         getdata();
+
+
     }
 
     private void getdata() {
@@ -81,6 +83,45 @@ public class StudentWorkbookCcList extends AppCompatActivity {
         });
 
     }
+
+    public void CC111(View v){
+        inCart.CC111 = true;
+    }
+    public void CC112(View v){
+        inCart.CC112 = true;
+    }
+    public void CC131(View v){
+        inCart.CC131 = true;
+    }
+    public void CC132(View v){
+        inCart.CC132 = true;
+    }
+    public void CC172(View v){
+        inCart.CC172 = true;
+    }
+    public void M172(View v){
+        inCart.M172 = true;
+    }
+    public void CC174(View v){
+        inCart.CC174 = true;
+    }
+    public void ECON(View v){
+        inCart.ECON = true;
+    }
+    public void WB2014(View v){
+        inCart.WB2014 = true;
+    }
+    public void WB2015(View v){
+        inCart.MTHE225 = true;
+    }
+    public void MTHE225(View v){
+        inCart.MTHE225 = true;
+    }
+
+
+
+
+
 
     public void shopCart(View v){
         Intent a = new Intent(this, StudentCart.class);

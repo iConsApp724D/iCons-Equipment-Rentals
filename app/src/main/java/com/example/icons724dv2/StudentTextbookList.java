@@ -111,6 +111,69 @@ public class StudentTextbookList extends AppCompatActivity {
 
     }
 
+    public void atc111Text(View v){
+        inCart.atc111Text = true;
+    }
+    public void atc112Text(View v){
+        inCart.atc112Text = true;
+    }
+    public void atcCalc6Text(View v){
+        inCart.atcCalc6Text = true;
+    }
+    public void atcCalc7Text(View v){
+        inCart.atcCalc7Text = true;
+    }
+    public void atcGeo4Text(View v){
+        inCart.atcGeo4Text = true;
+    }
+    public void atcELEC221Text(View v){
+        inCart.atcELEC221Text = true;
+    }
+    public void atcEE2Text(View v){
+        inCart.atcEE2Text = true;
+    }
+    public void atcEE4Text(View v){
+        inCart.atcEE4Text = true;
+    }
+    public void atcFLMText(View v){
+        inCart.atcFLMText = true;
+    }
+    public void atcF341Text(View v){
+        inCart.atcF341Text = true;
+    }
+    public void atcFCAText(View v){
+        inCart.atcFCAText = true;
+    }
+    public void atcFETText(View v){
+        inCart.atcFETText = true;
+    }
+    public void atcCHEM10Text(View v){
+        inCart.atcCHEM10Text = true;
+    }
+    public void atcMM8Text(View v){
+        inCart.atc111Text = true;
+    }
+    public void atcMM2Text(View v){
+        inCart.atcMM2Text = true;
+    }
+    public void atcME12Text(View v){
+        inCart.atcME12Text = true;
+    }
+    public void atcMG3Text(View v){
+        inCart.atcMG3Text = true;
+    }
+    public void atcMG4Text(View v){
+        inCart.atcMG4Text = true;
+    }
+    public void atcMTHE406Text(View v){
+        inCart.atcMTHE406Text = true;
+    }
+
+
+
+
+
+
     public void shopCart(View v){
         Intent a = new Intent(this, StudentCart.class);
         startActivity(a);

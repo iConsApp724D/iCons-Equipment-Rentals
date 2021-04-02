@@ -47,10 +47,9 @@
             android:orientation="vertical">
 
             <LinearLayout
+                android:id="@+id/LLapsc111"
                 android:layout_width="match_parent"
                 android:layout_height="115dp"
-                android:id="@+id/LLapsc111"
-                android:visibility="gone"
                 android:orientation="horizontal">
 
                 <ImageView
@@ -102,8 +101,6 @@
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="115dp"
-                android:visibility="gone"
-                android:id="@+id/LLapsc112"
                 android:orientation="horizontal">
 
                 <ImageView
@@ -155,8 +152,6 @@
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="115dp"
-                android:visibility="gone"
-                android:id="@+id/LLCalc6T"
                 android:orientation="horizontal">
 
                 <ImageView
@@ -208,8 +203,6 @@
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="115dp"
-                android:visibility="gone"
-                android:id="@+id/LLCalc7T"
                 android:orientation="horizontal">
 
                 <ImageView
@@ -261,8 +254,6 @@
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="120dp"
-                android:visibility="gone"
-                android:id="@+id/LLGeo4"
                 android:orientation="horizontal">
 
                 <ImageView
@@ -314,8 +305,6 @@
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="115dp"
-                android:visibility="gone"
-                android:id="@+id/LLELEC221"
                 android:orientation="horizontal">
 
                 <ImageView
@@ -367,10 +356,7 @@
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="120dp"
-                android:id="@+id/LLEE2"
-                android:orientation="horizontal"
-                android:visibility="gone"
-                >
+                android:orientation="horizontal"                >
 
                 <ImageView
                     android:id="@+id/imageViewEE2"
@@ -421,8 +407,6 @@
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="120dp"
-                android:visibility="gone"
-                android:id="@+id/LLEE4"
                 android:orientation="horizontal">
 
                 <ImageView
@@ -474,8 +458,6 @@
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="115dp"
-                android:visibility="gone"
-                android:id="@+id/LLFLM"
                 android:orientation="horizontal">
 
                 <ImageView
@@ -527,8 +509,6 @@
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="110dp"
-                android:visibility="gone"
-                android:id="@+id/LLF341"
                 android:orientation="horizontal">
 
                 <ImageView
@@ -580,8 +560,6 @@
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="120dp"
-                android:visibility="gone"
-                android:id="@+id/LLFCA"
                 android:orientation="horizontal">
 
                 <ImageView
@@ -633,8 +611,6 @@
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="140dp"
-                android:visibility="gone"
-                android:id="@+id/LLFET"
                 android:orientation="horizontal">
 
                 <ImageView
@@ -687,8 +663,6 @@
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="115dp"
-                android:visibility="gone"
-                android:id="@+id/LLCHEM10"
                 android:orientation="horizontal">
 
                 <ImageView
@@ -740,8 +714,6 @@
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="120dp"
-                android:visibility="gone"
-                android:id="@+id/LLMM8"
                 android:orientation="horizontal">
 
                 <ImageView
@@ -793,8 +765,6 @@
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="120dp"
-                android:visibility="gone"
-                android:id="@+id/LLMM2"
                 android:orientation="horizontal">
 
                 <ImageView
@@ -846,8 +816,6 @@
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="115dp"
-                android:visibility="gone"
-                android:id="@+id/LLME12"
                 android:orientation="horizontal">
 
                 <ImageView
@@ -899,8 +867,6 @@
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="115dp"
-                android:visibility="gone"
-                android:id="@+id/LLMG3"
                 android:orientation="horizontal">
 
                 <ImageView
@@ -952,8 +918,6 @@
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="115dp"
-                android:visibility="gone"
-                android:id="@+id/LLMG4"
                 android:orientation="horizontal">
 
                 <ImageView
@@ -1005,8 +969,6 @@
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="115dp"
-                android:visibility="gone"
-                android:id="@+id/LLMTHE406"
                 android:orientation="horizontal">
 
                 <ImageView
@@ -1058,8 +1020,6 @@
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="115dp"
-                android:visibility="gone"
-                android:id="@+id/LLbp"
                 android:orientation="horizontal">
 
                 <ImageView
@@ -1111,8 +1071,6 @@
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="115dp"
-                android:visibility="gone"
-                android:id="@+id/LLhp"
                 android:orientation="horizontal">
 
                 <ImageView
@@ -1164,8 +1122,6 @@
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="115dp"
-                android:visibility="gone"
-                android:id="@+id/LLLG"
                 android:orientation="horizontal">
 
                 <ImageView
@@ -1217,8 +1173,6 @@
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="115dp"
-                android:visibility="gone"
-                android:id="@+id/LLMT"
                 android:orientation="horizontal">
 
                 <ImageView
@@ -1270,9 +1224,6 @@
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="115dp"
-                android:visibility="gone"
-                android:id="@+id/LLP"
-
                 android:orientation="horizontal">
 
                 <ImageView
@@ -1324,8 +1275,6 @@
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="115dp"
-                android:visibility="gone"
-                android:id="@+id/LLSG"
                 android:orientation="horizontal">
 
                 <ImageView
@@ -1377,8 +1326,6 @@
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="115dp"
-                android:visibility="gone"
-                android:id="@+id/LLSCI"
                 android:orientation="horizontal">
 
                 <ImageView
@@ -1430,8 +1377,6 @@
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="115dp"
-                android:visibility="gone"
-                android:id="@+id/LLSTAP"
                 android:orientation="horizontal">
 
                 <ImageView
@@ -1483,8 +1428,6 @@
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="115dp"
-                android:visibility="gone"
-                android:id="@+id/LLSTICK"
                 android:orientation="horizontal">
 
                 <ImageView
@@ -1536,8 +1479,6 @@
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="115dp"
-                android:visibility="gone"
-                android:id="@+id/LLTAPE"
                 android:orientation="horizontal">
 
                 <ImageView
@@ -1589,8 +1530,6 @@
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="115dp"
-                android:visibility="gone"
-                android:id="@+id/LLWBM"
                 android:orientation="horizontal">
 
                 <ImageView
@@ -1642,8 +1581,6 @@
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="115dp"
-                android:visibility="gone"
-                android:id="@+id/LLWO"
                 android:orientation="horizontal">
 
                 <ImageView
@@ -1695,8 +1632,6 @@
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="115dp"
-                android:visibility="gone"
-                android:id="@+id/LLACERC"
                 android:orientation="horizontal">
 
                 <ImageView
@@ -1748,8 +1683,6 @@
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="115dp"
-                android:visibility="gone"
-                android:id="@+id/LLASUSC"
                 android:orientation="horizontal">
 
                 <ImageView
@@ -1801,8 +1734,6 @@
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="115dp"
-                android:visibility="gone"
-                android:id="@+id/LLHDMI"
                 android:orientation="horizontal">
 
                 <ImageView
@@ -1854,8 +1785,6 @@
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="120dp"
-                android:visibility="gone"
-                android:id="@+id/LLHDTOL"
                 android:orientation="horizontal">
 
                 <ImageView
@@ -1907,8 +1836,6 @@
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="115dp"
-                android:visibility="gone"
-                android:id="@+id/LLHDTOUC"
                 android:orientation="horizontal">
 
                 <ImageView
@@ -1960,8 +1887,6 @@
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="115dp"
-                android:visibility="gone"
-                android:id="@+id/LLIPC"
                 android:orientation="horizontal">
 
                 <ImageView
@@ -2013,8 +1938,6 @@
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="115dp"
-                android:visibility="gone"
-                android:id="@+id/LLLENC"
                 android:orientation="horizontal">
 
                 <ImageView
@@ -2066,8 +1989,6 @@
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="115dp"
-                android:visibility="gone"
-                android:id="@+id/LLMACC"
                 android:orientation="horizontal">
 
                 <ImageView
@@ -2119,8 +2040,6 @@
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="115dp"
-                android:visibility="gone"
-                android:id="@+id/LLMICROU"
                 android:orientation="horizontal">
 
                 <ImageView
@@ -2172,8 +2091,6 @@
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="115dp"
-                android:visibility="gone"
-                android:id="@+id/LLMOUS"
                 android:orientation="horizontal">
 
                 <ImageView
@@ -2225,9 +2142,6 @@
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="115dp"
-                android:visibility="gone"
-                android:id="@+id/LLUSBC"
-
                 android:orientation="horizontal">
 
                 <ImageView
@@ -2279,8 +2193,6 @@
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="120dp"
-                android:visibility="gone"
-                android:id="@+id/LLUSBTO35"
                 android:orientation="horizontal">
 
                 <ImageView
@@ -2332,8 +2244,6 @@
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="115dp"
-                android:visibility="gone"
-                android:id="@+id/LLVGA"
                 android:orientation="horizontal">
 
                 <ImageView
@@ -2385,8 +2295,6 @@
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="115dp"
-                android:visibility="gone"
-                android:id="@+id/LLVGATOHD"
                 android:orientation="horizontal">
 
                 <ImageView
@@ -2438,8 +2346,6 @@
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="115dp"
-                android:visibility="gone"
-                android:id="@+id/LLVGATOL"
                 android:orientation="horizontal">
 
                 <ImageView
@@ -2491,8 +2397,6 @@
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:visibility="gone"
-                android:id="@+id/LLCC111"
                 android:orientation="horizontal">
 
                 <ImageView
@@ -2544,8 +2448,6 @@
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:visibility="gone"
-                android:id="@+id/LLCC112"
                 android:orientation="horizontal">
 
                 <ImageView
@@ -2597,8 +2499,6 @@
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:visibility="gone"
-                android:id="@+id/LLCC131"
                 android:orientation="horizontal">
 
                 <ImageView
@@ -2650,8 +2550,6 @@
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:visibility="gone"
-                android:id="@+id/LLCC132"
                 android:orientation="horizontal">
 
                 <ImageView
@@ -2703,8 +2601,6 @@
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:visibility="gone"
-                android:id="@+id/LLCC172"
                 android:orientation="horizontal">
 
                 <ImageView
@@ -2756,8 +2652,6 @@
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:visibility="gone"
-                android:id="@+id/LLM172"
                 android:orientation="horizontal">
 
                 <ImageView
@@ -2809,8 +2703,6 @@
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:visibility="gone"
-                android:id="@+id/LLCC174"
                 android:orientation="horizontal">
 
                 <ImageView
@@ -2862,8 +2754,6 @@
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:visibility="gone"
-                android:id="@+id/LLECON"
                 android:orientation="horizontal">
 
                 <ImageView
@@ -2915,8 +2805,6 @@
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="120dp"
-                android:visibility="gone"
-                android:id="@+id/LLWB2014"
                 android:orientation="horizontal">
 
                 <ImageView
@@ -2968,8 +2856,6 @@
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="120dp"
-                android:visibility="gone"
-                android:id="@+id/LLWB2015"
                 android:orientation="horizontal">
 
                 <ImageView
@@ -3021,8 +2907,6 @@
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="140dp"
-                android:visibility="gone"
-                android:id="@+id/LLMTHE225"
                 android:orientation="horizontal">
 
                 <ImageView

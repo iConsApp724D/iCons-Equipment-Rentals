@@ -68,6 +68,10 @@ public class EmployeeHomeScreen extends AppCompatActivity {
         Intent c=new Intent(this, EmployeeRequests.class);
         startActivity(c);
     }
+    public void openCalendar(View v){
+        Intent d=new Intent(this, EmployeeCalendar.class);
+        startActivity(d);
+    }
 
     public void turnOffline(View v){
         databaseReference.child(StringClass.employeeName).child("Online").setValue(false);

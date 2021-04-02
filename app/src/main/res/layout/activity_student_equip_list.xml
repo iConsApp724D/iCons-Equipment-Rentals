@@ -88,6 +88,7 @@
                             android:layout_width="70dp"
                             android:layout_height="wrap_content"
                             android:layout_weight="1"
+                            android:onClick="bp"
                             android:text="Add to Cart"
                             app:backgroundTint="#0B426B " />
                     </LinearLayout>
@@ -139,6 +140,7 @@
                             android:layout_width="70dp"
                             android:layout_height="wrap_content"
                             android:layout_weight="1"
+                            android:onClick="hp"
                             android:text="Add to Cart"
                             app:backgroundTint="#0B426B " />
                     </LinearLayout>
@@ -190,6 +192,7 @@
                             android:layout_width="70dp"
                             android:layout_height="wrap_content"
                             android:layout_weight="1"
+                            android:onClick="LG"
                             android:text="Add to Cart"
                             app:backgroundTint="#0B426B " />
                     </LinearLayout>
@@ -241,6 +244,7 @@
                             android:layout_width="70dp"
                             android:layout_height="wrap_content"
                             android:layout_weight="1"
+                            android:onClick="MT"
                             android:text="Add to Cart"
                             app:backgroundTint="#0B426B " />
                     </LinearLayout>
@@ -293,6 +297,7 @@
                             android:layout_height="wrap_content"
                             android:layout_weight="1"
                             android:text="Add to Cart"
+                            android:onClick="P"
                             app:backgroundTint="#0B426B " />
                     </LinearLayout>
 
@@ -344,6 +349,7 @@
                             android:layout_height="wrap_content"
                             android:layout_weight="1"
                             android:text="Add to Cart"
+                            android:onClick="SG"
                             app:backgroundTint="#0B426B " />
                     </LinearLayout>
 
@@ -395,6 +401,7 @@
                             android:layout_height="wrap_content"
                             android:layout_weight="1"
                             android:text="Add to Cart"
+                            android:onClick="SCI"
                             app:backgroundTint="#0B426B " />
                     </LinearLayout>
 
@@ -446,6 +453,7 @@
                             android:layout_height="wrap_content"
                             android:layout_weight="1"
                             android:text="Add to Cart"
+                            android:onClick="STAP"
                             app:backgroundTint="#0B426B " />
                     </LinearLayout>
 
@@ -497,6 +505,7 @@
                             android:layout_height="wrap_content"
                             android:layout_weight="1"
                             android:text="Add to Cart"
+                            android:onClick="STICK"
                             app:backgroundTint="#0B426B " />
                     </LinearLayout>
 
@@ -548,6 +557,7 @@
                             android:layout_height="wrap_content"
                             android:layout_weight="1"
                             android:text="Add to Cart"
+                            android:onClick="TAPE"
                             app:backgroundTint="#0B426B " />
                     </LinearLayout>
 
@@ -599,6 +609,7 @@
                             android:layout_height="wrap_content"
                             android:layout_weight="1"
                             android:text="Add to Cart"
+                            android:onClick="WBM"
                             app:backgroundTint="#0B426B " />
                     </LinearLayout>
 
@@ -650,6 +661,8 @@
                             android:layout_height="wrap_content"
                             android:layout_weight="1"
                             android:text="Add to Cart"
+                            android:onClick="WO"
+
                             app:backgroundTint="#0B426B " />
                     </LinearLayout>
 

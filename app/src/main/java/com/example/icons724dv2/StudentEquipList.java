@@ -43,6 +43,9 @@ public class StudentEquipList extends AppCompatActivity {
         firebaseDatabase=FirebaseDatabase.getInstance();
         databaseReference=firebaseDatabase.getReference("Equipment").child("Supplies");
         getdata();
+
+
+
     }
 
     private void getdata() {
@@ -90,4 +93,46 @@ public class StudentEquipList extends AppCompatActivity {
         Intent a = new Intent(this, StudentCart.class);
         startActivity(a);
     }
+
+    public void bp(View v){
+        inCart.bp = true;
+    }
+    public void hp(View v){
+        inCart.hp = true;
+    }
+    public void LG(View v){
+        inCart.LG = true;
+    }
+    public void MT(View v){
+        inCart.MT = true;
+    }
+    public void P(View v){
+        inCart.P = true;
+    }
+    public void SG(View v){
+        inCart.SG = true;
+    }
+    public void SCI(View v){
+        inCart.SCI = true;
+    }
+    public void STAP(View v){
+        inCart.STAP = true;
+    }
+    public void STICK(View v){
+        inCart.STICK = true;
+    }
+    public void TAPE(View v){
+        inCart.TAPE = true;
+    }
+    public void WBM(View v){
+        inCart.WBM = true;
+    }
+    public void WO(View v){
+        inCart.WO = true;
+    }
+
+
+
+
+
 }

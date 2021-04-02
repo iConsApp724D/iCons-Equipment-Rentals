@@ -88,6 +88,7 @@
                             android:layout_width="70dp"
                             android:layout_height="wrap_content"
                             android:layout_weight="1"
+                            android:onClick="atc111Text"
                             android:text="Add to Cart"
                             app:backgroundTint="#0B426B " />
                     </LinearLayout>
@@ -138,6 +139,7 @@
                             android:id="@+id/buttonAPSC112"
                             android:layout_width="70dp"
                             android:layout_height="wrap_content"
+                            android:onClick="atc112Text"
                             android:layout_weight="1"
                             android:text="Add to Cart"
                             app:backgroundTint="#0B426B " />
@@ -189,6 +191,7 @@
                             android:id="@+id/buttonCALC6"
                             android:layout_width="70dp"
                             android:layout_height="wrap_content"
+                            android:onClick="atcCalc6Text"
                             android:layout_weight="1"
                             android:text="Add to Cart"
                             app:backgroundTint="#0B426B " />
@@ -241,6 +244,7 @@
                             android:layout_width="70dp"
                             android:layout_height="wrap_content"
                             android:layout_weight="1"
+                            android:onClick="atcCalc7Text"
                             android:text="Add to Cart"
                             app:backgroundTint="#0B426B " />
                     </LinearLayout>
@@ -293,6 +297,7 @@
                             android:layout_height="wrap_content"
                             android:layout_weight="1"
                             android:text="Add to Cart"
+                            android:onClick="atcGeo4Text"
                             app:backgroundTint="#0B426B " />
                     </LinearLayout>
 
@@ -342,6 +347,7 @@
                             android:id="@+id/buttonELEC221"
                             android:layout_width="70dp"
                             android:layout_height="wrap_content"
+                            android:onClick="atcELEC221Text"
                             android:layout_weight="1"
                             android:text="Add to Cart"
                             app:backgroundTint="#0B426B " />
@@ -395,6 +401,7 @@
                             android:layout_height="wrap_content"
                             android:layout_weight="1"
                             android:text="Add to Cart"
+                            android:onClick="atcEE2Text"
                             app:backgroundTint="#0B426B " />
                     </LinearLayout>
 
@@ -446,6 +453,7 @@
                             android:layout_height="wrap_content"
                             android:layout_weight="1"
                             android:text="Add to Cart"
+                            android:onClick="atcEE4Text"
                             app:backgroundTint="#0B426B " />
                     </LinearLayout>
 
@@ -494,6 +502,7 @@
                         <Button
                             android:id="@+id/buttonFLM"
                             android:layout_width="70dp"
+                            android:onClick="atcFLMText"
                             android:layout_height="wrap_content"
                             android:layout_weight="1"
                             android:text="Add to Cart"
@@ -545,6 +554,7 @@
                         <Button
                             android:id="@+id/buttonF341"
                             android:layout_width="70dp"
+                            android:onClick="atcF341Text"
                             android:layout_height="wrap_content"
                             android:layout_weight="1"
                             android:text="Add to Cart"
@@ -599,6 +609,7 @@
                             android:layout_height="wrap_content"
                             android:layout_weight="1"
                             android:text="Add to Cart"
+                            android:onClick="atcFCAText"
                             app:backgroundTint="#0B426B " />
                     </LinearLayout>
 
@@ -649,6 +660,7 @@
                             android:layout_width="70dp"
                             android:layout_height="wrap_content"
                             android:layout_weight="1"
+                            android:onClick="atcFETText"
                             android:text="Add to Cart"
                             app:backgroundTint="#0B426B " />
                     </LinearLayout>
@@ -702,6 +714,7 @@
                             android:layout_height="wrap_content"
                             android:layout_weight="1"
                             android:text="Add to Cart"
+                            android:onClick="atcCHEM10Text"
                             app:backgroundTint="#0B426B " />
                     </LinearLayout>
 
@@ -752,6 +765,7 @@
                             android:layout_width="70dp"
                             android:layout_height="wrap_content"
                             android:layout_weight="1"
+                            android:onClick="atcMM8Text"
                             android:text="Add to Cart"
                             app:backgroundTint="#0B426B " />
                     </LinearLayout>
@@ -803,6 +817,7 @@
                             android:layout_width="70dp"
                             android:layout_height="wrap_content"
                             android:layout_weight="1"
+                            android:onClick="atcMM2Text"
                             android:text="Add to Cart"
                             app:backgroundTint="#0B426B " />
                     </LinearLayout>
@@ -855,6 +870,7 @@
                             android:layout_height="wrap_content"
                             android:layout_weight="1"
                             android:text="Add to Cart"
+                            android:onClick="atcME12Text"
                             app:backgroundTint="#0B426B " />
                     </LinearLayout>
 
@@ -903,6 +919,7 @@
                         <Button
                             android:id="@+id/buttonMG3"
                             android:layout_width="70dp"
+                            android:onClick="atcMG3Text"
                             android:layout_height="wrap_content"
                             android:layout_weight="1"
                             android:text="Add to Cart"
@@ -954,6 +971,7 @@
                         <Button
                             android:id="@+id/buttonMG4"
                             android:layout_width="70dp"
+                            android:onClick="atcMG4Text"
                             android:layout_height="wrap_content"
                             android:layout_weight="1"
                             android:text="Add to Cart"
@@ -1006,6 +1024,7 @@
                             android:id="@+id/buttonMTHE406"
                             android:layout_width="70dp"
                             android:layout_height="wrap_content"
+                            android:onClick="atcMTHE406Text"
                             android:layout_weight="1"
                             android:text="Add to Cart"
                             app:backgroundTint="#0B426B " />
