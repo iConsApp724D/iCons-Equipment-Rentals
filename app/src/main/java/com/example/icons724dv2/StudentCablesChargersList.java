@@ -101,49 +101,155 @@ public class StudentCablesChargersList extends AppCompatActivity {
     }
 
     public void ACERC(View v){
-        inCart.ACERC = true;
+        if(inCart.cartCounter<5){
+            inCart.cartCounter=inCart.cartCounter+1;
+            Toast.makeText(StudentCablesChargersList.this,"Item added to cart", Toast.LENGTH_SHORT).show();
+            inCart.ACERC = true;
+        }
+        else{
+            Toast.makeText(StudentCablesChargersList.this,"Cart has too many items. Please remove an item to add another", Toast.LENGTH_SHORT).show();
+        }
     }
     public void ASUSC(View v){
-        inCart.ASUSC = true;
+        if(inCart.cartCounter<5){
+            inCart.cartCounter=inCart.cartCounter+1;
+            Toast.makeText(StudentCablesChargersList.this,"Item added to cart", Toast.LENGTH_SHORT).show();
+            inCart.ASUSC = true;
+        }
+        else{
+            Toast.makeText(StudentCablesChargersList.this,"Cart has too many items. Please remove an item to add another", Toast.LENGTH_SHORT).show();
+        }
     }
     public void HDMI(View v){
-        inCart.HDMI = true;
+        if(inCart.cartCounter<5){
+            inCart.cartCounter=inCart.cartCounter+1;
+            Toast.makeText(StudentCablesChargersList.this,"Item added to cart", Toast.LENGTH_SHORT).show();
+            inCart.HDMI = true;
+        }
+        else{
+            Toast.makeText(StudentCablesChargersList.this,"Cart has too many items. Please remove an item to add another", Toast.LENGTH_SHORT).show();
+        }
     }
     public void HDTOL(View v){
-        inCart.HDTOL = true;
+        if(inCart.cartCounter<5){
+            inCart.cartCounter=inCart.cartCounter+1;
+            Toast.makeText(StudentCablesChargersList.this,"Item added to cart", Toast.LENGTH_SHORT).show();
+            inCart.HDTOL = true;
+        }
+        else{
+            Toast.makeText(StudentCablesChargersList.this,"Cart has too many items. Please remove an item to add another", Toast.LENGTH_SHORT).show();
+        }
     }
     public void HDTOUC(View v){
-        inCart.HDTOUC = true;
+        if(inCart.cartCounter<5){
+            inCart.cartCounter=inCart.cartCounter+1;
+            Toast.makeText(StudentCablesChargersList.this,"Item added to cart", Toast.LENGTH_SHORT).show();
+            inCart.HDTOUC = true;
+        }
+        else{
+            Toast.makeText(StudentCablesChargersList.this,"Cart has too many items. Please remove an item to add another", Toast.LENGTH_SHORT).show();
+        }
     }
     public void IPC(View v){
-        inCart.IPC = true;
+        if(inCart.cartCounter<5){
+            inCart.cartCounter=inCart.cartCounter+1;
+            Toast.makeText(StudentCablesChargersList.this,"Item added to cart", Toast.LENGTH_SHORT).show();
+            inCart.IPC = true;
+        }
+        else{
+            Toast.makeText(StudentCablesChargersList.this,"Cart has too many items. Please remove an item to add another", Toast.LENGTH_SHORT).show();
+        }
     }
     public void LENC(View v){
-        inCart.LENC = true;
+        if(inCart.cartCounter<5){
+            inCart.cartCounter=inCart.cartCounter+1;
+            Toast.makeText(StudentCablesChargersList.this,"Item added to cart", Toast.LENGTH_SHORT).show();
+            inCart.LENC = true;
+        }
+        else{
+            Toast.makeText(StudentCablesChargersList.this,"Cart has too many items. Please remove an item to add another", Toast.LENGTH_SHORT).show();
+        }
     }
     public void MACC(View v){
-        inCart.MACC = true;
+        if(inCart.cartCounter<5){
+            inCart.cartCounter=inCart.cartCounter+1;
+            Toast.makeText(StudentCablesChargersList.this,"Item added to cart", Toast.LENGTH_SHORT).show();
+            inCart.MACC = true;
+        }
+        else{
+            Toast.makeText(StudentCablesChargersList.this,"Cart has too many items. Please remove an item to add another", Toast.LENGTH_SHORT).show();
+        }
     }
     public void MICROU(View v){
-        inCart.MICROU = true;
+        if(inCart.cartCounter<5){
+            inCart.cartCounter=inCart.cartCounter+1;
+            Toast.makeText(StudentCablesChargersList.this,"Item added to cart", Toast.LENGTH_SHORT).show();
+            inCart.MICROU = true;
+        }
+        else{
+            Toast.makeText(StudentCablesChargersList.this,"Cart has too many items. Please remove an item to add another", Toast.LENGTH_SHORT).show();
+        }
     }
     public void MOUS(View v){
-        inCart.MOUS = true;
+        if(inCart.cartCounter<5){
+            inCart.cartCounter=inCart.cartCounter+1;
+            Toast.makeText(StudentCablesChargersList.this,"Item added to cart", Toast.LENGTH_SHORT).show();
+            inCart.MOUS = true;
+        }
+        else{
+            Toast.makeText(StudentCablesChargersList.this,"Cart has too many items. Please remove an item to add another", Toast.LENGTH_SHORT).show();
+        }
     }
     public void USBC(View v){
-        inCart.USBC = true;
+        if(inCart.cartCounter<5){
+            inCart.cartCounter=inCart.cartCounter+1;
+            Toast.makeText(StudentCablesChargersList.this,"Item added to cart", Toast.LENGTH_SHORT).show();
+            inCart.USBC = true;
+        }
+        else{
+            Toast.makeText(StudentCablesChargersList.this,"Cart has too many items. Please remove an item to add another", Toast.LENGTH_SHORT).show();
+        }
+
     }
     public void USBTO35(View v){
-        inCart.USBTO35 = true;
+        if(inCart.cartCounter<5){
+            inCart.cartCounter=inCart.cartCounter+1;
+            Toast.makeText(StudentCablesChargersList.this,"Item added to cart", Toast.LENGTH_SHORT).show();
+            inCart.USBTO35 = true;
+        }
+        else{
+            Toast.makeText(StudentCablesChargersList.this,"Cart has too many items. Please remove an item to add another", Toast.LENGTH_SHORT).show();
+        }
     }
     public void VGA(View v){
-        inCart.VGA = true;
+        if(inCart.cartCounter<5){
+            inCart.cartCounter=inCart.cartCounter+1;
+            Toast.makeText(StudentCablesChargersList.this,"Item added to cart", Toast.LENGTH_SHORT).show();
+            inCart.VGA = true;
+        }
+        else{
+            Toast.makeText(StudentCablesChargersList.this,"Cart has too many items. Please remove an item to add another", Toast.LENGTH_SHORT).show();
+        }
     }
     public void VGATOHD(View v){
-        inCart.VGATOHD = true;
+        if(inCart.cartCounter<5){
+            inCart.cartCounter=inCart.cartCounter+1;
+            Toast.makeText(StudentCablesChargersList.this,"Item added to cart", Toast.LENGTH_SHORT).show();
+            inCart.VGATOHD = true;
+        }
+        else{
+            Toast.makeText(StudentCablesChargersList.this,"Cart has too many items. Please remove an item to add another", Toast.LENGTH_SHORT).show();
+        }
     }
     public void VGATOL(View v){
-        inCart.VGATOL = true;
+        if(inCart.cartCounter<5){
+            inCart.cartCounter=inCart.cartCounter+1;
+            Toast.makeText(StudentCablesChargersList.this,"Item added to cart", Toast.LENGTH_SHORT).show();
+            inCart.VGATOL = true;
+        }
+        else{
+            Toast.makeText(StudentCablesChargersList.this,"Cart has too many items. Please remove an item to add another", Toast.LENGTH_SHORT).show();
+        }
     }
 
 

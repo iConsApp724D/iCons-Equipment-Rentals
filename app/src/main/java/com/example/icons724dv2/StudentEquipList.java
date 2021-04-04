@@ -95,40 +95,124 @@ public class StudentEquipList extends AppCompatActivity {
     }
 
     public void bp(View v){
-        inCart.bp = true;
+        if(inCart.cartCounter<5){
+            inCart.cartCounter=inCart.cartCounter+1;
+            Toast.makeText(StudentEquipList.this,"Item added to cart", Toast.LENGTH_SHORT).show();
+            inCart.bp = true;
+        }
+        else{
+            Toast.makeText(StudentEquipList.this,"Cart has too many items. Please remove an item to add another", Toast.LENGTH_SHORT).show();
+        }
     }
     public void hp(View v){
-        inCart.hp = true;
+        if(inCart.cartCounter<5){
+            inCart.cartCounter=inCart.cartCounter+1;
+            Toast.makeText(StudentEquipList.this,"Item added to cart", Toast.LENGTH_SHORT).show();
+            inCart.hp = true;
+        }
+        else{
+            Toast.makeText(StudentEquipList.this,"Cart has too many items. Please remove an item to add another", Toast.LENGTH_SHORT).show();
+        }
     }
     public void LG(View v){
-        inCart.LG = true;
+        if(inCart.cartCounter<5){
+            inCart.cartCounter=inCart.cartCounter+1;
+            Toast.makeText(StudentEquipList.this,"Item added to cart", Toast.LENGTH_SHORT).show();
+            inCart.LG = true;
+        }
+        else{
+            Toast.makeText(StudentEquipList.this,"Cart has too many items. Please remove an item to add another", Toast.LENGTH_SHORT).show();
+        }
     }
     public void MT(View v){
-        inCart.MT = true;
+        if(inCart.cartCounter<5){
+            inCart.cartCounter=inCart.cartCounter+1;
+            Toast.makeText(StudentEquipList.this,"Item added to cart", Toast.LENGTH_SHORT).show();
+            inCart.MT = true;
+        }
+        else{
+            Toast.makeText(StudentEquipList.this,"Cart has too many items. Please remove an item to add another", Toast.LENGTH_SHORT).show();
+        }
     }
     public void P(View v){
-        inCart.P = true;
+        if(inCart.cartCounter<5){
+            inCart.cartCounter=inCart.cartCounter+1;
+            Toast.makeText(StudentEquipList.this,"Item added to cart", Toast.LENGTH_SHORT).show();
+            inCart.P = true;
+        }
+        else{
+            Toast.makeText(StudentEquipList.this,"Cart has too many items. Please remove an item to add another", Toast.LENGTH_SHORT).show();
+        }
     }
     public void SG(View v){
-        inCart.SG = true;
+        if(inCart.cartCounter<5){
+            inCart.cartCounter=inCart.cartCounter+1;
+            Toast.makeText(StudentEquipList.this,"Item added to cart", Toast.LENGTH_SHORT).show();
+            inCart.SG = true;
+        }
+        else{
+            Toast.makeText(StudentEquipList.this,"Cart has too many items. Please remove an item to add another", Toast.LENGTH_SHORT).show();
+        }
     }
     public void SCI(View v){
-        inCart.SCI = true;
+        if(inCart.cartCounter<5){
+            inCart.cartCounter=inCart.cartCounter+1;
+            Toast.makeText(StudentEquipList.this,"Item added to cart", Toast.LENGTH_SHORT).show();
+            inCart.SCI = true;
+        }
+        else{
+            Toast.makeText(StudentEquipList.this,"Cart has too many items. Please remove an item to add another", Toast.LENGTH_SHORT).show();
+        }
     }
     public void STAP(View v){
-        inCart.STAP = true;
+        if(inCart.cartCounter<5){
+            inCart.cartCounter=inCart.cartCounter+1;
+            Toast.makeText(StudentEquipList.this,"Item added to cart", Toast.LENGTH_SHORT).show();
+            inCart.STAP = true;
+        }
+        else{
+            Toast.makeText(StudentEquipList.this,"Cart has too many items. Please remove an item to add another", Toast.LENGTH_SHORT).show();
+        }
     }
     public void STICK(View v){
-        inCart.STICK = true;
+        if(inCart.cartCounter<5){
+            inCart.cartCounter=inCart.cartCounter+1;
+            Toast.makeText(StudentEquipList.this,"Item added to cart", Toast.LENGTH_SHORT).show();
+            inCart.STICK = true;
+        }
+        else{
+            Toast.makeText(StudentEquipList.this,"Cart has too many items. Please remove an item to add another", Toast.LENGTH_SHORT).show();
+        }
     }
     public void TAPE(View v){
-        inCart.TAPE = true;
+        if(inCart.cartCounter<5){
+            inCart.cartCounter=inCart.cartCounter+1;
+            Toast.makeText(StudentEquipList.this,"Item added to cart", Toast.LENGTH_SHORT).show();
+            inCart.TAPE = true;
+        }
+        else{
+            Toast.makeText(StudentEquipList.this,"Cart has too many items. Please remove an item to add another", Toast.LENGTH_SHORT).show();
+        }
     }
     public void WBM(View v){
-        inCart.WBM = true;
+        if(inCart.cartCounter<5){
+            inCart.cartCounter=inCart.cartCounter+1;
+            Toast.makeText(StudentEquipList.this,"Item added to cart", Toast.LENGTH_SHORT).show();
+            inCart.WBM = true;
+        }
+        else{
+            Toast.makeText(StudentEquipList.this,"Cart has too many items. Please remove an item to add another", Toast.LENGTH_SHORT).show();
+        }
     }
     public void WO(View v){
-        inCart.WO = true;
+        if(inCart.cartCounter<5){
+            inCart.cartCounter=inCart.cartCounter+1;
+            Toast.makeText(StudentEquipList.this,"Item added to cart", Toast.LENGTH_SHORT).show();
+            inCart.WO = true;
+        }
+        else{
+            Toast.makeText(StudentEquipList.this,"Cart has too many items. Please remove an item to add another", Toast.LENGTH_SHORT).show();
+        }
     }
 
 

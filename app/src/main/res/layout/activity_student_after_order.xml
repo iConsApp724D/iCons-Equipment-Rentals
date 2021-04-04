@@ -10,13 +10,13 @@
         android:id="@+id/button10"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginBottom="120dp"
+        android:layout_marginTop="65dp"
         android:onClick="toHome"
         android:text="@string/home"
         app:backgroundTint="#0B426B"
-        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent" />
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView6" />
 
     <TextView
         android:id="@+id/textView2"
@@ -31,7 +31,8 @@
         android:typeface="normal"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imageView6" />
+        app:layout_constraintTop_toBottomOf="@+id/imageView6"
+        android:gravity="center_horizontal" />
 
     <TextView
         android:id="@+id/textView3"
@@ -53,7 +54,7 @@
         android:id="@+id/imageView6"
         android:layout_width="196dp"
         android:layout_height="54dp"
-        android:layout_marginTop="26dp"
+        android:layout_marginTop="35dp"
         android:src="@drawable/icons"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.497"
@@ -74,22 +75,26 @@
 
     <TextView
         android:id="@+id/textView5"
-        android:layout_width="wrap_content"
+        android:layout_width="320dp"
         android:layout_height="wrap_content"
         android:layout_marginTop="25dp"
-        android:text="1. Message an iCon to request pickup"
+        android:text="• Message an iCon to request pickup"
         android:textColor="#1C1C1C"
         android:textSize="18sp"
+        android:textAlignment="center"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView4" />
+        app:layout_constraintTop_toBottomOf="@+id/textView4"
+        android:gravity="center_horizontal" />
 
     <TextView
         android:id="@+id/textView6"
-        android:layout_width="wrap_content"
+        android:layout_width="320dp"
         android:layout_height="wrap_content"
         android:layout_marginTop="20dp"
-        android:text="2. Bring items to iCons desk on floor x"
+        android:gravity="center_horizontal"
+        android:text="• Return items to the iCons desk on the second floor of the ILC"
+        android:textAlignment="center"
         android:textColor="#1C1C1C"
         android:textSize="18sp"
         app:layout_constraintEnd_toEndOf="parent"

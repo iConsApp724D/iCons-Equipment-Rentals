@@ -112,61 +112,194 @@ public class StudentTextbookList extends AppCompatActivity {
     }
 
     public void atc111Text(View v){
-        inCart.atc111Text = true;
+        if(inCart.cartCounter<5){
+            inCart.cartCounter=inCart.cartCounter+1;
+            Toast.makeText(StudentTextbookList.this,"Item added to cart", Toast.LENGTH_SHORT).show();
+            inCart.atc111Text = true;
+        }
+        else{
+            Toast.makeText(StudentTextbookList.this,"Cart has too many items. Please remove an item to add another", Toast.LENGTH_SHORT).show();
+        }
     }
     public void atc112Text(View v){
-        inCart.atc112Text = true;
+        if(inCart.cartCounter<5){
+            inCart.cartCounter=inCart.cartCounter+1;
+            Toast.makeText(StudentTextbookList.this,"Item added to cart", Toast.LENGTH_SHORT).show();
+            inCart.atc112Text = true;
+        }
+        else{
+            Toast.makeText(StudentTextbookList.this,"Cart has too many items. Please remove an item to add another", Toast.LENGTH_SHORT).show();
+        }
     }
     public void atcCalc6Text(View v){
-        inCart.atcCalc6Text = true;
+        if(inCart.cartCounter<5){
+            inCart.cartCounter=inCart.cartCounter+1;
+            Toast.makeText(StudentTextbookList.this,"Item added to cart", Toast.LENGTH_SHORT).show();
+            inCart.atcCalc6Text = true;
+        }
+        else{
+            Toast.makeText(StudentTextbookList.this,"Cart has too many items. Please remove an item to add another", Toast.LENGTH_SHORT).show();
+        }
     }
     public void atcCalc7Text(View v){
-        inCart.atcCalc7Text = true;
+        if(inCart.cartCounter<5){
+            inCart.cartCounter=inCart.cartCounter+1;
+            Toast.makeText(StudentTextbookList.this,"Item added to cart", Toast.LENGTH_SHORT).show();
+            inCart.atcCalc7Text = true;
+        }
+        else{
+            Toast.makeText(StudentTextbookList.this,"Cart has too many items. Please remove an item to add another", Toast.LENGTH_SHORT).show();
+        }
     }
     public void atcGeo4Text(View v){
-        inCart.atcGeo4Text = true;
+        if(inCart.cartCounter<5){
+            inCart.cartCounter=inCart.cartCounter+1;
+            Toast.makeText(StudentTextbookList.this,"Item added to cart", Toast.LENGTH_SHORT).show();
+            inCart.atcGeo4Text = true;
+        }
+        else{
+            Toast.makeText(StudentTextbookList.this,"Cart has too many items. Please remove an item to add another", Toast.LENGTH_SHORT).show();
+        }
     }
     public void atcELEC221Text(View v){
-        inCart.atcELEC221Text = true;
+        if(inCart.cartCounter<5){
+            inCart.cartCounter=inCart.cartCounter+1;
+            Toast.makeText(StudentTextbookList.this,"Item added to cart", Toast.LENGTH_SHORT).show();
+            inCart.atcELEC221Text = true;
+        }
+        else{
+            Toast.makeText(StudentTextbookList.this,"Cart has too many items. Please remove an item to add another", Toast.LENGTH_SHORT).show();
+        }
     }
     public void atcEE2Text(View v){
-        inCart.atcEE2Text = true;
+        if(inCart.cartCounter<5){
+            inCart.cartCounter=inCart.cartCounter+1;
+            Toast.makeText(StudentTextbookList.this,"Item added to cart", Toast.LENGTH_SHORT).show();
+            inCart.atcEE2Text = true;
+        }
+        else{
+            Toast.makeText(StudentTextbookList.this,"Cart has too many items. Please remove an item to add another", Toast.LENGTH_SHORT).show();
+        }
     }
     public void atcEE4Text(View v){
-        inCart.atcEE4Text = true;
+        if(inCart.cartCounter<5){
+            inCart.cartCounter=inCart.cartCounter+1;
+            Toast.makeText(StudentTextbookList.this,"Item added to cart", Toast.LENGTH_SHORT).show();
+            inCart.atcEE4Text = true;
+        }
+        else{
+            Toast.makeText(StudentTextbookList.this,"Cart has too many items. Please remove an item to add another", Toast.LENGTH_SHORT).show();
+        }
     }
     public void atcFLMText(View v){
-        inCart.atcFLMText = true;
+        if(inCart.cartCounter<5){
+            inCart.cartCounter=inCart.cartCounter+1;
+            Toast.makeText(StudentTextbookList.this,"Item added to cart", Toast.LENGTH_SHORT).show();
+            inCart.atcFLMText = true;
+        }
+        else{
+            Toast.makeText(StudentTextbookList.this,"Cart has too many items. Please remove an item to add another", Toast.LENGTH_SHORT).show();
+        }
     }
     public void atcF341Text(View v){
-        inCart.atcF341Text = true;
+        if(inCart.cartCounter<5){
+            inCart.cartCounter=inCart.cartCounter+1;
+            Toast.makeText(StudentTextbookList.this,"Item added to cart", Toast.LENGTH_SHORT).show();
+            inCart.atcF341Text = true;
+        }
+        else{
+            Toast.makeText(StudentTextbookList.this,"Cart has too many items. Please remove an item to add another", Toast.LENGTH_SHORT).show();
+        }
     }
     public void atcFCAText(View v){
-        inCart.atcFCAText = true;
+        if(inCart.cartCounter<5){
+            inCart.cartCounter=inCart.cartCounter+1;
+            Toast.makeText(StudentTextbookList.this,"Item added to cart", Toast.LENGTH_SHORT).show();
+            inCart.atcFCAText = true;
+        }
+        else{
+            Toast.makeText(StudentTextbookList.this,"Cart has too many items. Please remove an item to add another", Toast.LENGTH_SHORT).show();
+        }
     }
     public void atcFETText(View v){
-        inCart.atcFETText = true;
+        if(inCart.cartCounter<5){
+            inCart.cartCounter=inCart.cartCounter+1;
+            Toast.makeText(StudentTextbookList.this,"Item added to cart", Toast.LENGTH_SHORT).show();
+            inCart.atcFETText = true;
+        }
+        else{
+            Toast.makeText(StudentTextbookList.this,"Cart has too many items. Please remove an item to add another", Toast.LENGTH_SHORT).show();
+        }
     }
     public void atcCHEM10Text(View v){
-        inCart.atcCHEM10Text = true;
+        if(inCart.cartCounter<5){
+            inCart.cartCounter=inCart.cartCounter+1;
+            Toast.makeText(StudentTextbookList.this,"Item added to cart", Toast.LENGTH_SHORT).show();
+            inCart.atcCHEM10Text = true;
+        }
+        else{
+            Toast.makeText(StudentTextbookList.this,"Cart has too many items. Please remove an item to add another", Toast.LENGTH_SHORT).show();
+        }
     }
     public void atcMM8Text(View v){
-        inCart.atc111Text = true;
+        if(inCart.cartCounter<5){
+            inCart.cartCounter=inCart.cartCounter+1;
+            Toast.makeText(StudentTextbookList.this,"Item added to cart", Toast.LENGTH_SHORT).show();
+            inCart.atc111Text = true;
+        }
+        else{
+            Toast.makeText(StudentTextbookList.this,"Cart has too many items. Please remove an item to add another", Toast.LENGTH_SHORT).show();
+        }
     }
     public void atcMM2Text(View v){
-        inCart.atcMM2Text = true;
+        if(inCart.cartCounter<5){
+            inCart.cartCounter=inCart.cartCounter+1;
+            Toast.makeText(StudentTextbookList.this,"Item added to cart", Toast.LENGTH_SHORT).show();
+            inCart.atcMM2Text = true;
+        }
+        else{
+            Toast.makeText(StudentTextbookList.this,"Cart has too many items. Please remove an item to add another", Toast.LENGTH_SHORT).show();
+        }
     }
     public void atcME12Text(View v){
-        inCart.atcME12Text = true;
+        if(inCart.cartCounter<5){
+            inCart.cartCounter=inCart.cartCounter+1;
+            Toast.makeText(StudentTextbookList.this,"Item added to cart", Toast.LENGTH_SHORT).show();
+            inCart.atcME12Text = true;
+        }
+        else{
+            Toast.makeText(StudentTextbookList.this,"Cart has too many items. Please remove an item to add another", Toast.LENGTH_SHORT).show();
+        }
     }
     public void atcMG3Text(View v){
-        inCart.atcMG3Text = true;
+        if(inCart.cartCounter<5){
+            inCart.cartCounter=inCart.cartCounter+1;
+            Toast.makeText(StudentTextbookList.this,"Item added to cart", Toast.LENGTH_SHORT).show();
+            inCart.atcMG3Text = true;
+        }
+        else{
+            Toast.makeText(StudentTextbookList.this,"Cart has too many items. Please remove an item to add another", Toast.LENGTH_SHORT).show();
+        }
     }
     public void atcMG4Text(View v){
-        inCart.atcMG4Text = true;
+        if(inCart.cartCounter<5){
+            inCart.cartCounter=inCart.cartCounter+1;
+            Toast.makeText(StudentTextbookList.this,"Item added to cart", Toast.LENGTH_SHORT).show();
+            inCart.atcMG4Text = true;
+        }
+        else{
+            Toast.makeText(StudentTextbookList.this,"Cart has too many items. Please remove an item to add another", Toast.LENGTH_SHORT).show();
+        }
     }
     public void atcMTHE406Text(View v){
-        inCart.atcMTHE406Text = true;
+        if(inCart.cartCounter<5){
+            inCart.cartCounter=inCart.cartCounter+1;
+            Toast.makeText(StudentTextbookList.this,"Item added to cart", Toast.LENGTH_SHORT).show();
+            inCart.atcMTHE406Text = true;
+        }
+        else{
+            Toast.makeText(StudentTextbookList.this,"Cart has too many items. Please remove an item to add another", Toast.LENGTH_SHORT).show();
+        }
     }
 
 

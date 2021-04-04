@@ -1,6 +1,12 @@
 package com.example.icons724dv2;
 
+import java.lang.reflect.Array;
+import java.lang.reflect.Field;
+import java.util.ArrayList;
+
 public class inCart {
+    //ArrayList<Boolean> equipment = new ArrayList<Boolean>();
+    Field[] equipment = inCart.class.getFields();
 
 
     public static boolean atc111Text=false;
@@ -63,6 +69,9 @@ public class inCart {
     public static boolean WB2014=false;
     public static boolean WB2015=false;
     public static boolean MTHE225=false;
+
+    public static int cartCounter=0;
+    public static ArrayList<String> inCartItems;
 
 
 }

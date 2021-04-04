@@ -35,16 +35,47 @@
 
     <string-array name="Rooms">
         <item>Select Room Number</item>
-        <item>ILC - 1</item>
-        <item>ILC - 2</item>
-        <item>ILC - 3</item>
-        <item>ILC - 4</item>
-        <item>ILC - 5</item>
-        <item>ILC - 6</item>
-        <item>Stirling - 1</item>
-        <item>Stirling - 2</item>
-        <item>Stirling - 3</item>
-        <item>Stirling - 4</item>
+        <item>ILC - 104</item>
+        <item>ILC - 105</item>
+        <item>ILC - 111</item>
+        <item>ILC - 112</item>
+        <item>ILC - 113</item>
+        <item>ILC - 116</item>.
+        <item>ILC - 117</item>
+        <item>ILC - 118</item>
+        <item>ILC - 119</item>
+        <item>ILC - 120</item>
+        <item>ILC - 128</item>
+        <item>ILC - 129</item>
+        <item>ILC - 130</item>
+        <item>ILC - 131</item>
+        <item>ILC - 218</item>
+        <item>ILC - 219</item>
+        <item>ILC - 220</item>
+        <item>ILC - 221</item>
+        <item>ILC - 222</item>
+        <item>ILC - 223</item>
+        <item>ILC - 224</item>
+        <item>ILC - 225</item>
+        <item>ILC - 227</item>
+        <item>ILC - 228</item>
+        <item>ILC - 229</item>
+        <item>ILC - 230</item>
+        <item>ILC - 231</item>
+        <item>ILC - 317</item>
+        <item>ILC - 318</item>
+        <item>ILC - 319</item>
+        <item>ILC - 320</item>
+        <item>ILC - 321</item>
+        <item>ILC - 322</item>
+        <item>ILC - 323</item>
+        <item>ILC - 324</item>
+        <item>ILC - 325</item>
+        <item>ILC - 327</item>
+        <item>ILC - 329</item>
+        <item>ILC - 330</item>
+        <item>ILC - 331</item>
+
     </string-array>
 
 </resources>

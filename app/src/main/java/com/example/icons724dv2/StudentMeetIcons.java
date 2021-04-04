@@ -52,26 +52,54 @@ public class StudentMeetIcons extends AppCompatActivity {
                     michaelpatchell.setVisibility(View.VISIBLE);
                     patchellmichael.setVisibility(View.VISIBLE);
                 }
+                if (snapshot.child("Michael").child("Online").getValue().equals(false)) {
+                    michaelpatchell.setVisibility(View.GONE);
+                    patchellmichael.setVisibility(View.GONE);
+                }
 
                 if (snapshot.child("Ryan").child("Online").getValue().equals(true)){
                     ryanbaker.setVisibility(View.VISIBLE);
                     bakerryan.setVisibility(View.VISIBLE);
                 }
+                if (snapshot.child("Ryan").child("Online").getValue().equals(false)){
+                    ryanbaker.setVisibility(View.GONE);
+                    bakerryan.setVisibility(View.GONE);
+                }
+
                 if (snapshot.child("Drake").child("Online").getValue().equals(true)){
                     drakestoll.setVisibility(View.VISIBLE);
                     stolldrake.setVisibility(View.VISIBLE);
                 }
+                if (snapshot.child("Drake").child("Online").getValue().equals(false)){
+                    drakestoll.setVisibility(View.GONE);
+                    stolldrake.setVisibility(View.GONE);
+                }
+
                 if (snapshot.child("Antik").child("Online").getValue().equals(true)){
                     antik.setVisibility(View.VISIBLE);
                     antikantik.setVisibility(View.VISIBLE);
                 }
+                if (snapshot.child("Antik").child("Online").getValue().equals(false)){
+                    antik.setVisibility(View.GONE);
+                    antikantik.setVisibility(View.GONE);
+                }
+
                 if (snapshot.child("Deven").child("Online").getValue().equals(true)){
                     deven.setVisibility(View.VISIBLE);
                     vyas.setVisibility(View.VISIBLE);
                 }
+                if (snapshot.child("Deven").child("Online").getValue().equals(false)){
+                    deven.setVisibility(View.GONE);
+                    vyas.setVisibility(View.GONE);
+                }
+
                 if (snapshot.child("Tyler").child("Online").getValue().equals(true)){
                     tyler.setVisibility(View.VISIBLE);
                     sun.setVisibility(View.VISIBLE);
+                }
+                if (snapshot.child("Tyler").child("Online").getValue().equals(false)){
+                    tyler.setVisibility(View.GONE);
+                    sun.setVisibility(View.GONE);
                 }
 
 
