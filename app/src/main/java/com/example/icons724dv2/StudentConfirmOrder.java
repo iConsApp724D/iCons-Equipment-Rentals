@@ -34,12 +34,12 @@ public class StudentConfirmOrder extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_student_confirm_order);
         firebaseDatabase=FirebaseDatabase.getInstance();
-        databaseReference=firebaseDatabase.getReference("Equipment");
+        databaseReference=firebaseDatabase.getReference();
         TextView text = (TextView) findViewById(R.id.textName);
         text.setText("Name:     "+StringClass.name1);
 
         TextView text2 = (TextView) findViewById(R.id.textStudentId);
-        text2.setText("Student ID:   "+StringClass.studID);
+        text2.setText("Student ID:   "+StringClass.firstID);
 
         Spinner roomSelect = (Spinner) findViewById(R.id.spinnerRoom);
         roomSelect.setOnItemSelectedListener(new AdapterView.OnItemSelectedListener() {
@@ -304,7 +304,7 @@ public class StudentConfirmOrder extends AppCompatActivity {
             @Override
             public void onDataChange(@NonNull DataSnapshot snapshot) {
                 for (int i=0;i<cartOrder.size()/2;i++){
-                    String temp=snapshot.child(cartOrder.get(2*i+1)).child(cartOrder.get(2*i)).child("Name").getValue().toString();
+                    String temp=snapshot.child("Equipment").child(cartOrder.get(2*i+1)).child(cartOrder.get(2*i)).child("Name").getValue().toString();
                     cartItems.get(i).setText("• "+temp);
                 }
             }
@@ -329,36 +329,14 @@ public class StudentConfirmOrder extends AppCompatActivity {
         else if(inCart.inCartItems.isEmpty()){
             Toast.makeText(StudentConfirmOrder.this,"Please add items to place a request", Toast.LENGTH_SHORT).show();
         }
-        else{
+        else {
             Intent a = new Intent(this, StudentAfterOrder.class);
             startActivity(a);
             finish();
-            databaseReference=firebaseDatabase.getInstance().getReference();
-            databaseReference.addListenerForSingleValueEvent(new ValueEventListener() {
-                @Override
-                public void onDataChange(@NonNull DataSnapshot snapshot) {
-                    if (snapshot.child("Requets").child(StringClass.name1).exists()){
-                        StringClass.name1=StringClass.name1+1;
-                    }
-                }
-
-                @Override
-                public void onCancelled(@NonNull DatabaseError error) {
-                    Toast.makeText(StudentConfirmOrder.this,"Failed to get data", Toast.LENGTH_SHORT).show();
-                }
-            });
-
-            databaseReference.child("Requests").child(StringClass.name1).child("Name").setValue(StringClass.name1);
-            databaseReference.child("Requests").child(StringClass.name1).child("Student ID").setValue(StringClass.studID);
-            databaseReference.child("Requests").child(StringClass.name1).child("Email").setValue(StringClass.email);
-            databaseReference.child("Requests").child(StringClass.name1).child("Room Number").setValue(StringClass.roomNumber);
-
-            for(int i=0;i<inCart.inCartItems.size()/2;i++){
-                databaseReference.child("Requests").child(StringClass.name1).child("Item " + (i+1)).setValue(inCart.inCartItems.get(i/2));
-            }
-
 
         }
+
+
 
 
 

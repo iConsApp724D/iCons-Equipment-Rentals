@@ -24,6 +24,7 @@ public class StudentLogin extends AppCompatActivity {
         StringClass.name1=studname.getText().toString();
         StringClass.studID=studid.getText().toString();
         StringClass.email=studemail.getText().toString();
+        StringClass.firstID=studid.getText().toString();
         Intent a = new Intent(this, StudentHomeScreen.class);
         startActivity(a);
         finish();

@@ -5,10 +5,6 @@ import java.lang.reflect.Field;
 import java.util.ArrayList;
 
 public class inCart {
-    //ArrayList<Boolean> equipment = new ArrayList<Boolean>();
-    Field[] equipment = inCart.class.getFields();
-
-
     public static boolean atc111Text=false;
     public static boolean atc112Text=false;
     public static boolean atcCalc6Text=false;

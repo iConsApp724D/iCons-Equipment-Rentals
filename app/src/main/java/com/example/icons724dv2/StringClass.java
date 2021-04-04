@@ -5,6 +5,7 @@ public class StringClass {
     public static String studID;
     public static String email;
     public static String roomNumber="none";
+    public static String firstID;
 
     public static String employeePass;
 
