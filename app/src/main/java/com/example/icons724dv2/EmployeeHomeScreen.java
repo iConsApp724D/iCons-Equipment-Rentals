@@ -4,10 +4,12 @@ import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
+import android.media.Image;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
-import android.widget.EditText;
+import android.widget.ImageView;
+import android.widget.TextView;
 import android.widget.Toast;
 
 import com.google.firebase.database.DataSnapshot;
@@ -30,6 +32,9 @@ public class EmployeeHomeScreen extends AppCompatActivity {
         StringClass.employeePass="";
         Button setOnline=(Button)findViewById(R.id.employeeOnline);
         Button setOffline=(Button)findViewById(R.id.employeeOffline);
+        ImageView requestsRed=(ImageView) findViewById(R.id.circle1);
+        TextView requestsNumber=(TextView) findViewById(R.id.requestsNumber);
+
 
         databaseReference.addValueEventListener(new ValueEventListener() {
             @Override
@@ -42,6 +47,7 @@ public class EmployeeHomeScreen extends AppCompatActivity {
                     setOnline.setVisibility(View.VISIBLE);
                     setOffline.setVisibility(View.INVISIBLE);
                 }
+
             }
 
             @Override
@@ -49,6 +55,34 @@ public class EmployeeHomeScreen extends AppCompatActivity {
                 Toast.makeText(EmployeeHomeScreen.this,"Failed to get data", Toast.LENGTH_SHORT).show();
             }
         });
+
+        final DatabaseReference requestsRef = FirebaseDatabase.getInstance().getReference();
+
+
+        requestsRef.addValueEventListener(new ValueEventListener() {
+            @Override
+            public void onDataChange(@NonNull DataSnapshot snapshot) {
+                if(!snapshot.child("Requests").hasChildren()){
+                    requestsRed.setVisibility(View.GONE);
+                    requestsNumber.setVisibility(View.GONE);
+                }
+                else{
+                    long requestsNum=snapshot.child("Requests").getChildrenCount();
+                    requestsNumber.setText(requestsNum+"");
+                }
+
+
+            }
+
+            @Override
+            public void onCancelled(@NonNull DatabaseError error) {
+
+            }
+        });
+
+
+
+
     }
 
 
