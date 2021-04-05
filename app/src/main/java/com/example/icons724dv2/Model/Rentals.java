@@ -1,14 +1,14 @@
 package com.example.icons724dv2.Model;
 
-public class Requests {
+public class Rentals {
     private String Name,StudentID, Email, RoomNumber, Item1="", Item2="", Item3="", Item4="", Item5="";
     private String Item1T="", Item2T="", Item3T="", Item4T="", Item5T="";
     private String orderID="";
 
-    public Requests() {
+    public Rentals() {
     }
 
-    public Requests(String name, String studentID, String email, String roomNumber, String item1, String item2, String item3, String item4, String item5, String item1T, String item2T, String item3T, String item4T, String item5T, String orderID) {
+    public Rentals(String name, String studentID, String email, String roomNumber, String item1, String item2, String item3, String item4, String item5, String item1T, String item2T, String item3T, String item4T, String item5T, String orderID) {
         Name = name;
         StudentID = studentID;
         Email = email;

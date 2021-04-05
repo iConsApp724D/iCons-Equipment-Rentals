@@ -110,6 +110,26 @@ public class EmployeeRequests extends AppCompatActivity {
                     }
                 });
 
+                holder.delivered.setOnClickListener(new View.OnClickListener() {
+                    @Override
+                    public void onClick(View v) {
+                        final DatabaseReference fromPath = FirebaseDatabase.getInstance().getReference().child("Requests");
+                        final DatabaseReference toPath = FirebaseDatabase.getInstance().getReference().child("Rentals");
+                        fromPath.addListenerForSingleValueEvent(new ValueEventListener() {
+                            @Override
+                            public void onDataChange(@NonNull DataSnapshot snapshot) {
+                                toPath.child(model.getOrderID()).setValue(snapshot.child(model.getOrderID()).getValue());
+                                fromPath.child(model.getOrderID()).removeValue();
+                            }
+
+                            @Override
+                            public void onCancelled(@NonNull DatabaseError error) {
+
+                            }
+                        });
+                    }
+                });
+
 
 
             }

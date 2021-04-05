@@ -5,6 +5,7 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
 import android.os.Bundle;
+import android.os.SystemClock;
 import android.view.View;
 
 import com.google.firebase.database.DataSnapshot;
@@ -30,6 +31,8 @@ public class StudentAfterOrder extends AppCompatActivity {
         addToDatabase();
     }
 
+
+
     private void addToDatabase() {
         databaseReference.addListenerForSingleValueEvent(new ValueEventListener() {
             @Override
@@ -41,12 +44,17 @@ public class StudentAfterOrder extends AppCompatActivity {
                 databaseReference.child("Requests").child(StringClass.studID).child("StudentID").setValue(StringClass.firstID);
                 databaseReference.child("Requests").child(StringClass.studID).child("Email").setValue(StringClass.email);
                 databaseReference.child("Requests").child(StringClass.studID).child("RoomNumber").setValue(StringClass.roomNumber);
+                databaseReference.child("Requests").child(StringClass.studID).child("orderID").setValue(StringClass.studID);
 
 
                 for(int i=0;i<inCart.inCartItems.size()/2;i++){
                     databaseReference.child("Requests").child(StringClass.studID).child("Item" + (i+1)).setValue(inCart.inCartItems.get(2*i));
                     databaseReference.child("Requests").child(StringClass.studID).child("Item" + (i+1)+"T").setValue(inCart.inCartItems.get(2*i+1));
                 }
+
+
+
+
             }
 
             @Override
@@ -54,11 +62,9 @@ public class StudentAfterOrder extends AppCompatActivity {
 
             }
         });
-
-
-
-
     }
+
+
 
 
     public void toHome(View v){

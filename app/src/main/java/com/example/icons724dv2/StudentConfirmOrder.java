@@ -334,6 +334,46 @@ public class StudentConfirmOrder extends AppCompatActivity {
             startActivity(a);
             finish();
 
+
+            databaseReference.addListenerForSingleValueEvent(new ValueEventListener() {
+                @Override
+                public void onDataChange(@NonNull DataSnapshot snapshot) {
+                    if (!inCart.inCartItems.get(0).isEmpty()){
+                        String stock = snapshot.child("Equipment").child(inCart.inCartItems.get(1)).child(inCart.inCartItems.get(0)).child("Stock").getValue().toString();
+                        int i = Integer.parseInt(stock);
+                        databaseReference.child("Equipment").child(inCart.inCartItems.get(1)).child(inCart.inCartItems.get(0)).child("Stock").setValue(i-1);
+                    }
+                    if (!inCart.inCartItems.get(2).isEmpty()){
+                        String stock = snapshot.child("Equipment").child(inCart.inCartItems.get(3)).child(inCart.inCartItems.get(2)).child("Stock").getValue().toString();
+                        int i = Integer.parseInt(stock);
+                        databaseReference.child("Equipment").child(inCart.inCartItems.get(3)).child(inCart.inCartItems.get(2)).child("Stock").setValue(i-1);
+                    }
+                    if (!inCart.inCartItems.get(4).isEmpty()){
+                        String stock = snapshot.child("Equipment").child(inCart.inCartItems.get(5)).child(inCart.inCartItems.get(4)).child("Stock").getValue().toString();
+                        int i = Integer.parseInt(stock);
+                        databaseReference.child("Equipment").child(inCart.inCartItems.get(5)).child(inCart.inCartItems.get(4)).child("Stock").setValue(i-1);
+                    }
+                    if (!inCart.inCartItems.get(6).isEmpty()){
+                        String stock = snapshot.child("Equipment").child(inCart.inCartItems.get(7)).child(inCart.inCartItems.get(6)).child("Stock").getValue().toString();
+                        int i = Integer.parseInt(stock);
+                        databaseReference.child("Equipment").child(inCart.inCartItems.get(7)).child(inCart.inCartItems.get(6)).child("Stock").setValue(i-1);
+                    }
+                    if (!inCart.inCartItems.get(8).isEmpty()){
+                        String stock = snapshot.child("Equipment").child(inCart.inCartItems.get(9)).child(inCart.inCartItems.get(8)).child("Stock").getValue().toString();
+                        int i = Integer.parseInt(stock);
+                        databaseReference.child("Equipment").child(inCart.inCartItems.get(9)).child(inCart.inCartItems.get(8)).child("Stock").setValue(i-1);
+                    }
+                }
+
+                @Override
+                public void onCancelled(@NonNull DatabaseError error) {
+
+                }
+            });
+
+
+
+
         }
 
 

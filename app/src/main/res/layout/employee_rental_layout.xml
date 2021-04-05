@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_margin="15dp"
+    app:cardElevation="15dp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="?android:attr/listDivider">
+
+        <TextView
+            android:id="@+id/displayNamer"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Student Name"
+            android:textSize="24dp"
+            android:textColor="@color/navy"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="5dp"/>
+
+        <TextView
+            android:id="@+id/displaystudIDr"
+            android:layout_width="80dp"
+            android:layout_height="wrap_content"
+            android:textSize="15dp"
+            android:text="Student ID"
+            android:textColor="@color/navy"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_below="@+id/displayRoomr"
+            android:layout_marginTop="5dp"
+            />
+
+        <TextView
+            android:id="@+id/displaystudEmailr"
+            android:layout_width="140dp"
+            android:layout_height="wrap_content"
+            android:textSize="15dp"
+            android:text="Student Email"
+            android:textColor="@color/navy"
+            android:layout_marginLeft="19dp"
+            android:layout_marginTop="3dp"
+            android:layout_below="@id/displayNamer"/>
+
+        <TextView
+            android:id="@+id/displayRoomr"
+            android:layout_width="80dp"
+            android:layout_height="wrap_content"
+            android:textSize="15dp"
+            android:text="Room#"
+            android:textColor="@color/navy"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="5dp"
+            android:layout_alignParentRight="true"
+            />
+
+        <TextView
+            android:id="@+id/item1r"
+            android:layout_width="350dp"
+            android:layout_height="wrap_content"
+            android:textSize="15dp"
+            android:text="• Item 1"
+            android:textColor="@color/navy"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_below="@id/displaystudEmailr"
+            />
+        <TextView
+            android:id="@+id/item2r"
+            android:layout_width="350dp"
+            android:layout_height="wrap_content"
+            android:textSize="15dp"
+            android:text="• Item 2"
+            android:textColor="@color/navy"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="3dp"
+            android:layout_below="@+id/item1r"/>
+        <TextView
+            android:id="@+id/item3r"
+            android:layout_width="350dp"
+            android:layout_height="wrap_content"
+            android:textSize="15dp"
+            android:text="• Item 3"
+            android:textColor="@color/navy"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="3dp"
+            android:layout_below="@+id/item2r"/>
+        <TextView
+            android:id="@+id/item4r"
+            android:layout_width="350dp"
+            android:layout_height="wrap_content"
+            android:textSize="15dp"
+            android:text="• Item 4"
+            android:textColor="@color/navy"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="3dp"
+            android:layout_below="@+id/item3r"/>
+        <TextView
+            android:id="@+id/item5r"
+            android:layout_width="350dp"
+            android:layout_height="wrap_content"
+            android:textSize="15dp"
+            android:text="• Item 5"
+            android:textColor="@color/navy"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="3dp"
+            android:layout_below="@+id/item4r"/>
+
+        <Button
+            android:id="@+id/returnedBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:textColor="@color/white"
+            android:text="Items Returned"
+            android:textSize="12dp"
+            android:backgroundTint="#0D934E"
+            android:layout_below="@+id/item5r"
+            android:layout_marginTop="8dp"
+            android:layout_centerInParent="true"/>
+
+
+
+
+
+
+
+
+    </RelativeLayout>
+
+
+</androidx.cardview.widget.CardView>
