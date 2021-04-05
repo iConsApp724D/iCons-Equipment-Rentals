@@ -38,13 +38,13 @@ public class StudentAfterOrder extends AppCompatActivity {
                     StringClass.studID = StringClass.studID + "-1";
                 }
                 databaseReference.child("Requests").child(StringClass.studID).child("Name").setValue(StringClass.name1);
-                databaseReference.child("Requests").child(StringClass.studID).child("Student ID").setValue(StringClass.firstID);
+                databaseReference.child("Requests").child(StringClass.studID).child("StudentID").setValue(StringClass.firstID);
                 databaseReference.child("Requests").child(StringClass.studID).child("Email").setValue(StringClass.email);
-                databaseReference.child("Requests").child(StringClass.studID).child("Room Number").setValue(StringClass.roomNumber);
+                databaseReference.child("Requests").child(StringClass.studID).child("RoomNumber").setValue(StringClass.roomNumber);
 
 
                 for(int i=0;i<inCart.inCartItems.size()/2;i++){
-                    databaseReference.child("Requests").child(StringClass.studID).child("Item " + (i+1)).setValue(inCart.inCartItems.get(2*i));
+                    databaseReference.child("Requests").child(StringClass.studID).child("Item" + (i+1)).setValue(inCart.inCartItems.get(2*i));
                 }
             }
 
