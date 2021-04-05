@@ -53,11 +53,65 @@ public class EmployeeRequests extends AppCompatActivity {
                 holder.Email.setText(model.getEmail());
                 holder.StudentID.setText(model.getStudentID());
                 holder.RoomNumber.setText(model.getRoomNumber());
-                holder.Item1.setText("• " + model.getItem1());
-                holder.Item2.setText("• " + model.getItem2());
-                holder.Item3.setText("• " + model.getItem3());
-                holder.Item4.setText("• " + model.getItem4());
-                holder.Item5.setText("• " + model.getItem5());
+
+                final DatabaseReference nameRef = FirebaseDatabase.getInstance().getReference().child("Equipment");
+                nameRef.addListenerForSingleValueEvent(new ValueEventListener() {
+                    @Override
+                    public void onDataChange(@NonNull DataSnapshot snapshot) {
+
+
+
+
+                        if (model.getItem1()==""){
+                            holder.Item1.setVisibility(View.GONE);
+                        }
+                        else{
+                            String temp=snapshot.child(model.getItem1T()).child(model.getItem1()).child("Name").getValue().toString();
+                            holder.Item1.setText("• " + temp);
+                        }
+
+                        if (model.getItem2()==""){
+                            holder.Item2.setVisibility(View.GONE);
+                        }
+                        else{
+                            String temp=snapshot.child(model.getItem2T()).child(model.getItem2()).child("Name").getValue().toString();
+                            holder.Item2.setText("• " + temp);
+                        }
+
+                        if (model.getItem3()==""){
+                            holder.Item3.setVisibility(View.GONE);
+                        }
+                        else{
+                            String temp=snapshot.child(model.getItem3T()).child(model.getItem3()).child("Name").getValue().toString();
+                            holder.Item3.setText("• " + temp);
+                        }
+
+                        if (model.getItem4()==""){
+                            holder.Item4.setVisibility(View.GONE);
+                        }
+                        else{
+                            String temp=snapshot.child(model.getItem4T()).child(model.getItem4()).child("Name").getValue().toString();
+                            holder.Item4.setText("• " + temp);
+                        }
+
+                        if (model.getItem5()==""){
+                            holder.Item5.setVisibility(View.GONE);
+                        }
+                        else{
+                            String temp=snapshot.child(model.getItem5T()).child(model.getItem5()).child("Name").getValue().toString();
+                            holder.Item5.setText("• " + temp);
+                        }
+
+                    }
+
+                    @Override
+                    public void onCancelled(@NonNull DatabaseError error) {
+
+                    }
+                });
+
+
+
             }
 
             @NonNull
@@ -74,7 +128,7 @@ public class EmployeeRequests extends AppCompatActivity {
 
 
     public static class RequestsViewHolder extends RecyclerView.ViewHolder {
-        public TextView Email, Name, RoomNumber, StudentID, Item1, Item2, Item3, Item4, Item5;
+        public TextView Email, Name, RoomNumber, StudentID, Item1, Item2, Item3, Item4, Item5, Item1T, Item2T, Item3T, Item4T, Item5T;
         public Button delivered;
 
 

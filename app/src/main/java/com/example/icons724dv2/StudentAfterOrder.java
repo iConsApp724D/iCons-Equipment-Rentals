@@ -45,6 +45,7 @@ public class StudentAfterOrder extends AppCompatActivity {
 
                 for(int i=0;i<inCart.inCartItems.size()/2;i++){
                     databaseReference.child("Requests").child(StringClass.studID).child("Item" + (i+1)).setValue(inCart.inCartItems.get(2*i));
+                    databaseReference.child("Requests").child(StringClass.studID).child("Item" + (i+1)+"T").setValue(inCart.inCartItems.get(2*i+1));
                 }
             }
 

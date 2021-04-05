@@ -1,12 +1,13 @@
 package com.example.icons724dv2.Model;
 
 public class Requests {
-    private String Name,StudentID, Email, RoomNumber, Item1, Item2, Item3, Item4, Item5;
+    private String Name,StudentID, Email, RoomNumber, Item1="", Item2="", Item3="", Item4="", Item5="";
+    private String Item1T="", Item2T="", Item3T="", Item4T="", Item5T="";
 
     public Requests() {
     }
 
-    public Requests(String name, String studentID, String email, String roomNumber, String item1, String item2, String item3, String item4, String item5) {
+    public Requests(String name, String studentID, String email, String roomNumber, String item1, String item2, String item3, String item4, String item5, String item1T, String item2T, String item3T, String item4T, String item5T) {
         Name = name;
         StudentID = studentID;
         Email = email;
@@ -16,8 +17,12 @@ public class Requests {
         Item3 = item3;
         Item4 = item4;
         Item5 = item5;
+        Item1T = item1T;
+        Item2T = item2T;
+        Item3T = item3T;
+        Item4T = item4T;
+        Item5T = item5T;
     }
-
 
     public String getName() {
         return Name;
@@ -89,5 +94,45 @@ public class Requests {
 
     public void setItem5(String item5) {
         Item5 = item5;
+    }
+
+    public String getItem1T() {
+        return Item1T;
+    }
+
+    public void setItem1T(String item1T) {
+        Item1T = item1T;
+    }
+
+    public String getItem2T() {
+        return Item2T;
+    }
+
+    public void setItem2T(String item2T) {
+        Item2T = item2T;
+    }
+
+    public String getItem3T() {
+        return Item3T;
+    }
+
+    public void setItem3T(String item3T) {
+        Item3T = item3T;
+    }
+
+    public String getItem4T() {
+        return Item4T;
+    }
+
+    public void setItem4T(String item4T) {
+        Item4T = item4T;
+    }
+
+    public String getItem5T() {
+        return Item5T;
+    }
+
+    public void setItem5T(String item5T) {
+        Item5T = item5T;
     }
 }
