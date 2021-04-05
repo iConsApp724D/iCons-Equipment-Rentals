@@ -178,7 +178,7 @@ public class StudentWorkbookCcList extends AppCompatActivity {
         if(inCart.cartCounter<5){
             inCart.cartCounter=inCart.cartCounter+1;
             Toast.makeText(StudentWorkbookCcList.this,"Item added to cart", Toast.LENGTH_SHORT).show();
-            inCart.MTHE225 = true;
+            inCart.WB2015 = true;
         }
         else{
             Toast.makeText(StudentWorkbookCcList.this,"Cart has too many items. Please remove an item to add another", Toast.LENGTH_SHORT).show();

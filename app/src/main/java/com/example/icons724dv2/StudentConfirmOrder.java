@@ -116,7 +116,7 @@ public class StudentConfirmOrder extends AppCompatActivity {
             cartOrder.add("Textbooks");
         }
         if (inCart.atcMM2Text==true){
-            cartOrder.add("MenMgt2");
+            cartOrder.add("MemMgt2");
             cartOrder.add("Textbooks");
         }
         if (inCart.atcME12Text==true){
@@ -259,7 +259,7 @@ public class StudentConfirmOrder extends AppCompatActivity {
             cartOrder.add("Workbooks");
         }
         if (inCart.CC132==true){
-            cartOrder.add("ASPC132E");
+            cartOrder.add("APSC132E");
             cartOrder.add("Workbooks");
         }
         if (inCart.CC172==true){

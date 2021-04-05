@@ -245,7 +245,7 @@ public class StudentTextbookList extends AppCompatActivity {
         if(inCart.cartCounter<5){
             inCart.cartCounter=inCart.cartCounter+1;
             Toast.makeText(StudentTextbookList.this,"Item added to cart", Toast.LENGTH_SHORT).show();
-            inCart.atc111Text = true;
+            inCart.atcMM8Text = true;
         }
         else{
             Toast.makeText(StudentTextbookList.this,"Cart has too many items. Please remove an item to add another", Toast.LENGTH_SHORT).show();

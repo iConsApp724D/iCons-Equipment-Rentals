@@ -54,6 +54,12 @@ public class bios_template extends AppCompatActivity {
                 if (StringClass.employeeBioView.equals("Ryan")){
                     photo.setImageResource(R.drawable.ryanportrait);
                 }
+                if (StringClass.employeeBioView.equals("Antik")){
+                    photo.setImageResource(R.drawable.antikimage);
+                }
+                if (StringClass.employeeBioView.equals("Drake")){
+                    photo.setImageResource(R.drawable.antikimage);
+                }
             }
 
             @Override
