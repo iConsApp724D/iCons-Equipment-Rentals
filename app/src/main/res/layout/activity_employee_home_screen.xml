@@ -68,7 +68,7 @@
     <Button
         android:id="@+id/employeeOffline"
         android:layout_width="165dp"
-        android:layout_height="40dp"
+        android:layout_height="50dp"
         android:layout_marginStart="134dp"
         android:layout_marginLeft="134dp"
         android:layout_marginEnd="134dp"
@@ -85,7 +85,7 @@
     <Button
         android:id="@+id/employeeOnline"
         android:layout_width="165dp"
-        android:layout_height="40dp"
+        android:layout_height="50dp"
         android:layout_marginStart="134dp"
         android:layout_marginLeft="134dp"
         android:layout_marginEnd="134dp"
