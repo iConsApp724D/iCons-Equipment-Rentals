@@ -17,6 +17,7 @@ import com.google.firebase.database.DataSnapshot;
 import com.google.firebase.database.DatabaseError;
 import com.google.firebase.database.DatabaseReference;
 import com.google.firebase.database.FirebaseDatabase;
+import com.google.firebase.database.ServerValue;
 import com.google.firebase.database.ValueEventListener;
 
 import org.w3c.dom.Text;
@@ -333,6 +334,20 @@ public class StudentConfirmOrder extends AppCompatActivity {
             Intent a = new Intent(this, StudentAfterOrder.class);
             startActivity(a);
             finish();
+
+
+            for(int i = 0; i<(inCart.inCartItems.size());i=i+2){
+                if ((i)< inCart.inCartItems.size()){
+                    databaseReference.child("Equipment").child(inCart.inCartItems.get(i+1)).child(inCart.inCartItems.get(i)).child("Stock").setValue(ServerValue.increment(-1));
+                }
+
+
+            }
+
+
+
+
+
 
 
         }
