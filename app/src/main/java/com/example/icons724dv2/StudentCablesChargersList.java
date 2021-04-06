@@ -56,7 +56,7 @@ public class StudentCablesChargersList extends AppCompatActivity {
         m=(TextView) findViewById(R.id.textViewVGAS);
         ms=(Button)findViewById(R.id.buttonVGA);
         n=(TextView) findViewById(R.id.textViewVGATOHDS);
-        ns=(Button)findViewById(R.id.buttonVGATOHD;
+        ns=(Button)findViewById(R.id.buttonVGATOHD);
         o=(TextView) findViewById(R.id.textViewVGATOLS);
         os=(Button)findViewById(R.id.buttonVGATOL);
 
