@@ -39,7 +39,7 @@
 
             <LinearLayout
                 android:layout_width="match_parent"
-                android:layout_height="match_parent"
+                android:layout_height="120dp"
                 android:orientation="horizontal">
 
                 <ImageView
@@ -92,7 +92,7 @@
 
             <LinearLayout
                 android:layout_width="match_parent"
-                android:layout_height="match_parent"
+                android:layout_height="120dp"
                 android:orientation="horizontal">
 
                 <ImageView
@@ -144,7 +144,7 @@
 
             <LinearLayout
                 android:layout_width="match_parent"
-                android:layout_height="match_parent"
+                android:layout_height="120dp"
                 android:orientation="horizontal">
 
                 <ImageView
@@ -196,7 +196,7 @@
 
             <LinearLayout
                 android:layout_width="match_parent"
-                android:layout_height="match_parent"
+                android:layout_height="120dp"
                 android:orientation="horizontal">
 
                 <ImageView
@@ -248,7 +248,7 @@
 
             <LinearLayout
                 android:layout_width="match_parent"
-                android:layout_height="match_parent"
+                android:layout_height="120dp"
                 android:orientation="horizontal">
 
                 <ImageView
@@ -370,7 +370,7 @@
                     android:id="@+id/imageViewDV"
                     android:layout_width="100dp"
                     android:layout_height="100dp"
-                    app:srcCompat="@drawable/personsilhouette" />
+                    app:srcCompat="@drawable/devenimage" />
 
                 <LinearLayout
                     android:layout_width="258dp"
