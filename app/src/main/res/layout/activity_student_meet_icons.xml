@@ -67,28 +67,7 @@
             </LinearLayout>
 
 
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="190dp"
-                android:layout_weight="1"
-                android:orientation="vertical">
 
-                <ImageView
-                    android:id="@+id/imageView21"
-                    android:layout_width="130dp"
-                    android:layout_height="130dp"
-                    android:visibility="gone"
-                    app:srcCompat="@drawable/drakeimage" />
-
-                <Button
-                    android:id="@+id/button27"
-                    android:layout_width="match_parent"
-                    android:layout_height="55dp"
-                    android:onClick="drakestoll"
-                    android:text="D.Stoll Mech Eng"
-                    android:visibility="gone"
-                    app:backgroundTint="#0B426B" />
-            </LinearLayout>
 
             <LinearLayout
                 android:layout_width="match_parent"
@@ -132,6 +111,29 @@
                     android:layout_height="55dp"
                     android:onClick="antikantik"
                     android:text="A.Antik   Mining"
+                    android:visibility="gone"
+                    app:backgroundTint="#0B426B" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="190dp"
+                android:layout_weight="1"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:id="@+id/imageView21"
+                    android:layout_width="130dp"
+                    android:layout_height="130dp"
+                    android:visibility="gone"
+                    app:srcCompat="@drawable/drakeimage" />
+
+                <Button
+                    android:id="@+id/button27"
+                    android:layout_width="match_parent"
+                    android:layout_height="55dp"
+                    android:onClick="drakestoll"
+                    android:text="D.Stoll Mech Eng"
                     android:visibility="gone"
                     app:backgroundTint="#0B426B" />
             </LinearLayout>
@@ -201,7 +203,7 @@
                     android:layout_width="130dp"
                     android:layout_height="130dp"
                     android:visibility="gone"
-                    app:srcCompat="@drawable/personsilhouette" />
+                    app:srcCompat="@drawable/tylerimage" />
 
                 <Button
                     android:id="@+id/button47"

@@ -60,6 +60,10 @@ public class bios_template extends AppCompatActivity {
                 if (StringClass.employeeBioView.equals("Drake")){
                     photo.setImageResource(R.drawable.antikimage);
                 }
+                if (StringClass.employeeBioView.equals("Tyler")){
+                    photo.setImageResource(R.drawable.antikimage);
+                }
+
             }
 
             @Override
