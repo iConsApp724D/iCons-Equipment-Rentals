@@ -35,6 +35,7 @@
 
     <string-array name="Rooms">
         <item>Select Room Number</item>
+        <item>Stirling Hall</item>
         <item>ILC - 104</item>
         <item>ILC - 105</item>
         <item>ILC - 111</item>

@@ -33,9 +33,6 @@
             android:name=".StudentTextbookList"
             android:screenOrientation="portrait" />
         <activity
-            android:name=".michael_patchell"
-            android:screenOrientation="portrait" />
-        <activity
             android:name=".EmployeeRequests"
             android:screenOrientation="portrait" />
         <activity
